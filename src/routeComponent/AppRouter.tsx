@@ -1,7 +1,8 @@
 import React from "react";
-import { publicRoutes } from "../routes";
 import { observer } from "mobx-react-lite";
 import { Routes, Route } from "react-router-dom";
+
+import { publicRoutes } from "../routes";
 
 //Маршрутизатор
 function AppRouter() {
