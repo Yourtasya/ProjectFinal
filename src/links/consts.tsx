@@ -1,0 +1,14 @@
+export const HOME_ROUTE = "/home";
+export const ABOUT_ROUTE = "/about";
+export const SERVICES_ROUTE = "/services";
+export const SERVICES_SINGLE_ROUTE = "/services/single";
+export const TEAM_ROUTE = "/team";
+export const TEAM_SINGLE_ROUTE = "/team/single";
+export const CONTACT_ROUTE = "/contact";
+export const BLOG_ROUTE = "/blog";
+export const BLOG_SINGLE_ROUTE = "/blog/single";
+export const LOCATION_ROUTE = "/location";
+export const LOGIN_ROUTE = "/login"; //Password
+export const STYLE_GUIDE_ROUTE = "/style";
+export const LICENSE_ROUTE = "/license";
+export const CHANGELOG_ROUTE = "/changelog";
