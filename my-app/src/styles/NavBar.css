@@ -1,0 +1,12 @@
+.NavBar {
+  height: 100px;
+  background-color: azure;
+}
+
+.ButtonListInNavBar {
+  display: flex;
+}
+
+.ButtonInNavBar {
+  margin-left: 5px;
+}
