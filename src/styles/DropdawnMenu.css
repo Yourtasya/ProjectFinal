@@ -7,6 +7,12 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.DropdawnInNavBar:hover {
+  background-color: #525959;
+  color: white;
 }
 
 .DropdawnMenu {
@@ -42,4 +48,8 @@
   margin: 0;
   font: inherit;
   cursor: pointer;
+}
+
+.ButtonPagesInDropdawnMenu {
+  display: flex;
 }
