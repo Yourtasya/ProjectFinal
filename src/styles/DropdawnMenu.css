@@ -10,6 +10,17 @@
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
+
+.ButtonInDropdawnMenu{
+  font-size: 16px;
+  text-decoration: none;
+  color: #555555;
+}
+
+/* .ButtonInDropdawnMenu:hover{
+  color: white;
+} */
+
 .DropdawnInNavBar:hover {
   background-color: #525959;
   color: white;
@@ -28,12 +39,12 @@
 
 .DropdawnMenu > li {
   margin: 0;
-
   background-color: white;
 }
 
 .DropdawnMenu > li:hover {
   background-color: lightgray;
+  color: white;
 }
 
 .DropdawnMenu > li > button {
