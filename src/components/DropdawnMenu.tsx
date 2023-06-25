@@ -1,8 +1,6 @@
 import React from "react";
+
 import "../styles/DropdawnMenu.css";
-import { Img } from "react-image";
-//@ts-ignore
-import Chevrone from "../icons/Chevrone.svg";
 
 export const Dropdown = ({ trigger, menu }: any) => {
   const [open, setOpen] = React.useState(false);

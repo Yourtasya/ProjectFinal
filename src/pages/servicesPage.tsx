@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/pageStyles/servicesPage.css";
+
 export default function ServicesPage() {
   return (
     <div className="ServicesPage">

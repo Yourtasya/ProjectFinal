@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/pageStyles/authPage.css";
+
 export default function AuthPage() {
   return (
     <div className="AuthPage">

@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/pageStyles/styleGuidePage.css";
+
 export default function StyleGuidePage() {
   return (
     <div className="StyleGuidePage">

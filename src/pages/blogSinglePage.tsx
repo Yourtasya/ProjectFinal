@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/pageStyles/blogSinglePage.css";
+
 export default function BlogSinglePage() {
   return (
     <div className="BlogSinglePage">

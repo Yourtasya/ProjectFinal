@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Img } from "react-image";
-import { BrowserRouter, NavLink, Navigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 import {
   ABOUT_ROUTE,
   BLOG_ROUTE,
@@ -32,12 +33,12 @@ export default class NavBar extends Component {
                 <label className="NameProjectInNavBar">Beautyness</label>
               </div>
             </div>
-              <div className="PhoneNumberNavBar">
-                <Img className="SvgImgInNavBar" src={Vector}></Img>
-                <label className="PhoneNumberInNavBar">
-                  Call Us - (+22) 123 456 7890
-                </label>
-              </div>
+            <div className="PhoneNumberNavBar">
+              <Img className="SvgImgInNavBar" src={Vector}></Img>
+              <label className="PhoneNumberInNavBar">
+                Call Us - (+22) 123 456 7890
+              </label>
+            </div>
 
             <div className="ButtonListInNavBar">
               <NavLink to={HOME_ROUTE} className="ButtonInNavBar">
@@ -47,8 +48,13 @@ export default class NavBar extends Component {
                 trigger={
                   <button className="DropdawnInNavBar">
                     <div className="ButtonPagesInDropdawnMenu">
-                      <label className="ButtonPagesNameInDropdawnMenu">Pages</label>
-                      <Img className="SVGPagesInDropdawnMenu" src={Chevrone}></Img>
+                      <label className="ButtonPagesNameInDropdawnMenu">
+                        Pages
+                      </label>
+                      <Img
+                        className="SVGPagesInDropdawnMenu"
+                        src={Chevrone}
+                      ></Img>
                     </div>
                   </button>
                 }
@@ -62,13 +68,19 @@ export default class NavBar extends Component {
                   <NavLink to={BLOG_ROUTE} className="ButtonInDropdawnMenu">
                     Blog
                   </NavLink>,
-                  <NavLink to={CHANGELOG_ROUTE} className="ButtonInDropdawnMenu">
+                  <NavLink
+                    to={CHANGELOG_ROUTE}
+                    className="ButtonInDropdawnMenu"
+                  >
                     Change
                   </NavLink>,
                   <NavLink to={TEAM_ROUTE} className="ButtonInDropdawnMenu">
                     Team
                   </NavLink>,
-                  <NavLink to={STYLE_GUIDE_ROUTE} className="ButtonInDropdawnMenu">
+                  <NavLink
+                    to={STYLE_GUIDE_ROUTE}
+                    className="ButtonInDropdawnMenu"
+                  >
                     Style Guide
                   </NavLink>,
                 ]}

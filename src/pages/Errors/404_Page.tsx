@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/pageStyles/Errors/404_Page.css";
 
 export default function Not_Found() {
   return (

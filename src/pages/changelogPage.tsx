@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../styles/pageStyles/changelogPage.css";
+
 export default function ChangelogPage() {
   return (
     <div className="ChangelogPage">
