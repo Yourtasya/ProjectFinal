@@ -1,5 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: #ebf3f5;
+}
+
+h3{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+h4{
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5C8692;
+}
+
+p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 165%;
+
 }

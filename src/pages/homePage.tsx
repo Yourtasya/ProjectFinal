@@ -31,96 +31,246 @@ import "../styles/pageStyles/homePage.css";
 export default function HomePage() {
   return (
     <div className="HomePage">
-      <div className="HomePageContainer">
-        <section className="HomePageBody Home">
-          <div className="HomeText">
-            <h3 className="HomeText_stock">Welcome to Beautyness!!!</h3>
-            <h1 className="HomeText_tittle">
-              Beauty is power a smile is its sword.
-            </h1>
-            <p className="HomeText_subtittle">
-              There are many variation of passages are Ipsum available, majority
-              have suffered alteration in some form.
-            </p>
-            <Img src={Image}></Img>
-            <button className="HomeText_ButtonReservation">
-              Make a reservation
-            </button>
-          </div>
-        </section>
-
-        <section className="HomePageProcedures Block">
-          <div className="Block_1">
-            <div className="Block_1_Text BlockText">
-              <h3 className="BlockText_title">Spa & Massage</h3>
-              <Img src={Photo1}></Img>
-              <p className="BlockText_subtittle">
-                If you are going to use a passage offer Lorem Ipsum, you need to
-                be sure hidden in the middle of text.
+      <section className="HomePageBody Home">
+        <div className="HomePageContainer">
+          <div className="Homehhh">
+            <div className="HomeText">
+              <h4 className="HomeText_stock">Welcome to Beautyness!!!</h4>
+              <h1 className="HomeText_tittle">
+                Beauty is power a smile is its sword.
+              </h1>
+              <p className="HomeText_subtittle">
+                There are many variation of passages are Ipsum available, majority
+                have suffered alteration in some form.
               </p>
+              <button className="HomeText_ButtonReservation">
+                Make a reservation
+              </button>
+            </div>
+            <div className="HomeImg">
+              <Img src={Image}></Img>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="HomePageProcedures">
+        <div className="HomePageContainer">
+          <div className="HomePageBlocks">
+            <div className="Block_1">
+              <div className="BlockImg">
+                <Img src={Photo1}></Img>
+              </div>
+              <div className="Block_1_Text BlockText">
+                <h3 className="BlockText_title">Spa & Massage</h3>
+                <p className="BlockText_subtittle">
+                  If you are going to use a passage offer Lorem Ipsum, you need to
+                  be sure hidden in the middle of text.
+                </p>
+              </div>
+              <button className="BlockText_button">READ MORE</button>
+            </div>
+
+            <div className="Block_2">
+              <div className="BlockImg">
+                <Img src={Photo2}></Img>
+              </div>
+              <div className="Block_2_Text BlockText">
+                <h3 className="BlockText_title">Hair & Beauty</h3>
+                <p className="BlockText_subtittle">
+                  If you are going to use a passage offer Lorem Ipsum, you need to
+                  be sure hidden in the middle of text.
+                </p>
+              </div>
+              <button className="BlockText_button">READ MORE</button>
+            </div>
+
+            <div className="Block_3">
+              <div className="BlockImg">
+                <Img src={Photo3}></Img>
+              </div>
+              <div className="Block_3_Text BlockText">
+                <h3 className="BlockText_title">Body Treatments</h3>
+                <p className="BlockText_subtittle">
+                  If you are going to use a passage offer Lorem Ipsum, you need to
+                  be sure hidden in the middle of text.
+                </p>
+              </div>
               <button className="BlockText_button">READ MORE</button>
             </div>
           </div>
-          <div className="Block_2">
-            <div className="Block_2_Text BlockText">
-              <h3 className="BlockText_title">Hair & Beauty</h3>
-              <Img src={Photo2}></Img>
+        </div>
+      </section>
 
-              <p className="BlockText_subtittle">
-                If you are going to use a passage offer Lorem Ipsum, you need to
-                be sure hidden in the middle of text.
-              </p>
-              <button className="BlockText_button">READ MORE</button>
-            </div>
-          </div>
-
-          <div className="Block_3">
-            <div className="Block_3_Text BlockText">
-              <h2 className="BlockText_title">Body Treatments</h2>
-              <Img src={Photo3}></Img>
-
-              <p className="BlockText_subtittle">
-                If you are going to use a passage offer Lorem Ipsum, you need to
-                be sure hidden in the middle of text.
-              </p>
-              <button className="BlockText_button">READ MORE</button>
-            </div>
-          </div>
-        </section>
-
-        <section className="HomePageAboutUs AboutUs">
+      <section className="HomePageAboutUs AboutUs">
+        <div className="HomePageContainer">
           <div className="AboutUsBlock">
-            <div className="AboutUsImg"></div>
             <div className="AboutUs_leftBlock leftBlock">
               <div className="leftBlock_top">
-                <h3 className="leftBlock_text">сюда текст</h3>
-                <h2 className="leftBlock_tittle">сюда текст</h2>
+                <h4 className="leftBlock_text">About Us</h4>
+                <h2 className="leftBlock_tittle">The Beauty is about
+                  being Comfortable
+                  in your own skin!
+                </h2>
+                <p className="leftBlock_subtittle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words which don't look even many desktop publishing packages.</p>
 
                 <div className="leftBlock_cards">
                   <div className="leftBlock_card">
-                    <h3 className="leftBlock_cardTittle">Beauty Experts</h3>
-                  </div>
-                  <Img src={Photo4}></Img>
-                  <Img src={Photo5}></Img>
-                  <Img src={Photo6}></Img>
-                  <Img src={Photo7}></Img>
-                  <Img src={Photo8}></Img>
-                  <Img src={Photo9}></Img>
-                  <Img src={userPhoto}></Img>
-                  <Img src={userPhoto1}></Img>
-                  <div className="leftBlock_card">
-                    <h3 className="leftBlock_cardTittle">Great Services</h3>
+                    <div className="leftBlock_cardText">
+                      <h3 className="leftBlock_cardTittle">Beauty Experts</h3>
+
+                    </div>
                   </div>
 
                   <div className="leftBlock_card">
-                    <h3 className="leftBlock_cardTittle">100% Genuine</h3>
+                    <div className="leftBlock_cardText">
+                      <h3 className="leftBlock_cardTittle">Great Services</h3>
+                    </div>
+                  </div>
+
+                  <div className="leftBlock_card">
+                    <div className="leftBlock_cardText">
+                      <h3 className="leftBlock_cardTittle">100% Genuine</h3>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div className="AboutUsImg">
+              <Img src={Photo4}></Img>
+            </div>
           </div>
-        </section>
+        </div>
+      </section>
+
+      <section className="ourServicesBlock">
+        <div className="ourServicesBlockContainer">
+          <div className="ourServicesBlock_text">
+            <h4 className="ourServicesBlock_tittle">Our Services</h4>
+            <h2 className="ourServicesBlock_subtittle">We are Experienced in making you
+              very Beautiful</h2>
+          </div>
+          <div className="ourServicesBlockContent ourContent">
+            <Img className="hhh4" src={Photo5}></Img>
+            <div className="ourContentText_2">
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">Face masks   .......................................          $48.00</h2>
+                <p className="ourContentText_2">The versions have evolved over the sometimes by accident.</p>
+              </div>
+
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">Full body massage  .............................          $54.00</h2>
+                <p className="ourContentText_2">The versions have evolved over the sometimes by accident.</p>
+              </div>
+
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">Geothermal spa  .................................          $54.00</h2>
+                <p className="ourContentText_2">The versions have evolved over the sometimes by accident.</p>
+
+              </div>
+
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">Sauna relax  .......................................          $73.00</h2>
+                <p className="ourContentText_2">The versions have evolved over the sometimes by accident.</p>
+              </div>
+              <button className="ourContentButton" >GET AN APPOINTMENT</button>
+            </div>
+
+          </div>
+          <div className="ourServicesBlockContent ourContent">
+            <div className="ourContentText">
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">Face masks   .......................................          $48.00</h2>
+                <p className="ourContentText_2">The versions have evolved over the sometimes by accident.</p>
+              </div>
+
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">Full body massage  .............................          $54.00</h2>
+                <p className="ourContentText_2">The versions have evolved over the sometimes by accident.</p>
+              </div>
+
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">Geothermal spa  .................................          $54.00</h2>
+                <p className="ourContentText_2">The versions have evolved over the sometimes by accident.</p>
+
+              </div>
+
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">Sauna relax  .......................................          $73.00</h2>
+                <p className="ourContentText_2">The versions have evolved over the sometimes by accident.</p>
+              </div>
+              <button className="ourContentButton" >GET AN APPOINTMENT</button>
+            </div>
+            <Img className="ff3" src={Photo6}></Img>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section className="TestimonialsBlock">
+        <div className="ourServicesBlockContainer">
+          <div className="TestimonialsBlock_text">
+            <h4 className="TestimonialsBlock_tittle">Testimonials</h4>
+            <h2 className="TestimonialsBlock_subtittle">What our Customers says...</h2>
+          </div>
+          <div className="TestimonialReviews">
+            <div className="TestimonialFeedback">
+              <div className="TestimonialFeedback_texts">
+                <p className="TestimonialFeedback_text">“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “</p>
+              </div>
+              <div className="TestimonialFeedback_user">
+                <div className="TestimonialFeedback_userFoto">
+                  <Img className="TestimonialFeedback_userFoto_1" src={userPhoto1}></Img>
+                </div>
+                <div className="TestimonialFeedback_dataUser">
+                  <div className="TestimonialFeedback_stars"></div>
+                  <h3 className="TestimonialFeedback_userName">James Williams</h3>
+                  <p className="TestimonialFeedback_userCountry">United States</p>
+                </div>
+                <div className="TestimonialFeedback_userElement"></div>
+              </div>
+            </div>
+
+            <div className="TestimonialFeedback">
+              <div className="TestimonialFeedback_texts">
+                <p className="TestimonialFeedback_text">“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “</p>
+              </div>
+              <div className="TestimonialFeedback_user">
+                <div className="TestimonialFeedback_userFoto">
+                  <Img className="TestimonialFeedback_userFoto" src={userPhoto}></Img>
+
+                </div>
+                <div className="TestimonialFeedback_dataUser">
+                  <div className="TestimonialFeedback_stars"></div>
+                  <h3 className="TestimonialFeedback_userName">James Williams</h3>
+                  <p className="TestimonialFeedback_userCountry">United States</p>
+                </div>
+                <div className="TestimonialFeedback_userElement"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="ourAwesome">
+      <div className="HomePageContainer">
+      <div className="ourAwesome_text">
+            <h4 className="ourAwesome_tittle">Our Awesome Benefits</h4>
+            <h2 className="ourAwesome_subtittle">Actually what you’ll get from</h2>
+          </div>
+
       </div>
+      </section>
+
+      <section>
+        <Img src={Photo7}></Img>
+        <Img src={Photo8}></Img>
+        <Img src={Photo9}></Img>
+
+      </section>
+
+
     </div>
   );
 }

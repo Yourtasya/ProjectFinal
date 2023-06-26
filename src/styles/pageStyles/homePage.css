@@ -1,7 +1,334 @@
-.HomePage {
-  background-color: #ffffff;
+.HomePageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.HomePageBody {
+  background-color: #EBF3F5;
+}
+
+.Homehhh {
+  display: flex;
 }
 
 .HomeText {
-  background-color: #ebf3f5;
+  padding-top: 235px;
+  padding-right: 72px;
+}
+
+
+.HomeText_tittle {
+  font-family: Playfair Display;
+  font-size: 70px;
+  font-weight: 700;
+  max-width: 510px;
+}
+
+.HomeText_subtittle {
+  font-family: Manrope;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 508px;
+  margin: 24px auto 34px;
+}
+
+.HomeImg {
+  position: right;
+  max-width: 550px;
+  height: 545px;
+  margin-top: 190px;
+  padding-bottom: 235px;
+
+}
+
+.HomeText_ButtonReservation {
+  border: none;
+  background-color: #7a9ca5;
+  color: #ffffff;
+  width: 250px;
+  height: 65px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+
+.HomePageProcedures {
+  background-color: #fff;
+  /* padding: 151px auto 150px; */
+}
+
+.HomePageBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 105px;
+  padding: 120px 0;
+
+}
+
+.BlockImg,
+img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.BlockText {
+  margin: 26px auto 30px;
+}
+
+
+.BlockText_title {
+  font-size: 26px;
+}
+
+.BlockText_button {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #5C8692;
+  width: 180px;
+  height: 55px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+.HomePageAboutUs {
+  background: #EBF3F5;
+  padding: 178px 0 150px;
+}
+
+.AboutUsBlock {
+  display: flex;
+
+}
+
+.AboutUs_leftBlock {
+  text-align: left;
+}
+
+.leftBlock_top {
+  padding-right: 125px;
+}
+
+.leftBlock_text {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+
+.leftBlock_tittle {
+  max-width: 435px;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.leftBlock_subtittle {
+  max-width: 529px;
+  margin-bottom: 37px;
+  padding: 16px 0 37px;
+}
+
+.AboutUsImg {
+  position: right;
+  max-width: 546px;
+}
+
+.leftBlock_cards {
+  display: flex;
+  gap: 10px;
+}
+
+.leftBlock_card {
+  max-width: 165px;
+  height: 180px;
+  background: #FFFFFF;
+  border: 1px solid #1E2C30;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftBlock_cardText{
+  text-align: center;
+  padding: 21px 33px; 
+}
+
+.ourServicesBlockContainer{
+  max-width: 1198px;
+  margin: 0 auto; 
+}
+
+.ourServicesBlock{
+  background: #fff;
+  padding: 146px 0 145px; 
+}
+
+.ourServicesBlock_text{
+  /* max-width: 659px; */
+  text-align: center;
+  justify-content: center;
+}
+
+.ourServicesBlock_subtittle{
+font-size: 45px;
+text-align: center;
+letter-spacing: -0.01em;
+}
+
+.ourContent{
+  display: flex;
+  margin-top: 50px;
+}
+
+.ourContentText{
+  margin: 10px  0 0 68px;
+}
+
+.ourContentText_1{
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 130%;
+}
+
+.ourContentText_1{
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 130%;
+}
+
+.ourContentText_2{
+  font-size: 18px;
+line-height: 165%;
+padding: 5px 0 22px;
+}
+
+.ourContentTextBlock{
+  border-bottom: 1px solid #9BB7BF;
+  margin-bottom: 18px;
+}
+
+.ourContentButton{
+  margin-top: 35px;
+  width: 249px;
+  height: 65px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #5C8692;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+.ff3{
+width: 600px;
+}
+
+/* ------TestimonialsBlock----- */
+
+.TestimonialsBlock{
+  padding: 147px 0;
+}
+
+.TestimonialsBlock_text{
+  /* max-width: 659px; */
+  text-align: center;
+  justify-content: center;
+}
+
+.TestimonialsBlock_subtittle{
+font-size: 45px;
+text-align: center;
+letter-spacing: -0.01em;
+}
+
+.TestimonialFeedback{
+  background: #fff;
+  width: 582px;
+  height: 359px;
+}
+
+.TestimonialFeedback_user{
+  background: #1E2C30;
+  padding: 26px 51px 25px;
+  display: flex;
+}
+
+.TestimonialFeedback_text{
+  padding: 44px 48px;
+  width: 435px;
+  height: 146px;
+  justify-content: center;
+}
+/* ?????????????????????? */
+.TestimonialFeedback_text{
+  font-weight: 400;
+font-size: 19px;
+line-height: 180%;
+}
+
+.TestimonialFeedback_userName{
+  font-size: 20px;
+line-height: 160%;
+}
+
+.TestimonialFeedback_dataUser{
+  margin-left: 20px;
+  color: #fff;
+}
+
+.TestimonialFeedback_userFoto_1{
+  border: 2px solid #FFFFFF;
+}
+
+
+/* -----не  ровно, почему???---- */
+.TestimonialReviews{
+  padding-top: 40px;
+  display: flex;
+  gap: 36px;
+}
+
+
+/*-----ourAwesome----- */
+
+.ourAwesome{
+  background: #fff;
+  padding: 144px 0 161px;
+}
+
+.ourAwesome_text{
+  /* max-width: 659px; */
+  text-align: center;
+  justify-content: center;
+}
+
+.ourAwesome_subtittle{
+font-size: 45px;
+text-align: center;
+letter-spacing: -0.01em;
 }
