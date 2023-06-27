@@ -47,6 +47,7 @@
 }
 
 .ButtonInNavBarReservation {
+  line-height: 3;
   border: none;
   background-color: #7a9ca5;
   color: #ffffff;

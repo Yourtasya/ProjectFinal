@@ -4,7 +4,7 @@
 }
 
 .HomePageBody {
-  background-color: #EBF3F5;
+  background-color: #ebf3f5;
 }
 
 .Homehhh {
@@ -15,7 +15,6 @@
   padding-top: 235px;
   padding-right: 72px;
 }
-
 
 .HomeText_tittle {
   font-family: Playfair Display;
@@ -41,10 +40,10 @@
   height: 545px;
   margin-top: 190px;
   padding-bottom: 235px;
-
 }
 
 .HomeText_ButtonReservation {
+  line-height: 4;
   border: none;
   background-color: #7a9ca5;
   color: #ffffff;
@@ -59,7 +58,6 @@
   text-transform: uppercase;
 }
 
-
 .HomePageProcedures {
   background-color: #fff;
   /* padding: 151px auto 150px; */
@@ -70,7 +68,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 105px;
   padding: 120px 0;
-
 }
 
 .BlockImg,
@@ -84,7 +81,6 @@ img {
   margin: 26px auto 30px;
 }
 
-
 .BlockText_title {
   font-size: 26px;
 }
@@ -93,10 +89,10 @@ img {
   border: none;
   background-color: #fff;
   color: #000;
-  border: 2px solid #5C8692;
+  border: 2px solid #5c8692;
   width: 180px;
   height: 55px;
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -108,13 +104,12 @@ img {
 }
 
 .HomePageAboutUs {
-  background: #EBF3F5;
+  background: #ebf3f5;
   padding: 178px 0 150px;
 }
 
 .AboutUsBlock {
   display: flex;
-
 }
 
 .AboutUs_leftBlock {
@@ -156,84 +151,84 @@ img {
 .leftBlock_card {
   max-width: 165px;
   height: 180px;
-  background: #FFFFFF;
-  border: 1px solid #1E2C30;
+  background: #ffffff;
+  border: 1px solid #1e2c30;
   justify-content: center;
   align-items: center;
 }
 
-.leftBlock_cardText{
+.leftBlock_cardText {
   text-align: center;
-  padding: 21px 33px; 
+  padding: 21px 33px;
 }
 
-.ourServicesBlockContainer{
+.ourServicesBlockContainer {
   max-width: 1198px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
-.ourServicesBlock{
+.ourServicesBlock {
   background: #fff;
-  padding: 146px 0 145px; 
+  padding: 146px 0 145px;
 }
 
-.ourServicesBlock_text{
+.ourServicesBlock_text {
   /* max-width: 659px; */
   text-align: center;
   justify-content: center;
 }
 
-.ourServicesBlock_subtittle{
-font-size: 45px;
-text-align: center;
-letter-spacing: -0.01em;
+.ourServicesBlock_subtittle {
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: -0.01em;
 }
 
-.ourContent{
+.ourContent {
   display: flex;
   margin-top: 50px;
 }
 
-.ourContentText{
-  margin: 10px  0 0 68px;
+.ourContentText {
+  margin: 10px 0 0 68px;
 }
 
-.ourContentText_1{
-  font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 130%;
+.ourContentText_1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
 }
 
-.ourContentText_1{
-  font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 130%;
+.ourContentText_1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
 }
 
-.ourContentText_2{
+.ourContentText_2 {
   font-size: 18px;
-line-height: 165%;
-padding: 5px 0 22px;
+  line-height: 165%;
+  padding: 5px 0 22px;
 }
 
-.ourContentTextBlock{
-  border-bottom: 1px solid #9BB7BF;
+.ourContentTextBlock {
+  border-bottom: 1px solid #9bb7bf;
   margin-bottom: 18px;
 }
 
-.ourContentButton{
+.ourContentButton {
   margin-top: 35px;
   width: 249px;
   height: 65px;
   border: none;
   background-color: #fff;
   color: #000;
-  border: 2px solid #5C8692;
-  font-family: 'Manrope';
+  border: 2px solid #5c8692;
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -244,95 +239,92 @@ padding: 5px 0 22px;
   text-transform: uppercase;
 }
 
-.ff3{
-width: 600px;
+.ff3 {
+  width: 600px;
 }
 
 /* ------TestimonialsBlock----- */
 
-.TestimonialsBlock{
+.TestimonialsBlock {
   padding: 147px 0;
 }
 
-.TestimonialsBlock_text{
+.TestimonialsBlock_text {
   /* max-width: 659px; */
   text-align: center;
   justify-content: center;
 }
 
-.TestimonialsBlock_subtittle{
-font-size: 45px;
-text-align: center;
-letter-spacing: -0.01em;
+.TestimonialsBlock_subtittle {
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: -0.01em;
 }
 
-.TestimonialFeedback{
+.TestimonialFeedback {
   background: #fff;
   width: 582px;
   height: 359px;
 }
 
-.TestimonialFeedback_user{
-  background: #1E2C30;
+.TestimonialFeedback_user {
+  background: #1e2c30;
   padding: 26px 51px 25px;
   display: flex;
 }
 
-.TestimonialFeedback_text{
+.TestimonialFeedback_text {
   padding: 44px 48px;
   width: 435px;
   height: 146px;
   justify-content: center;
 }
 /* ?????????????????????? */
-.TestimonialFeedback_text{
+.TestimonialFeedback_text {
   font-weight: 400;
-font-size: 19px;
-line-height: 180%;
+  font-size: 19px;
+  line-height: 180%;
 }
 
-.TestimonialFeedback_userName{
+.TestimonialFeedback_userName {
   font-size: 20px;
-line-height: 160%;
+  line-height: 160%;
 }
 
-.TestimonialFeedback_dataUser{
+.TestimonialFeedback_dataUser {
   margin-left: 20px;
   color: #fff;
 }
 
-.TestimonialFeedback_userFoto_1{
-  border: 2px solid #FFFFFF;
+.TestimonialFeedback_userFoto_1 {
+  border: 2px solid #ffffff;
 }
 
-
 /* -----не  ровно, почему???---- */
-.TestimonialReviews{
+.TestimonialReviews {
   padding-top: 40px;
   display: flex;
   gap: 36px;
 }
 
-
 /*-----ourAwesome----- */
 
-.ourAwesome{
+.ourAwesome {
   background: #fff;
   padding: 144px 0 161px;
 }
 
-.ourAwesome_text{
+.ourAwesome_text {
   /* max-width: 659px; */
   text-align: center;
   justify-content: center;
 }
 
-.ourAwesome_subtittle{
+.ourAwesome_subtittle {
 font-size: 45px;
 text-align: center;
 letter-spacing: -0.01em;
 margin-bottom: 43px;
-
 }
 
 .ourAwesome_catalog {

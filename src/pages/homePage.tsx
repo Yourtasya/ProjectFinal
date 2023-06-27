@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { Img } from "react-image";
 
 //jpeg
@@ -56,6 +57,7 @@ import Vector1 from "../icons/Vector1.svg";
 import Vector2 from "../icons/Vector2.svg";
 
 import "../styles/pageStyles/homePage.css";
+import { LOGIN_ROUTE } from "../links/consts";
 
 export default function HomePage() {
   return (
@@ -72,9 +74,9 @@ export default function HomePage() {
                 There are many variation of passages are Ipsum available,
                 majority have suffered alteration in some form.
               </p>
-              <button className="HomeText_ButtonReservation">
+              <NavLink to={LOGIN_ROUTE} className="HomeText_ButtonReservation">
                 Make a reservation
-              </button>
+              </NavLink>
             </div>
             <div className="HomeImg">
               <Img src={Image}></Img>
