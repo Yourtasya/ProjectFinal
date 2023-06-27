@@ -279,6 +279,7 @@ img {
   height: 146px;
   justify-content: center;
 }
+
 /* ?????????????????????? */
 .TestimonialFeedback_text {
   font-weight: 400;
@@ -289,6 +290,7 @@ img {
 .TestimonialFeedback_userName {
   font-size: 20px;
   line-height: 160%;
+
 }
 
 .TestimonialFeedback_dataUser {
@@ -300,12 +302,20 @@ img {
   border: 2px solid #ffffff;
 }
 
+.TestimonialFeedback_userElement{
+  margin-left: 178px;
+}
+
 /* -----не  ровно, почему???---- */
 .TestimonialReviews {
   padding-top: 40px;
   display: flex;
   gap: 36px;
 }
+
+/* .TestimonialFeedback_dataUser{
+  width: 232px;
+} */
 
 /*-----ourAwesome----- */
 
@@ -321,10 +331,10 @@ img {
 }
 
 .ourAwesome_subtittle {
-font-size: 45px;
-text-align: center;
-letter-spacing: -0.01em;
-margin-bottom: 43px;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  margin-bottom: 43px;
 }
 
 .ourAwesome_catalog {
@@ -333,16 +343,167 @@ margin-bottom: 43px;
   gap: 35px 105px;
 }
 
-.product_textTittle{
-max-width: 226px;
-height: 62px;
-font-size: 26px;
-line-height: 120%;
+.product_textTittle {
+
+  font-size: 26px;
+  line-height: 120%;
 }
 
-.product_textSubTittle{
+.product_textTittle_1 {
+  max-width: 226px;
+  height: 62px;
+}
+
+.product_textSubTittle {
   font-size: 18px;
-line-height: 165%;
+  line-height: 165%;
+  letter-spacing: 0.02em;
+  margin-top: 11px;
+}
+
+
+/* ---flatDiscount---- */
+
+.flatDiscount {
+  padding: 218px 0 131px;
+  
+}
+
+.flatDiscountContent{
+  display: flex;
+}
+
+.flatDiscountTex_subtittle {
+  width: 435px;
+  height: 174px;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  margin-top: 5px;
+}
+
+.flatDiscountText_text {
+  width: 534px;
+  height: 92px;
+  font-size: 18px;
+  line-height: 175%;
+  margin: 14px 0 37px;
+}
+
+.flat{
+  display: flex;
+}
+
+.flatRight{
+/* padding: 18px 40px 19px;
+gap: 10px; */
+width: 288px;
+height: 145px;
+background: #FFFFFF;
+border: 1px solid #95BFCB;
+}
+
+.flatRight_mailUs{
+  display: flex;
+  padding: 18px 40px 19px;
+}
+
+.flatRight_mail{
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.flatRight_callUs{
+  padding: 0px 40px 19px;
+}
+
+.flatLeft{
+  width: 167px;
+height: 144.75px;
+background: #1E2C30;
+align-items: center;
+text-align: center;
+}
+
+.flatLeft_text{
+  width: 83px;
+height: 32px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 175%;
+align-items: center;
+text-align: center;
 letter-spacing: 0.02em;
-margin-top: 11px;
+}
+
+/* ----form----- */
+
+
+
+/* -------ourBlog------- */
+
+.ourBlog{
+  background: #fff;
+  padding: 145px 0 150px;
+}
+
+.ourBlog_text{
+  text-align: center;
+
+}
+
+.ourBlog_subtittle{
+  font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+letter-spacing: -0.01em;
+}
+
+.ourBlogBlocks{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 105px;
+  padding: 40px 0 60px;
+}
+
+.BlockText_ourBlog_text{
+  font-size: 13px;
+line-height: 125%;
+}
+
+.BlockText_ourBlog_tittle{
+  font-size: 22px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  margin: 8px 0 14px;
+}
+
+.ourBlock_1, .ourBlock_2, .ourBlock_3{
+  background: #EDF5F7;
+}
+
+.ourBlockImg{
+  width: 370px;
+height: 325px;
+}
+
+.ourBlockText{
+  width: 317px;
+  padding: 30px 26px 39px 26px;
+}
+
+.ourButton{
+  width: 250px;
+height: 65px;
+
+}
+
+.ourBlockText_button{
+  justify-content: center;
+text-align: center;
+
+
 }

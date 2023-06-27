@@ -151,19 +151,23 @@ export default function HomePage() {
 
                 <div className="leftBlock_cards">
                   <div className="leftBlock_card">
+
                     <div className="leftBlock_cardText">
+                      <Img src={Icon}></Img>
                       <h3 className="leftBlock_cardTittle">Beauty Experts</h3>
                     </div>
                   </div>
 
                   <div className="leftBlock_card">
                     <div className="leftBlock_cardText">
+                      <Img src={Icon1}></Img>
                       <h3 className="leftBlock_cardTittle">Great Services</h3>
                     </div>
                   </div>
 
                   <div className="leftBlock_card">
                     <div className="leftBlock_cardText">
+                      <Img src={Vector1}></Img>
                       <h3 className="leftBlock_cardTittle">100% Genuine</h3>
                     </div>
                   </div>
@@ -279,7 +283,7 @@ export default function HomePage() {
             </h2>
           </div>
           <div className="TestimonialReviews">
-            <div className="TestimonialFeedback">
+            {/* <div className="TestimonialFeedback">
               <div className="TestimonialFeedback_texts">
                 <p className="TestimonialFeedback_text">
                   “ It is a long established fact that a reader will be tracked
@@ -307,7 +311,45 @@ export default function HomePage() {
                     United States
                   </p>
                 </div>
-                <div className="TestimonialFeedback_userElement"></div>
+                <div className="TestimonialFeedback_userElement">
+                  <Img src={Icons3}></Img>
+
+                </div>
+              </div>
+            </div> */}
+
+            <div className="TestimonialFeedback">
+              <div className="TestimonialFeedback_texts">
+                <p className="TestimonialFeedback_text">
+                  “ It is a long established fact that a reader will be tracked
+                  distracted by the readable content of a page is when looking
+                  at its layout. The point of using Lorem of distribution it
+                  look like readable English “
+                </p>
+              </div>
+              <div className="TestimonialFeedback_user">
+                <div className="TestimonialFeedback_userFoto">
+                <Img
+                    // className="TestimonialFeedback_userFoto_1"
+                    src={userPhoto1}
+                  ></Img>
+                </div>
+                <div className="TestimonialFeedback_dataUser">
+                  <div className="TestimonialFeedback_stars">
+                    <Img src={Reviews}></Img>
+
+                  </div>
+                  <h3 className="TestimonialFeedback_userName">
+                    James Williams
+                  </h3>
+                  <p className="TestimonialFeedback_userCountry">
+                    United States
+                  </p>
+                </div>
+                <div className="TestimonialFeedback_userElement">
+                  <Img src={Icons3}></Img>
+
+                </div>
               </div>
             </div>
 
@@ -339,7 +381,10 @@ export default function HomePage() {
                     United States
                   </p>
                 </div>
-                <div className="TestimonialFeedback_userElement"></div>
+                <div className="TestimonialFeedback_userElement">
+                  <Img src={Icons3}></Img>
+
+                </div>
               </div>
             </div>
           </div>
@@ -358,7 +403,7 @@ export default function HomePage() {
             <div className="ourAwesome_product product">
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
-                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <h3 className="product_textTittle product_textTittle_1">Optimised Energy Efficiency</h3>
                 <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
               </div>
             </div>
@@ -366,7 +411,7 @@ export default function HomePage() {
             <div className="ourAwesome_product product">
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
-                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <h3 className="product_textTittle">Multi-faceted Water Filtration</h3>
                 <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
               </div>
             </div>
@@ -374,7 +419,7 @@ export default function HomePage() {
             <div className="ourAwesome_product product">
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
-                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <h3 className="product_textTittle">Uncompromising Quality and Durability</h3>
                 <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
               </div>
             </div>
@@ -382,15 +427,7 @@ export default function HomePage() {
             <div className="ourAwesome_product product">
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
-                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
-                <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
-              </div>
-            </div>
-            
-            <div className="ourAwesome_product product">
-              {/* <Img className="products_img" src={ }></Img> */}
-              <div className="product_text">
-                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <h3 className="product_textTittle">An Ultra-Pampering Spa Experience</h3>
                 <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
               </div>
             </div>
@@ -398,29 +435,142 @@ export default function HomePage() {
             <div className="ourAwesome_product product">
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
-                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <h3 className="product_textTittle">Easy Care for Unparalleled Enjoyment</h3>
                 <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
+              </div>
+            </div>
+
+            <div className="ourAwesome_product product">
+              {/* <Img className="products_img" src={ }></Img> */}
+              <div className="product_text">
+                <h3 className="product_textTittle product_textTittle_1">Optimised Energy Efficiency</h3>
+                <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>\
+
+      <section className="flatDiscount">
+        <div className="HomePageContainer">
+          <div className="flatDiscountContent">
+            <div className="flatDiscountText">
+              <h4 className="flatDiscountText_title">Flat Discount </h4>
+              <h3 className="flatDiscountTex_subtittle">Claim upto 50% off
+                er
+                on ‍the most popular services...</h3>
+              <p className="flatDiscountText_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words.</p>
+
+              <div className="flatDiscountText_flat flat">
+                <div className="flatRight">
+                  <div className="flatRight_mailUs">
+                    {/* <img src="" alt="" /> */}
+                    <p className="flatRight_mail">MAIL US :
+                      info@beautyness.com</p>
+                  </div>
+
+                  <div className="flatRight_callUs">
+                    {/* <img src="" alt="" /> */}
+                    <p className="flatRight_call">MAIL US :
+                      info@beautyness.com</p>
+                  </div>
+                </div>
+
+                <div className="flatLeft">
+                  <p className="flatLeft_text">Get Flat 50% Discount</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flatDiscountTextForm">
+              <div className="flatLeft_forms form">
+                <form action="" className="flatLeft_form">
+                  <label>
+                    <input type="text" name="name" id='username'
+                      className='input'
+                      placeholder='Ваше имя' />
+                  </label>
+                  <label>
+                    Имя:
+                    <input type="text" name="name" />
+                  </label>
+                  <label>
+                    Имя:
+                    <input type="text" name="name" />
+                  </label>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <section className="ourBlog">
+        <div className="HomePageContainer">
+          <div className="ourBlog_text">
+            <h4 className="ourBlog_tittle">Our Blog</h4>
+            <h2 className="ourBlog_subtittle">
+              Latest Updates
+            </h2>
+          </div>
+          <div className="ourBlogBlocks">
+            <div className="ourBlock_1">
+              <div className="ourBlockImg">
+                <Img src={Photo7}></Img>
+
+              </div>
+              <div className="Block_1_Text ourBlockText">
+                <h4 className="BlockText_ourBlog_text">11TH AUGUST 2021 - BY PETER BERGSON</h4>
+                <h3 className="BlockText_ourBlog_tittle ">The energy efficiency of the hydrotherapy or swim</h3>
+                <p className="BlockText_ourBlog_subtittle">
+                  The point of using Lorem Ipsum hiter that using making it look like others readable will get end.
+                </p>
+              </div>
+            </div>
+
+            <div className="ourBlock_2">
+              <div className="BlockImg">
+                <Img src={Photo8}></Img>
+
+              </div>
+              <div className="Block_2_Text ourBlockText">
+                <h4 className="BlockText_ourBlog_text">11TH AUGUST 2021 - BY PETER BERGSON</h4>
+
+                <h3 className="BlockText_ourBlog_tittle">Tips to improve your body via cleansing</h3>
+                <p className="BlockText_ourBlog_subtittle">
+                  The point of using Lorem Ipsum hiter that using making it look like others readable will get end.
+                </p>
+              </div>
+            </div>
+
+            <div className="ourBlock_3">
+              <div className="BlockImg">
+                <Img src={Photo9}></Img>
+              </div>
+              <div className="Block_3_Text ourBlockText">
+                <h4 className="BlockText_ourBlog_text">11TH AUGUST 2021 - BY PETER BERGSON</h4>
+
+                <h3 className="BlockText_ourBlog_tittle">Experience the beauty at our beauty spa</h3>
+                <p className="BlockText_ourBlog_subtittle">
+                  The point of using Lorem Ipsum hiter that using making it look like others readable will get end.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="ourBlockText_button">
+            <button className="BlockText_button ourButton">READ MORE</button>
+          </div>
+        </div>
+      </section>
+
       <section>
-        <Img src={Photo7}></Img>
-        <Img src={Photo8}></Img>
-        <Img src={Photo9}></Img>
-        <Img src={Icon1}></Img>
         <Img src={Background4}></Img>
         <Img src={Book}></Img>
         <Img src={Edit}></Img>
-        <Img src={Icon}></Img>
         <Img src={Icons3}></Img>
         <Img src={Mail}></Img>
         <Img src={Phone}></Img>
-        <Img src={Reviews}></Img>
         <Img src={User}></Img>
-        <Img src={Vector1}></Img>
         <Img src={Vector2}></Img>
         <Img src={Background2}></Img>
       </section>

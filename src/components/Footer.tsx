@@ -6,7 +6,10 @@ export default class NavBar extends Component {
   render(): React.ReactNode {
     return (
       <div className="Footer">
-        <div className="FooterContainer">Foooter</div>
+        {/* <div className="LogoAndNameProjectInNavBar">
+                <Img className="SvgImgInNavBar" src={Logo}></Img>
+                <label className="NameProjectInNavBar">Beautyness</label>
+              </div> */}
       </div>
     );
   }
