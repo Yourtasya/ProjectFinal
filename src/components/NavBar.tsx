@@ -12,6 +12,7 @@ import {
   SERVICES_ROUTE,
   STYLE_GUIDE_ROUTE,
   TEAM_ROUTE,
+  LOGIN_ROUTE,
 } from "../links/consts";
 import { Dropdown } from "./DropdawnMenu";
 //@ts-ignore
@@ -94,7 +95,9 @@ export default class NavBar extends Component {
               <NavLink to={CONTACT_ROUTE} className="ButtonInNavBar">
                 Contact
               </NavLink>
-              <button className="ButtonInNavBarReservation">Reservation</button>
+              <NavLink to={LOGIN_ROUTE} className="ButtonInNavBarReservation">
+                Reservation
+              </NavLink>
             </div>
           </div>
         </div>
