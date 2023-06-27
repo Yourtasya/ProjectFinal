@@ -294,7 +294,10 @@ export default function HomePage() {
                   ></Img>
                 </div>
                 <div className="TestimonialFeedback_dataUser">
-                  <div className="TestimonialFeedback_stars"></div>
+                  <div className="TestimonialFeedback_stars">
+                    <Img src={Reviews}></Img>
+
+                  </div>
                   <h3 className="TestimonialFeedback_userName">
                     James Williams
                   </h3>
@@ -323,7 +326,10 @@ export default function HomePage() {
                   ></Img>
                 </div>
                 <div className="TestimonialFeedback_dataUser">
-                  <div className="TestimonialFeedback_stars"></div>
+                  <div className="TestimonialFeedback_stars">
+                    <Img src={Reviews}></Img>
+
+                  </div>
                   <h3 className="TestimonialFeedback_userName">
                     James Williams
                   </h3>
@@ -345,6 +351,55 @@ export default function HomePage() {
             <h2 className="ourAwesome_subtittle">
               Actually what you’ll get from
             </h2>
+          </div>
+          <div className="ourAwesome_catalog">
+            <div className="ourAwesome_product product">
+              {/* <Img className="products_img" src={ }></Img> */}
+              <div className="product_text">
+                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
+              </div>
+            </div>
+
+            <div className="ourAwesome_product product">
+              {/* <Img className="products_img" src={ }></Img> */}
+              <div className="product_text">
+                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
+              </div>
+            </div>
+
+            <div className="ourAwesome_product product">
+              {/* <Img className="products_img" src={ }></Img> */}
+              <div className="product_text">
+                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
+              </div>
+            </div>
+
+            <div className="ourAwesome_product product">
+              {/* <Img className="products_img" src={ }></Img> */}
+              <div className="product_text">
+                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
+              </div>
+            </div>
+            
+            <div className="ourAwesome_product product">
+              {/* <Img className="products_img" src={ }></Img> */}
+              <div className="product_text">
+                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
+              </div>
+            </div>
+
+            <div className="ourAwesome_product product">
+              {/* <Img className="products_img" src={ }></Img> */}
+              <div className="product_text">
+                <h3 className="product_textTittle">Optimised Energy Efficiency</h3>
+                <p className="product_textSubTittle">The point of using Lorem Ipsum is that  using making it look like readable.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
