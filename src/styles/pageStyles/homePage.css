@@ -162,7 +162,7 @@ img {
   padding: 21px 33px;
 }
 
-.leftBlock_cardTittle{
+.leftBlock_cardTittle {
   margin-top: 15px;
 }
 
@@ -197,7 +197,7 @@ img {
   margin: 128px 80px 0px 0px;
 }
 
-.ourContentText{
+.ourContentText {
   margin: 30px 0px 0px 80px;
 }
 
@@ -225,11 +225,11 @@ img {
 
 .ourContentTextBlock {
   border-bottom: 1px solid #9bb7bf;
-  
 }
 
-.ourContentTextBlock:not(:last-child){
-  margin-bottom: 18px;}
+.ourContentTextBlock:not(:last-child) {
+  margin-bottom: 18px;
+}
 
 .ourContentButton {
   margin-top: 17px;
@@ -250,13 +250,10 @@ img {
   text-transform: uppercase;
 }
 
-.ourContentButton
-
-.ourServicesFoto_1,
+.ourContentButton .ourServicesFoto_1,
 .ourServicesFoto_2 {
   width: 600px;
   height: 640px;
-
 }
 
 /* ------TestimonialsBlock----- */
@@ -359,7 +356,6 @@ img {
 }
 
 .product_textTittle {
-
   font-size: 26px;
   line-height: 120%;
 }
@@ -376,12 +372,10 @@ img {
   margin-top: 11px;
 }
 
-
 /* ---flatDiscount---- */
 
 .flatDiscount {
   padding: 218px 0 131px;
-
 }
 
 .flatDiscountContent {
@@ -414,8 +408,8 @@ img {
 gap: 10px; */
   width: 288px;
   height: 145px;
-  background: #FFFFFF;
-  border: 1px solid #95BFCB;
+  background: #ffffff;
+  border: 1px solid #95bfcb;
 }
 
 .flatRight_mailUs {
@@ -436,7 +430,7 @@ gap: 10px; */
 .flatLeft {
   width: 167px;
   height: 144.75px;
-  background: #1E2C30;
+  background: #1e2c30;
   align-items: center;
   text-align: center;
 }
@@ -444,7 +438,7 @@ gap: 10px; */
 .flatLeft_text {
   width: 83px;
   height: 32px;
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -456,8 +450,6 @@ gap: 10px; */
 
 /* ----form----- */
 
-
-
 /* -------ourBlog------- */
 
 .ourBlog {
@@ -467,7 +459,6 @@ gap: 10px; */
 
 .ourBlog_text {
   text-align: center;
-
 }
 
 .ourBlog_subtittle {
@@ -483,7 +474,6 @@ gap: 10px; */
   gap: 105px;
   padding: 40px 0 60px;
   justify-content: center;
-
 }
 
 .BlockText_ourBlog_text {
@@ -501,7 +491,7 @@ gap: 10px; */
 .ourBlock_1,
 .ourBlock_2,
 .ourBlock_3 {
-  background: #EDF5F7;
+  background: #edf5f7;
 }
 
 .ourBlockImg {
@@ -517,12 +507,85 @@ gap: 10px; */
 .ourButton {
   width: 250px;
   height: 65px;
-
 }
 
 .ourBlockText_button {
   justify-content: center;
   text-align: center;
+}
 
+.flatLeft_form {
+  display: table-caption;
+}
+.latLeft_form_name {
+  background: url(../../icons/User.svg) no-repeat;
+}
 
+.wrapper {
+  position: relative;
+}
+
+.iconName {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px;
+  background: url(../../icons/User.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+.iconEmail {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px;
+  background: url(../../icons/Mail.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+.iconPhone {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px;
+  background: url(../../icons/Phone.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+.iconService {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px;
+  background: url(../../icons/Book.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+.iconAnyNote {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px;
+  background: url(../../icons/Edit.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.input {
+  height: 50px;
+  box-sizing: border-box;
+  padding-left: 1.5rem;
+}
+.footerNavLink {
+  display: grid;
 }
