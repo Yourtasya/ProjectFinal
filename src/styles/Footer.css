@@ -1,4 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .Footer {
+  padding: 66px 0 68px;
   background-color: #1e2c30;
-  height: 100px;
+  color: #fff;
+}
+
+.LogoProjectInFooter{
+  display: flex;
+  align-items: center;
+padding-bottom: 52px ;
+}
+
+.FooterLine{
+transform: rotate(0.05deg);
+opacity: 0.15;
+border: 1px solid #FFFFFF;
+}
+
+.footer_block{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1.1fr;
+  gap: 129px;
+}
+
+.NameProjectInFooter{
+  color: #fff;
+  font-size: 28px;
+}
+
+.footer_h3{
+  padding: 53px 0 21px;
+}
+
+
+
+
+
+
+
+.footer_block_3Adress, .footer_block_3Mail, .footer_block_3Phone{
+  display: flex;
+}
+
+
+.footer_block_3Adress, .footer_block_3Mail{
+  margin-bottom: 14px;
+}
+
+.footer_block_3_ulTittle{
+  font-weight: 700;
+}
+
+.footer_block_3_ulText{
+  text-align: left;
+  margin-left: 10px;
+}
+
+.footer_block_3_ulTextAdress{
+  max-width: 234px;
+  height: 63px;
+  margin-left: 10px;
+}
+
+.footer_block_3_ulTextMail{
+  margin-left: 47px; 
+}
+
+.footer_block_3_ulTextPhone{
+  margin-left: 29px;
+}
+
+.workingHours:not(:last-child){
+  margin-bottom: 5px;
 }

@@ -1,3 +1,161 @@
 .AboutPage {
   background-color: #ffffff;
+  padding: 118px 0 117px ;
+}
+
+.FirstBlock {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.FirstBlockSubtittle {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 154.5%;
+}
+
+.FirstBlockTittle {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+.FirstBlockButton{
+  border: none;
+  width: 250px;
+  height: 65px;
+  color: #ffffff;
+  background: #5C8692;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+}
+
+
+/* ----ourValues---- */
+
+.ourValuesContainer{
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.ourValuesTexts{
+  padding-top: 130px;
+  text-align: center;
+}
+
+.ourValuesTittle{
+  font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+letter-spacing: -0.01em;
+}
+
+.ourValuesBlocks{
+  padding-top: 45px;
+}
+
+.ourValuesBlock:not(:first-child){
+  margin-top: 36px;
+}
+
+.ourValuesBlock{
+  display: flex;
+}
+
+.ourValuesBlockImg{
+  background: #F2FCFF;
+border: 1px solid #1E2C30;
+height: 100px;
+width: 100px;
+align-items: center;
+justify-content: center;
+}
+
+.ourValuesBlock_img{
+padding: 14px 25px;
+width: 48.47px;
+height: 72px;
+}
+
+.ourValuesBlockTexts{
+  padding-left: 32px;
+  width: 458px;
+}
+
+.ourValuesBlockTittle{
+  margin-top: 8px;
+}
+
+.ourValuesLine{
+  
+border: 1px solid #D3D3D3;
+margin-top: 36px;
+
+}
+
+/* ----- */
+
+.ourValuesAboutUs{
+  background: #EBF3F5;
+  padding-top: 137px;
+}
+
+
+.ourValuesAboutUs_img{
+ padding-top: -50px;
+}
+
+.ourValuesAboutUsBlakBlock{
+  background: #1E2C30;
+
+width: 653px;
+height: 499px;
+
+padding-top: 55.5px;
+}
+
+
+/* ---------- */
+
+.ourValuesMeetOurExperts{
+  padding-top: 129px;
+}
+
+.OurExpertsBlocks{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 45px;
+  padding: 33px 0 171px;
+  justify-content: center;
+}
+
+.OurExpertsBlockText{
+  margin-top: 22px;
+  text-align: center;
+  width: 336px;
+}
+
+.BlockText_title_2{
+  padding: 4px 0 8px;
+}
+
+/* -------- */
+.ourValuesTestimonialsBlock1{
+  background: #EDF5F7;
+padding: 147px 0;
 }

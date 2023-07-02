@@ -162,6 +162,10 @@ img {
   padding: 21px 33px;
 }
 
+.leftBlock_cardTittle{
+  margin-top: 15px;
+}
+
 .ourServicesBlockContainer {
   max-width: 1198px;
   margin: 0 auto;
@@ -182,15 +186,19 @@ img {
   font-size: 45px;
   text-align: center;
   letter-spacing: -0.01em;
+  margin-bottom: 50px;
 }
 
 .ourContent {
   display: flex;
-  margin-top: 50px;
 }
 
-.ourContentText {
-  margin: 10px 0 0 68px;
+.ourContentText2 {
+  margin: 128px 80px 0px 0px;
+}
+
+.ourContentText{
+  margin: 30px 0px 0px 80px;
 }
 
 .ourContentText_1 {
@@ -217,11 +225,14 @@ img {
 
 .ourContentTextBlock {
   border-bottom: 1px solid #9bb7bf;
-  margin-bottom: 18px;
+  
 }
 
+.ourContentTextBlock:not(:last-child){
+  margin-bottom: 18px;}
+
 .ourContentButton {
-  margin-top: 35px;
+  margin-top: 17px;
   width: 249px;
   height: 65px;
   border: none;
@@ -239,8 +250,13 @@ img {
   text-transform: uppercase;
 }
 
-.ff3 {
+.ourContentButton
+
+.ourServicesFoto_1,
+.ourServicesFoto_2 {
   width: 600px;
+  height: 640px;
+
 }
 
 /* ------TestimonialsBlock----- */
@@ -288,12 +304,11 @@ img {
 }
 
 .TestimonialFeedback_userName {
-  font-size: 20px;
   line-height: 160%;
-
 }
 
 .TestimonialFeedback_dataUser {
+  max-width: 134px;
   margin-left: 20px;
   color: #fff;
 }
@@ -302,7 +317,7 @@ img {
   border: 2px solid #ffffff;
 }
 
-.TestimonialFeedback_userElement{
+.TestimonialFeedback_userElement {
   margin-left: 178px;
 }
 
@@ -366,10 +381,10 @@ img {
 
 .flatDiscount {
   padding: 218px 0 131px;
-  
+
 }
 
-.flatDiscountContent{
+.flatDiscountContent {
   display: flex;
 }
 
@@ -390,53 +405,53 @@ img {
   margin: 14px 0 37px;
 }
 
-.flat{
+.flat {
   display: flex;
 }
 
-.flatRight{
-/* padding: 18px 40px 19px;
+.flatRight {
+  /* padding: 18px 40px 19px;
 gap: 10px; */
-width: 288px;
-height: 145px;
-background: #FFFFFF;
-border: 1px solid #95BFCB;
+  width: 288px;
+  height: 145px;
+  background: #FFFFFF;
+  border: 1px solid #95BFCB;
 }
 
-.flatRight_mailUs{
+.flatRight_mailUs {
   display: flex;
   padding: 18px 40px 19px;
 }
 
-.flatRight_mail{
+.flatRight_mail {
   font-weight: 800;
   font-size: 14px;
   line-height: 150%;
 }
 
-.flatRight_callUs{
+.flatRight_callUs {
   padding: 0px 40px 19px;
 }
 
-.flatLeft{
+.flatLeft {
   width: 167px;
-height: 144.75px;
-background: #1E2C30;
-align-items: center;
-text-align: center;
+  height: 144.75px;
+  background: #1E2C30;
+  align-items: center;
+  text-align: center;
 }
 
-.flatLeft_text{
+.flatLeft_text {
   width: 83px;
-height: 32px;
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 175%;
-align-items: center;
-text-align: center;
-letter-spacing: 0.02em;
+  height: 32px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 175%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* ----form----- */
@@ -445,65 +460,69 @@ letter-spacing: 0.02em;
 
 /* -------ourBlog------- */
 
-.ourBlog{
+.ourBlog {
   background: #fff;
   padding: 145px 0 150px;
 }
 
-.ourBlog_text{
+.ourBlog_text {
   text-align: center;
 
 }
 
-.ourBlog_subtittle{
+.ourBlog_subtittle {
   font-weight: 700;
-font-size: 45px;
-line-height: 130%;
-letter-spacing: -0.01em;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
 }
 
-.ourBlogBlocks{
+.ourBlogBlocks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 105px;
   padding: 40px 0 60px;
+  justify-content: center;
+
 }
 
-.BlockText_ourBlog_text{
+.BlockText_ourBlog_text {
   font-size: 13px;
-line-height: 125%;
+  line-height: 125%;
 }
 
-.BlockText_ourBlog_tittle{
+.BlockText_ourBlog_tittle {
   font-size: 22px;
   line-height: 140%;
   letter-spacing: 0.02em;
   margin: 8px 0 14px;
 }
 
-.ourBlock_1, .ourBlock_2, .ourBlock_3{
+.ourBlock_1,
+.ourBlock_2,
+.ourBlock_3 {
   background: #EDF5F7;
 }
 
-.ourBlockImg{
+.ourBlockImg {
   width: 370px;
-height: 325px;
+  height: 325px;
 }
 
-.ourBlockText{
+.ourBlockText {
   width: 317px;
   padding: 30px 26px 39px 26px;
 }
 
-.ourButton{
+.ourButton {
   width: 250px;
-height: 65px;
+  height: 65px;
 
 }
 
-.ourBlockText_button{
+.ourBlockText_button {
   justify-content: center;
-text-align: center;
+  text-align: center;
 
 
 }

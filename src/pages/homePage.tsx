@@ -134,7 +134,7 @@ export default function HomePage() {
       </section>
 
       <section className="HomePageAboutUs AboutUs">
-        <div className="HomePageContainer">
+        <div className="HomePageContainer ">
           <div className="AboutUsBlock">
             <div className="AboutUs_leftBlock leftBlock">
               <div className="leftBlock_top">
@@ -190,8 +190,8 @@ export default function HomePage() {
             </h2>
           </div>
           <div className="ourServicesBlockContent ourContent">
-            <Img className="hhh4" src={Photo5}></Img>
-            <div className="ourContentText_2">
+            <Img className="ourServicesFoto_1" src={Photo5}></Img>
+            <div className="ourContentText">
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
                   Face masks ....................................... $48.00
@@ -231,7 +231,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="ourServicesBlockContent ourContent">
-            <div className="ourContentText">
+            <div className="ourContentText2">
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
                   Face masks ....................................... $48.00
@@ -267,9 +267,9 @@ export default function HomePage() {
                   The versions have evolved over the sometimes by accident.
                 </p>
               </div>
-              <button className="ourContentButton">GET AN APPOINTMENT</button>
+              <button className="ourContentButton ourContentButton2">GET AN APPOINTMENT</button>
             </div>
-            <Img className="ff3" src={Photo6}></Img>
+            <Img className=".ourServicesFoto_2" src={Photo6}></Img>
           </div>
         </div>
       </section>
@@ -283,41 +283,6 @@ export default function HomePage() {
             </h2>
           </div>
           <div className="TestimonialReviews">
-            {/* <div className="TestimonialFeedback">
-              <div className="TestimonialFeedback_texts">
-                <p className="TestimonialFeedback_text">
-                  “ It is a long established fact that a reader will be tracked
-                  distracted by the readable content of a page is when looking
-                  at its layout. The point of using Lorem of distribution it
-                  look like readable English “
-                </p>
-              </div>
-              <div className="TestimonialFeedback_user">
-                <div className="TestimonialFeedback_userFoto">
-                  <Img
-                    className="TestimonialFeedback_userFoto_1"
-                    src={userPhoto1}
-                  ></Img>
-                </div>
-                <div className="TestimonialFeedback_dataUser">
-                  <div className="TestimonialFeedback_stars">
-                    <Img src={Reviews}></Img>
-
-                  </div>
-                  <h3 className="TestimonialFeedback_userName">
-                    James Williams
-                  </h3>
-                  <p className="TestimonialFeedback_userCountry">
-                    United States
-                  </p>
-                </div>
-                <div className="TestimonialFeedback_userElement">
-                  <Img src={Icons3}></Img>
-
-                </div>
-              </div>
-            </div> */}
-
             <div className="TestimonialFeedback">
               <div className="TestimonialFeedback_texts">
                 <p className="TestimonialFeedback_text">
@@ -330,7 +295,7 @@ export default function HomePage() {
               <div className="TestimonialFeedback_user">
                 <div className="TestimonialFeedback_userFoto">
                 <Img
-                    // className="TestimonialFeedback_userFoto_1"
+                    className="TestimonialFeedback_userFoto_1"
                     src={userPhoto1}
                   ></Img>
                 </div>
