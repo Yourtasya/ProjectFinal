@@ -1,3 +1,11 @@
 .BlogPage {
   background-color: #ffffff;
 }
+
+.GetInTouchBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px 0 60px;
+  justify-content: center;
+  gap: 60px 44px;
+}

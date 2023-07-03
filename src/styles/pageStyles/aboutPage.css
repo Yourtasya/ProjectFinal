@@ -1,12 +1,13 @@
 .AboutPage {
   background-color: #ffffff;
-  padding: 118px 0 117px ;
+  /* padding: 118px 0 117px ; */
 }
 
 .FirstBlock {
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding: 130px 0;
 
 }
 
@@ -54,7 +55,6 @@
 }
 
 .ourValuesTexts{
-  padding-top: 130px;
   text-align: center;
 }
 

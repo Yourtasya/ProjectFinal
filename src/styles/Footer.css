@@ -76,3 +76,16 @@ border: 1px solid #FFFFFF;
 .workingHours:not(:last-child){
   margin-bottom: 5px;
 }
+
+.footerNavLink a, .footerNavLinkUtility a{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 200%;
+/* or 34px */
+text-decoration: none;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+}
