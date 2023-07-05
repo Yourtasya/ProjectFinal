@@ -29,7 +29,6 @@
 }
 
 
-
 .ButtonInNavBar {
   border: none;
   color: #555555;
@@ -100,4 +99,31 @@ text-decoration: none;
 
 .SvgImgInNavBar {
   padding-right: 12px;
+}
+
+/* ----ourValuesShareUs------- */
+
+.ourValuesShareUs{
+  padding: 150px 0;
+}
+
+.ShareUsContentBlock1_subtittle{
+  padding: 9px 0 21px;
+  width: 264px;
+  font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+}
+
+.ourValuesShareUsContent{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ShareUsContentBlock1_texts{
+  margin-bottom: 53px;
+}
+
+.ShareUsContentBlock2_img{
+  margin-bottom: 46px;
 }

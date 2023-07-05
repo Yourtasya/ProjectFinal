@@ -414,17 +414,26 @@ gap: 10px; */
 
 .flatRight_mailUs {
   display: flex;
-  padding: 18px 40px 19px;
+  padding: 18px 40px 19px 89px;
 }
 
-.flatRight_mail {
+.flatRight_mailTittle,
+.flatRight_callTittle {
   font-weight: 800;
   font-size: 14px;
   line-height: 150%;
 }
 
+.flatRight_mailSubittle,
+.flatRight_callSubittle {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+}
+
 .flatRight_callUs {
-  padding: 0px 40px 19px;
+  padding: 0px 40px 19px 89px;
+
 }
 
 .flatLeft {
@@ -449,6 +458,112 @@ gap: 10px; */
 }
 
 /* ----form----- */
+
+.flatDiscountTextForm{
+  background: #fff;
+width: 550px;
+height: 667px;
+}
+.flatLeft_form {
+  display: table-caption;
+  padding: 66px 75px 0;
+}
+
+.input {
+  width: 400px;
+  height: 50px;
+  box-sizing: border-box;
+  padding-left: 54px;
+
+}
+
+.inputForUs{
+  width: 399px;
+  height: 136px;
+}
+
+.latLeft_form_name {
+  background: url(../../icons/User.svg) no-repeat;
+}
+
+.wrapper {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.wrapperForUs{
+  
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.iconName {
+  padding: 21px 15px 20px;
+  height: 1.5rem;
+  width: 1.5rem;
+  background: url(../../icons/User.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.iconEmail {
+  padding: 21px 15px 20px;
+  height: 1.5rem;
+  width: 1.5rem;
+  background: url(../../icons/Mail.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.iconPhone {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 21px 15px 20px;
+
+  background: url(../../icons/Phone.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.iconService {
+  height: 1.5rem;
+  width: 1.5rem;
+  
+
+  background: url(../../icons/Book.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: 25px;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.iconAnyNote {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 21px 15px 20px;
+  background: url(../../icons/Edit.svg) no-repeat;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: 35px;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+
+
+.footerNavLink {
+  display: grid;
+}
 
 /* -------ourBlog------- */
 
@@ -514,78 +629,3 @@ gap: 10px; */
   text-align: center;
 }
 
-.flatLeft_form {
-  display: table-caption;
-}
-.latLeft_form_name {
-  background: url(../../icons/User.svg) no-repeat;
-}
-
-.wrapper {
-  position: relative;
-}
-
-.iconName {
-  height: 1.5rem;
-  width: 1.5rem;
-  padding: 4px;
-  background: url(../../icons/User.svg) no-repeat;
-  position: absolute;
-  box-sizing: border-box;
-  top: 50%;
-  left: 2px;
-  transform: translateY(-50%);
-}
-.iconEmail {
-  height: 1.5rem;
-  width: 1.5rem;
-  padding: 4px;
-  background: url(../../icons/Mail.svg) no-repeat;
-  position: absolute;
-  box-sizing: border-box;
-  top: 50%;
-  left: 2px;
-  transform: translateY(-50%);
-}
-.iconPhone {
-  height: 1.5rem;
-  width: 1.5rem;
-  padding: 4px;
-  background: url(../../icons/Phone.svg) no-repeat;
-  position: absolute;
-  box-sizing: border-box;
-  top: 50%;
-  left: 2px;
-  transform: translateY(-50%);
-}
-.iconService {
-  height: 1.5rem;
-  width: 1.5rem;
-  padding: 4px;
-  background: url(../../icons/Book.svg) no-repeat;
-  position: absolute;
-  box-sizing: border-box;
-  top: 50%;
-  left: 2px;
-  transform: translateY(-50%);
-}
-.iconAnyNote {
-  height: 1.5rem;
-  width: 1.5rem;
-  padding: 4px;
-  background: url(../../icons/Edit.svg) no-repeat;
-  position: absolute;
-  box-sizing: border-box;
-  top: 50%;
-  left: 2px;
-  transform: translateY(-50%);
-}
-
-.input {
-  height: 50px;
-  box-sizing: border-box;
-  padding-left: 1.5rem;
-}
-.footerNavLink {
-  display: grid;
-}

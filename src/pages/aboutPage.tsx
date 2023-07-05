@@ -25,6 +25,15 @@ import Image12 from "../img/aboutPage/Image12.png";
 import Image13 from "../img/aboutPage/Image13.png";
 
 //@ts-ignore
+import Image14 from "../img/aboutPage/Image14.jpg";
+
+//@ts-ignore
+import Image15 from "../img/aboutPage/Image15.jpg";
+
+//@ts-ignore
+import Image16 from "../img/aboutPage/Image16.jpg";
+
+//@ts-ignore
 import userPhoto from "../img/homePage/userPhoto.jpg";
 //@ts-ignore
 import userPhoto1 from "../img/homePage/userPhoto1.jpg";
@@ -39,67 +48,76 @@ export default function AboutPage() {
   return (
     <div className="AboutPage">
       <div className="HomePageContainer">
+
         <div className="FirstBlock">
           <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
           <p className="FirstBlockTittle">The big story behind, our <br></br>beautyness center</p>
           <button className="FirstBlockButton">Make a reservation</button>
         </div>
+      </div>
 
-        <div className="ourValues">
-          <div className="ourValuesContainer">
-            <div className="ourValuesTexts">
-              <h4 className="ourValuesSubliltle">Our Values</h4>
-              <h2 className="ourValuesTittle">The work values we thrive for</h2>
+      <section className="ourValues">
+        <div className="ourValuesContainer">
+          <div className="ourValuesTexts">
+            <h4 className="ourValuesSubliltle">Our Values</h4>
+            <h2 className="ourValuesTittle">The work values we thrive for</h2>
+          </div>
+
+          <div className="ourValuesBlocks">
+            <div className="ourValuesBlock">
+              <div className="ourValuesBlockImg">
+                <Img className="ourValuesBlock_img" src={Icon}></Img>
+              </div>
+              <div className="ourValuesBlockTexts">
+                <h3 className="ourValuesSubliltle">Beauty Experts</h3>
+                <p className="ourValuesBlockTittle">The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.</p>
+              </div>
             </div>
 
-            <div className="ourValuesBlocks">
-              <div className="ourValuesBlock">
-                <div className="ourValuesBlockImg">
-                  <Img className="ourValuesBlock_img" src={Icon}></Img>
-                </div>
-                <div className="ourValuesBlockTexts">
-                  <h3 className="ourValuesSubliltle">Beauty Experts</h3>
-                  <p className="ourValuesBlockTittle">The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.</p>
-                </div>
+            <hr className="ourValuesLine" />
+
+
+            <div className="ourValuesBlock ourValuesBlockLine">
+              <div className="ourValuesBlockImg">
+                <Img className="ourValuesBlock_img" src={Icon1}></Img>
               </div>
-
-              <hr className="ourValuesLine" />
-
-
-              <div className="ourValuesBlock ourValuesBlockLine">
-                <div className="ourValuesBlockImg">
-                  <Img className="ourValuesBlock_img" src={Icon1}></Img>
-                </div>
-                <div className="ourValuesBlockTexts">
-                  <h3 className="ourValuesSubliltle">Beauty Experts</h3>
-                  <p className="ourValuesBlockTittle">The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.</p>
-                </div>
+              <div className="ourValuesBlockTexts">
+                <h3 className="ourValuesSubliltle">Beauty Experts</h3>
+                <p className="ourValuesBlockTittle">The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.</p>
               </div>
+            </div>
 
-              <hr className="ourValuesLine" />
+            <hr className="ourValuesLine" />
 
 
-              <div className="ourValuesBlock">
-                <div className="ourValuesBlockImg">
-                  <Img className="ourValuesBlock_img" src={Vector1}></Img>
-                </div>
-                <div className="ourValuesBlockTexts">
-                  <h3 className="ourValuesSubliltle">Beauty Experts</h3>
-                  <p className="ourValuesBlockTittle">The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.</p>
-                </div>
+            <div className="ourValuesBlock">
+              <div className="ourValuesBlockImg">
+                <Img className="ourValuesBlock_img" src={Vector1}></Img>
+              </div>
+              <div className="ourValuesBlockTexts">
+                <h3 className="ourValuesSubliltle">Beauty Experts</h3>
+                <p className="ourValuesBlockTittle">The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
 
       <div className="ourValuesAboutUs">
         <div className="HomePageContainer ">
-
-          <div className="ourValuesAboutUsBlakBlock">
-            <Img className="ourValuesAboutUs_img" src={Photo}></Img>
+          <div className="ourValuesBlackBlock">
+            <div className="ourValuesAboutUsContent">
+              <Img className="ourValuesAboutUs_img" src={Photo}></Img>
+              <div className="ourValuesAboutUsTexts UsTexts">
+                <h4 className="UsTexts_subliltle">About Us</h4>
+                <h2 className="UsTexts_tittle">Style is a Reflection of your Attitude & your Personality</h2>
+                <p className="UsTexts_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words which don't look even many desktop publishing packages.</p>
+              </div>
+            </div>
 
           </div>
+
 
 
         </div>
@@ -256,9 +274,16 @@ export default function AboutPage() {
                 <p className="ShareUsContentBlock1_text">
                   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words  many desktop publishing packages.
                 </p>
-
               </div>
+              <Img className="ShareUsContentBlock1_img" src={Image14}></Img>
             </div>
+
+            <div className="ShareUsContentBlock2">
+              <Img className="ShareUsContentBlock2_img" src={Image15}></Img>
+              <Img className="ShareUsContentBlock2_img2" src={Image16}></Img>
+
+            </div>
+
           </div>
         </div>
       </section>

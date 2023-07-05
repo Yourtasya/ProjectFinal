@@ -45,6 +45,18 @@ import Reviews from "../icons/Reviews.svg";
 import Vector1 from "../icons/Vector1.svg";
 //@ts-ignore
 import Vector2 from "../icons/Vector2.svg";
+// //@ts-ignore
+// import User from "../icons/User.svg";
+// //@ts-ignore
+// import Mail from "../icons/Mail.svg";
+// //@ts-ignore
+// import Phone from "../icons/Phone.svg";
+// //@ts-ignore
+// import Book from "../icons/Book.svg";
+// //@ts-ignore
+// import  from "../icons/Edit.svg";
+
+
 
 import "../styles/pageStyles/homePage.css";
 import { LOGIN_ROUTE } from "../links/consts";
@@ -427,7 +439,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      \
+
       <section className="flatDiscount">
         <div className="HomePageContainer">
           <div className="flatDiscountContent">
@@ -446,15 +458,18 @@ export default function HomePage() {
                 <div className="flatRight">
                   <div className="flatRight_mailUs">
                     {/* <img src="" alt="" /> */}
-                    <p className="flatRight_mail">
-                      MAIL US : info@beautyness.com
-                    </p>
+                    <div className="flatRight_mail">
+                      <p className="flatRight_mailTittle">MAIL US :</p>
+                      <p className="flatRight_mailSubittle">info@beautyness.com</p>
+                    </div>
                   </div>
 
                   <div className="flatRight_callUs">
                     {/* <img src="" alt="" /> */}
                     <p className="flatRight_call">
-                      MAIL US : info@beautyness.com
+                    <p className="flatRight_callTittle">CALL US :</p>
+                      <p className="flatRight_callSubittle">(+22) 123 4568 009</p>
+                       
                     </p>
                   </div>
                 </div>
@@ -487,11 +502,11 @@ export default function HomePage() {
                       className="input"
                     ></input>
                   </div>
-                  <div className="wrapper">
+                  <div className="wrapperForUs">
                     <div className="iconAnyNote"></div>
                     <input
-                      placeholder="Any Note For Us"
-                      className="input"
+                      placeholder="Help"
+                      className="inputForUs"
                     ></input>
                   </div>
                 </form>
@@ -500,6 +515,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       <section className="ourBlog">
         <div className="HomePageContainer">
           <div className="ourBlog_text">
