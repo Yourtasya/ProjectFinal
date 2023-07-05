@@ -56,8 +56,6 @@ import Vector2 from "../icons/Vector2.svg";
 // //@ts-ignore
 // import  from "../icons/Edit.svg";
 
-
-
 import "../styles/pageStyles/homePage.css";
 import { LOGIN_ROUTE } from "../links/consts";
 
@@ -457,20 +455,21 @@ export default function HomePage() {
               <div className="flatDiscountText_flat flat">
                 <div className="flatRight">
                   <div className="flatRight_mailUs">
-                    {/* <img src="" alt="" /> */}
                     <div className="flatRight_mail">
                       <p className="flatRight_mailTittle">MAIL US :</p>
-                      <p className="flatRight_mailSubittle">info@beautyness.com</p>
+                      <p className="flatRight_mailSubittle">
+                        info@beautyness.com
+                      </p>
                     </div>
                   </div>
 
                   <div className="flatRight_callUs">
-                    {/* <img src="" alt="" /> */}
-                    <p className="flatRight_call">
-                    <p className="flatRight_callTittle">CALL US :</p>
-                      <p className="flatRight_callSubittle">(+22) 123 4568 009</p>
-                       
-                    </p>
+                    <div className="flatRight_call">
+                      <p className="flatRight_callTittle">CALL US :</p>
+                      <p className="flatRight_callSubittle">
+                        (+22) 123 4568 009
+                      </p>
+                    </div>
                   </div>
                 </div>
 
@@ -510,8 +509,7 @@ export default function HomePage() {
                     ></textarea>
                   </div>
 
-              <button className="formButton">READ MORE</button>
-
+                  <button className="formButton">READ MORE</button>
                 </form>
               </div>
             </div>

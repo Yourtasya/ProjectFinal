@@ -1,9 +1,7 @@
 import React from "react";
+import { Img } from "react-image";
 
 import "../styles/pageStyles/blogPage.css";
-
-import { NavLink } from "react-router-dom";
-import { Img } from "react-image";
 
 //@ts-ignore
 import Photo7 from "../img/homePage/Photo7.jpg";
@@ -38,8 +36,8 @@ export default function BlogPage() {
                     The energy efficiency of the hydrotherapy or swim
                   </h3>
                   <p className="BlockText_ourBlog_subtittle">
-                    The point of using Lorem Ipsum hiter that using making it look
-                    like others readable will get end.
+                    The point of using Lorem Ipsum hiter that using making it
+                    look like others readable will get end.
                   </p>
                 </div>
               </div>
@@ -57,8 +55,8 @@ export default function BlogPage() {
                     Tips to improve your body via cleansing
                   </h3>
                   <p className="BlockText_ourBlog_subtittle">
-                    The point of using Lorem Ipsum hiter that using making it look
-                    like others readable will get end.
+                    The point of using Lorem Ipsum hiter that using making it
+                    look like others readable will get end.
                   </p>
                 </div>
               </div>
@@ -76,8 +74,8 @@ export default function BlogPage() {
                     The best and perfect skincare strategy
                   </h3>
                   <p className="BlockText_ourBlog_subtittle">
-                    The point of using Lorem Ipsum hiter that using making it look
-                    like others readable will get end.
+                    The point of using Lorem Ipsum hiter that using making it
+                    look like others readable will get end.
                   </p>
                 </div>
               </div>
@@ -94,8 +92,8 @@ export default function BlogPage() {
                     Fell the natural reverse aging process
                   </h3>
                   <p className="BlockText_ourBlog_subtittle">
-                    The point of using Lorem Ipsum hiter that using making it look
-                    like others readable will get end.
+                    The point of using Lorem Ipsum hiter that using making it
+                    look like others readable will get end.
                   </p>
                 </div>
               </div>
@@ -112,8 +110,8 @@ export default function BlogPage() {
                     How to make the make-up stay last
                   </h3>
                   <p className="BlockText_ourBlog_subtittle">
-                    The point of using Lorem Ipsum hiter that using making it look
-                    like others readable will get end.
+                    The point of using Lorem Ipsum hiter that using making it
+                    look like others readable will get end.
                   </p>
                 </div>
               </div>
@@ -130,8 +128,8 @@ export default function BlogPage() {
                     The energy efficiency of the hydrotherapy or swim
                   </h3>
                   <p className="BlockText_ourBlog_subtittle">
-                    The point of using Lorem Ipsum hiter that using making it look
-                    like others readable will get end.
+                    The point of using Lorem Ipsum hiter that using making it
+                    look like others readable will get end.
                   </p>
                 </div>
               </div>
