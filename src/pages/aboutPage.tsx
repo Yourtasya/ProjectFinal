@@ -123,10 +123,10 @@ export default function AboutPage() {
                 <h3 className="BlockText_title">Sherlin D’Cruz</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
-                I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain
+                  I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain
                 </p>
               </div>
-            
+
             </div>
 
             <div className="Block_2">
@@ -137,10 +137,10 @@ export default function AboutPage() {
                 <h3 className="BlockText_title">Maria Sharapova</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
-                I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain
+                  I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain
                 </p>
               </div>
-            
+
             </div>
 
             <div className="Block_3">
@@ -151,10 +151,10 @@ export default function AboutPage() {
                 <h3 className="BlockText_title">Angeline Jenifer</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
-                I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain
+                  I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain
                 </p>
               </div>
-            
+
             </div>
           </div>
 
@@ -182,7 +182,7 @@ export default function AboutPage() {
               </div>
               <div className="TestimonialFeedback_user">
                 <div className="TestimonialFeedback_userFoto">
-                <Img
+                  <Img
                     className="TestimonialFeedback_userFoto_1"
                     src={userPhoto1}
                   ></Img>
@@ -238,6 +238,25 @@ export default function AboutPage() {
                   <Img src={Icons3}></Img>
 
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="ourValuesShareUs">
+        <div className="HomePageContainer">
+          <div className="ourValuesShareUsContent ShareUsContent">
+            <div className="ShareUsContentBlock1">
+              <div className="ShareUsContentBlock1_texts">
+                <h4 className="ShareUsContentBlock1_tittle">Share us</h4>
+                <h2 className="ShareUsContentBlock1_subtittle">
+                  Follow us on Instagram
+                </h2>
+                <p className="ShareUsContentBlock1_text">
+                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words  many desktop publishing packages.
+                </p>
+
               </div>
             </div>
           </div>
