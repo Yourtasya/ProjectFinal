@@ -502,13 +502,16 @@ export default function HomePage() {
                       className="input"
                     ></input>
                   </div>
-                  <div className="wrapperForUs">
+                  <div className="wrapper">
                     <div className="iconAnyNote"></div>
-                    <input
-                      placeholder="Help"
-                      className="inputForUs"
-                    ></input>
+                    <textarea
+                      placeholder="Any Note For Us"
+                      className="textarea"
+                    ></textarea>
                   </div>
+
+              <button className="formButton">READ MORE</button>
+
                 </form>
               </div>
             </div>

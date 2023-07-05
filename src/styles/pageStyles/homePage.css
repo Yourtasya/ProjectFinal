@@ -459,11 +459,12 @@ gap: 10px; */
 
 /* ----form----- */
 
-.flatDiscountTextForm{
+.flatDiscountTextForm {
   background: #fff;
-width: 550px;
-height: 667px;
+  width: 550px;
+  height: 667px;
 }
+
 .flatLeft_form {
   display: table-caption;
   padding: 66px 75px 0;
@@ -477,9 +478,12 @@ height: 667px;
 
 }
 
-.inputForUs{
+
+.textarea {
   width: 399px;
   height: 136px;
+  box-sizing: border-box;
+  padding: 18px 0 0 54px;
 }
 
 .latLeft_form_name {
@@ -487,12 +491,6 @@ height: 667px;
 }
 
 .wrapper {
-  position: relative;
-  padding-bottom: 15px;
-}
-
-.wrapperForUs{
-  
   position: relative;
   padding-bottom: 15px;
 }
@@ -537,7 +535,7 @@ height: 667px;
 .iconService {
   height: 1.5rem;
   width: 1.5rem;
-  
+
 
   background: url(../../icons/Book.svg) no-repeat;
   position: absolute;
@@ -559,10 +557,25 @@ height: 667px;
   transform: translateY(-50%);
 }
 
-
-
 .footerNavLink {
   display: grid;
+}
+
+.formButton {
+  border: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+  padding: 23px 109px;
+  gap: 10px;
+  width: 399px;
+  height: 64px;
+  color: #fff;
+  background: #5C8692;
 }
 
 /* -------ourBlog------- */
@@ -628,4 +641,3 @@ height: 667px;
   justify-content: center;
   text-align: center;
 }
-
