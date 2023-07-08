@@ -1,3 +1,54 @@
-.ServicesPage {
+.ServicesPageBlocks {
   background-color: #ffffff;
+
+}
+
+.ServicesPrices{
+  padding: 146px 0 131px;
+
+}
+
+.HomePageContainer2{
+  width: 1198px;
+}
+
+.ourServicesFoto_1, .ourServicesFoto_2{
+  /* width: 510px; */
+}
+
+.aboutPageFlatDiscount{
+  padding: 113px 0;
+}
+
+.aboutPageFlatDiscountContainer{
+  max-width: 644px;
+  margin: 0 auto;
+}
+
+.flatDiscountText{
+  justify-content: center;
+}
+
+.flatDiscountTexts{
+  text-align: center;
+}
+
+.flatGet{
+  display: flex;
+  justify-content: center;
+}
+
+.flatText_subtittle{
+  padding: 9px 0 14px;
+  font-weight: 700;
+font-size: 45px;
+line-height: 130%;
+text-align: center;
+}
+
+.flatText_text{
+  font-weight: 400;
+font-size: 18px;
+line-height: 175%;
+margin-bottom: 32px;
 }

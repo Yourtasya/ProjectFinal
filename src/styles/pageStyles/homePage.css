@@ -177,9 +177,9 @@ img {
 }
 
 .ourServicesBlock_text {
-  /* max-width: 659px; */
   text-align: center;
   justify-content: center;
+
 }
 
 .ourServicesBlock_subtittle {
@@ -187,6 +187,7 @@ img {
   text-align: center;
   letter-spacing: -0.01em;
   margin-bottom: 50px;
+
 }
 
 .ourContent {
@@ -201,6 +202,9 @@ img {
   margin: 30px 0px 0px 80px;
 }
 
+.ourServicesFoto_1, .ourServicesFoto_2{
+  width: 510px;
+}
 .ourContentText_1 {
   font-family: "Playfair Display";
   font-style: normal;
@@ -231,8 +235,13 @@ img {
   margin-bottom: 18px;
 }
 
+.ourServicesFoto_2{
+  width: 510px;
+}
+
 .ourContentButton {
   margin-top: 17px;
+  margin-bottom: 124px;
   width: 249px;
   height: 65px;
   border: none;
@@ -382,7 +391,7 @@ img {
   display: flex;
 }
 
-.flatDiscountTex_subtittle {
+.flatDiscountText_subtittle {
   width: 435px;
   height: 174px;
   font-size: 45px;
@@ -397,6 +406,7 @@ img {
   font-size: 18px;
   line-height: 175%;
   margin: 14px 0 37px;
+  
 }
 
 .flat {
@@ -437,16 +447,20 @@ gap: 10px; */
 }
 
 .flatLeft {
-  width: 167px;
-  height: 144.75px;
+  display: flex;
+  /* width: 167px;
+  height: 144.75px; */
   background: #1e2c30;
   align-items: center;
   text-align: center;
+  color: #fff;
+  justify-content: center;
+  padding: 12px 34px;
 }
 
 .flatLeft_text {
   width: 83px;
-  height: 32px;
+  /* height: 32px; */
   font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
@@ -455,6 +469,11 @@ gap: 10px; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.02em;
+}
+
+.flatLeft_text50{
+  font-weight: 800;
+  font-size: 30px;
 }
 
 /* ----form----- */
@@ -472,7 +491,7 @@ gap: 10px; */
 
 .input {
   width: 400px;
-  height: 50px;
+  height: 65px;
   box-sizing: border-box;
   padding-left: 54px;
 
@@ -540,7 +559,7 @@ gap: 10px; */
   background: url(../../icons/Book.svg) no-repeat;
   position: absolute;
   box-sizing: border-box;
-  margin-top: 25px;
+  margin-top: 32px;
   left: 15px;
   transform: translateY(-50%);
 }

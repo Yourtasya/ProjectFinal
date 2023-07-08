@@ -177,8 +177,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       <section className="ourServicesBlock">
-        <div className="ourServicesBlockContainer">
+        <div className="HomePageContainer   ">
           <div className="ourServicesBlock_text">
             <h4 className="ourServicesBlock_tittle">Our Services</h4>
             <h2 className="ourServicesBlock_subtittle">
@@ -271,6 +272,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
       <section className="TestimonialsBlock">
         <div className="ourServicesBlockContainer">
           <div className="TestimonialsBlock_text">
@@ -443,7 +445,7 @@ export default function HomePage() {
           <div className="flatDiscountContent">
             <div className="flatDiscountText">
               <h4 className="flatDiscountText_title">Flat Discount </h4>
-              <h3 className="flatDiscountTex_subtittle">
+              <h3 className="flatDiscountText_subtittle">
                 Claim upto 50% off er on ‍the most popular services...
               </h3>
               <p className="flatDiscountText_text">
@@ -474,7 +476,12 @@ export default function HomePage() {
                 </div>
 
                 <div className="flatLeft">
-                  <p className="flatLeft_text">Get Flat 50% Discount</p>
+                  <div className="fff">
+                    <p className="flatLeft_text">Get Flat </p>
+                    <p className="flatLeft_text50">50%</p>
+                    <p className="flatLeft_text2">Discount</p>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -585,12 +592,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <Img src={Background4}></Img>
         <Img src={Icons3}></Img>
         <Img src={Vector2}></Img>
         <Img src={Background2}></Img>
-      </section>
+      </section> */}
     </div>
   );
 }
