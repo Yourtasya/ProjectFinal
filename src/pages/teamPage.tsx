@@ -22,7 +22,6 @@ export default function TeamPage() {
   const getInfo = async (info: any) => {
     try {
       const res = await TeamSingleContext.getInfoAboutUniqueUserById(info);
-      setInfo(res);
     } catch (e) {
       console.log(e);
     }
@@ -47,12 +46,7 @@ export default function TeamPage() {
             <div className="OurExpertsBlocks">
               <div className="Block_1">
                 <NavLink to={`/team/single/:1`}>
-                  <Img
-                    id="1"
-                    onClick={(e: any) => getInfo(e.target.id)}
-                    className="BlockImg"
-                    src={Image11}
-                  ></Img>
+                  <Img id="1" className="BlockImg" src={Image11}></Img>
                 </NavLink>
                 <div className="Block_1_Text OurExpertsBlockText">
                   <h3 className="BlockText_title">Sherlin D’Cruz</h3>
@@ -66,12 +60,7 @@ export default function TeamPage() {
 
               <div className="Block_2">
                 <NavLink to={`/team/single/:2`}>
-                  <Img
-                    id="2"
-                    onClick={(e: any) => getInfo(e.target.id)}
-                    className="BlockImg"
-                    src={Image12}
-                  ></Img>
+                  <Img id="2" className="BlockImg" src={Image12}></Img>
                 </NavLink>
                 <div className="Block_2_Text OurExpertsBlockText">
                   <h3 className="BlockText_title">Maria Sharapova</h3>
@@ -85,12 +74,7 @@ export default function TeamPage() {
 
               <div className="Block_3">
                 <NavLink to={`/team/single/:3`}>
-                  <Img
-                    id="3"
-                    onClick={(e: any) => getInfo(e.target.id)}
-                    className="BlockImg"
-                    src={Image13}
-                  ></Img>
+                  <Img id="3" className="BlockImg" src={Image13}></Img>
                 </NavLink>
                 <div className="Block_3_Text OurExpertsBlockText">
                   <h3 className="BlockText_title">Angeline Jenifer</h3>
@@ -104,12 +88,7 @@ export default function TeamPage() {
 
               <div className="Block_3">
                 <NavLink to={`/team/single/:4`}>
-                  <Img
-                    id="4"
-                    onClick={(e: any) => getInfo(e.target.id)}
-                    className="BlockImg"
-                    src={Image13}
-                  ></Img>
+                  <Img id="4" className="BlockImg" src={Image13}></Img>
                 </NavLink>
                 <div className="Block_3_Text OurExpertsBlockText">
                   <h3 className="BlockText_title">Angeline Jenifer</h3>
@@ -123,12 +102,7 @@ export default function TeamPage() {
 
               <div className="Block_3">
                 <NavLink to={`/team/single/:5`}>
-                  <Img
-                    id="5"
-                    onClick={(e: any) => getInfo(e.target.id)}
-                    className="BlockImg"
-                    src={Image13}
-                  ></Img>{" "}
+                  <Img id="5" className="BlockImg" src={Image13}></Img>{" "}
                 </NavLink>
                 <div className="Block_3_Text OurExpertsBlockText">
                   <h3 className="BlockText_title">Angeline Jenifer</h3>
@@ -142,12 +116,7 @@ export default function TeamPage() {
 
               <div className="Block_3">
                 <NavLink to={`/team/single/:6`}>
-                  <Img
-                    id="6"
-                    onClick={(e: any) => getInfo(e.target.id)}
-                    className="BlockImg"
-                    src={Image13}
-                  ></Img>{" "}
+                  <Img id="6" className="BlockImg" src={Image13}></Img>{" "}
                 </NavLink>
                 <div className="Block_3_Text OurExpertsBlockText">
                   <h3 className="BlockText_title">Angeline Jenifer</h3>
