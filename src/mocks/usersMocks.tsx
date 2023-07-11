@@ -1,50 +1,63 @@
+//@ts-ignore
+import Image11 from "../img/teamPage/Image11.jpg";
+//@ts-ignore
+import Image12 from "../img/teamPage/Image12.jpg";
+//@ts-ignore
+import Image13 from "../img/teamPage/Image13.jpg";
+//@ts-ignore
+import Image5 from "../img/teamPage/Image5.jpg";
+//@ts-ignore
+import Image6 from "../img/teamPage/Image6.jpg";
+//@ts-ignore
+import Image7 from "../img/teamPage/Image7.jpg";
+
 export const usersMocksArray = [
   {
     id: "1",
     userName: "Sherlin D'Crus",
-    email: "",
-    img: "",
-    text: "",
-    phone: "",
+    email: "sherlindcruz@gmail.com",
+    img: Image11,
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecte humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat.",
+    phone: "(+22)1423585980",
   },
   {
     id: "2",
-    userName: "Sherlin D'Crus2",
+    userName: "Maria Sharapova",
     email: "",
-    img: "",
-    text: "",
+    img: Image12,
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecte humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat.",
     phone: "",
   },
   {
     id: "3",
-    userName: "Sherlin D'Crus3",
+    userName: "Angeline Jenifer",
     email: "",
-    img: "",
-    text: "",
+    img: Image13,
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecte humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat.",
     phone: "",
   },
   {
     id: "4",
-    userName: "Sherlin D'Crus4",
+    userName: "Bonham Carter",
     email: "",
-    img: "",
-    text: "",
+    img: Image6,
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecte humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat.",
     phone: "",
   },
   {
     id: "5",
-    userName: "Sherlin D'Crus5",
+    userName: "Evanna Lynch",
     email: "",
-    img: "",
-    text: "",
+    img: Image5,
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecte humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat.",
     phone: "",
   },
   {
     id: "6",
-    userName: "Sherlin D'Crus6",
+    userName: "Natalia Tena",
     email: "",
-    img: "",
-    text: "",
+    img: Image7,
+    text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecte humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat.",
     phone: "",
   },
 ];

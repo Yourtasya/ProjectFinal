@@ -5,11 +5,14 @@ import App from "./App";
 import "./styles/index.css";
 
 import TeamSingleController from "./controllers/TeamSingleContoller";
+import { AuthController } from "./controllers/AuthController";
 
 const TeamSingleContext = new TeamSingleController();
+const AuthContext = new AuthController();
 
 export const Context = createContext({
   TeamSingleContext,
+  AuthContext,
 });
 
 const root = ReactDOM.createRoot(
@@ -20,6 +23,7 @@ root.render(
     <Context.Provider
       value={{
         TeamSingleContext,
+        AuthContext,
       }}
     >
       <App />

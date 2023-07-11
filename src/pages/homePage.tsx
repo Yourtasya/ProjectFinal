@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Img } from "react-image";
 
@@ -58,8 +58,23 @@ import Vector2 from "../icons/Vector2.svg";
 
 import "../styles/pageStyles/homePage.css";
 import { LOGIN_ROUTE } from "../links/consts";
+import Model from "../components/Model";
+import "../styles/Model.css";
 
 export default function HomePage() {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [service, setService] = useState("");
+  const [anyNote, setAnyNote] = useState("");
+
+  const [modelActive, setModelActive] = useState(false);
+
+  const handleSubmite = (e: any) => {
+    e.preventDefault();
+    setModelActive(true);
+  };
+
   return (
     <div className="HomePage">
       <section className="HomePageBody Home">
@@ -481,29 +496,41 @@ export default function HomePage() {
                     <p className="flatLeft_text50">50%</p>
                     <p className="flatLeft_text2">Discount</p>
                   </div>
-
                 </div>
               </div>
             </div>
 
             <div className="flatDiscountTextForm">
               <div className="flatLeft_forms form">
-                <form action="" className="flatLeft_form">
+                <form onSubmit={handleSubmite} className="flatLeft_form">
                   <div className="wrapper">
                     <div className="iconName"></div>
-                    <input placeholder="Name" className="input"></input>
+                    <input
+                      onChange={(e) => setName(e.target.value)}
+                      placeholder="Name"
+                      className="input"
+                    ></input>
                   </div>
                   <div className="wrapper">
                     <div className="iconEmail"></div>
-                    <input placeholder="Email" className="input"></input>
+                    <input
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="Email"
+                      className="input"
+                    ></input>
                   </div>
                   <div className="wrapper">
                     <div className="iconPhone"></div>
-                    <input placeholder="Phone" className="input"></input>
+                    <input
+                      onChange={(e) => setPhone(e.target.value)}
+                      placeholder="Phone"
+                      className="input"
+                    ></input>
                   </div>
                   <div className="wrapper">
                     <div className="iconService"></div>
                     <input
+                      onChange={(e) => setService(e.target.value)}
                       placeholder="Service You Need"
                       className="input"
                     ></input>
@@ -511,12 +538,13 @@ export default function HomePage() {
                   <div className="wrapper">
                     <div className="iconAnyNote"></div>
                     <textarea
+                      onChange={(e) => setAnyNote(e.target.value)}
                       placeholder="Any Note For Us"
                       className="textarea"
                     ></textarea>
                   </div>
 
-                  <button className="formButton">READ MORE</button>
+                  <button className="formButton">GET AN APPOINTMENT</button>
                 </form>
               </div>
             </div>
@@ -592,12 +620,18 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      {/* <section>
-        <Img src={Background4}></Img>
-        <Img src={Icons3}></Img>
-        <Img src={Vector2}></Img>
-        <Img src={Background2}></Img>
-      </section> */}
+      <Model active={modelActive} setActive={setModelActive}>
+        {name}
+        <br />
+        {email}
+        <br />
+        {phone}
+        <br />
+        {service}
+        <br />
+        {anyNote}
+        <p>Ваше сообщение успешно отрпавлено!</p>
+      </Model>
     </div>
   );
 }
