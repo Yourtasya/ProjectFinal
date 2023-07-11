@@ -1,3 +1,35 @@
 .ChangelogPage {
   background-color: #ffffff;
 }
+
+.getInTouch{
+  padding: 167px 0 141px;
+}
+
+.getInTouchBlock{
+  display: flex;
+  margin-right: 120px;
+}
+
+.getInTouchBlock_texts{
+  width: 534px;
+}
+
+.getInTouchBlock_subtittle{
+  margin-top: 9px;
+}
+
+.getInTouchBlock_text{
+  margin: 23px 0 43px;
+}
+
+.FirstBlock{
+  text-align: center;
+}
+
+.scheduleYourInput{
+  width: 810px;
+  height: 65px;
+  box-sizing: border-box;
+  padding-left: 54px;
+}
