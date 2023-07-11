@@ -48,10 +48,11 @@ export default function AboutPage() {
   return (
     <div className="AboutPage">
       <div className="HomePageContainer">
-
         <div className="FirstBlock">
           <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
-          <p className="FirstBlockTittle">The big story behind, our <br></br>beautyness center</p>
+          <p className="FirstBlockTittle">
+            The big story behind, our <br></br>beautyness center
+          </p>
           <button className="FirstBlockButton">Make a reservation</button>
         </div>
       </div>
@@ -70,12 +71,15 @@ export default function AboutPage() {
               </div>
               <div className="ourValuesBlockTexts">
                 <h3 className="ourValuesSubliltle">Beauty Experts</h3>
-                <p className="ourValuesBlockTittle">The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.</p>
+                <p className="ourValuesBlockTittle">
+                  The majority have suffered alteration in some form, buying to
+                  injected humour, or randomised words which desktop publishing
+                  packages.
+                </p>
               </div>
             </div>
 
             <hr className="ourValuesLine" />
-
 
             <div className="ourValuesBlock ourValuesBlockLine">
               <div className="ourValuesBlockImg">
@@ -83,12 +87,15 @@ export default function AboutPage() {
               </div>
               <div className="ourValuesBlockTexts">
                 <h3 className="ourValuesSubliltle">Beauty Experts</h3>
-                <p className="ourValuesBlockTittle">The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.</p>
+                <p className="ourValuesBlockTittle">
+                  The majority have suffered alteration in some form, buying to
+                  injected humour, or randomised words which desktop publishing
+                  packages.
+                </p>
               </div>
             </div>
 
             <hr className="ourValuesLine" />
-
 
             <div className="ourValuesBlock">
               <div className="ourValuesBlockImg">
@@ -96,13 +103,16 @@ export default function AboutPage() {
               </div>
               <div className="ourValuesBlockTexts">
                 <h3 className="ourValuesSubliltle">Beauty Experts</h3>
-                <p className="ourValuesBlockTittle">The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.</p>
+                <p className="ourValuesBlockTittle">
+                  The majority have suffered alteration in some form, buying to
+                  injected humour, or randomised words which desktop publishing
+                  packages.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-
 
       <div className="ourValuesAboutUs">
         <div className="HomePageContainer ">
@@ -111,69 +121,80 @@ export default function AboutPage() {
               <Img className="ourValuesAboutUs_img" src={Photo}></Img>
               <div className="ourValuesAboutUsTexts UsTexts">
                 <h4 className="UsTexts_subliltle">About Us</h4>
-                <h2 className="UsTexts_tittle">Style is a Reflection of your Attitude & your Personality</h2>
-                <p className="UsTexts_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words which don't look even many desktop publishing packages.</p>
+                <h2 className="UsTexts_tittle">
+                  Style is a Reflection of your Attitude & your Personality
+                </h2>
+                <p className="UsTexts_text">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, buying to injected humour, or randomised words which
+                  don't look even many desktop publishing packages.
+                </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-
 
       <section className="ourValuesMeetOurExperts">
         <div className="HomePageContainer">
           <div className="ourValuesTexts">
             <h4 className="ourValuesSubliltle">Meet our Experts</h4>
-            <h2 className="ourValuesTittle">The amazing women behind Beautyness</h2>
+            <h2 className="ourValuesTittle">
+              The amazing women behind Beautyness
+            </h2>
           </div>
 
           <div className="OurExpertsBlocks">
             <div className="Block_1">
               <div className="BlockImg">
-                <Img src={Image11}></Img>
+                <NavLink to={`/team/single/:1`}>
+                  <Img src={Image11}></Img>
+                </NavLink>
               </div>
               <div className="Block_1_Text OurExpertsBlockText">
                 <h3 className="BlockText_title">Sherlin D’Cruz</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
-                  I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain
+                  I must explain to you how all this mistaken idea of denouncing
+                  pleasure that will araise praising pain
                 </p>
               </div>
-
             </div>
 
             <div className="Block_2">
               <div className="BlockImg">
-                <Img src={Image12}></Img>
+                <NavLink to={`/team/single/:2`}>
+                  <Img src={Image12}></Img>
+                </NavLink>
               </div>
               <div className="Block_2_Text OurExpertsBlockText">
                 <h3 className="BlockText_title">Maria Sharapova</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
-                  I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain
+                  I must explain to you how all this mistaken idea of denouncing
+                  pleasure that will araise praising pain
                 </p>
               </div>
-
             </div>
 
             <div className="Block_3">
               <div className="BlockImg">
-                <Img src={Image13}></Img>
+                <NavLink to={`/team/single/:3`}>
+                  <Img src={Image13}></Img>
+                </NavLink>
               </div>
               <div className="Block_3_Text OurExpertsBlockText">
                 <h3 className="BlockText_title">Angeline Jenifer</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
-                  I must explain to you how all this mistaken idea of denouncing pleasure that will araise praising pain
+                  I must explain to you how all this mistaken idea of denouncing
+                  pleasure that will araise praising pain
                 </p>
               </div>
-
             </div>
           </div>
-
         </div>
-
       </section>
 
       <section className="ourValuesTestimonialsBlock1">
@@ -204,7 +225,6 @@ export default function AboutPage() {
                 <div className="TestimonialFeedback_dataUser">
                   <div className="TestimonialFeedback_stars">
                     <Img src={Reviews}></Img>
-
                   </div>
                   <h3 className="TestimonialFeedback_userName">
                     James Williams
@@ -215,7 +235,6 @@ export default function AboutPage() {
                 </div>
                 <div className="TestimonialFeedback_userElement">
                   <Img src={Icons3}></Img>
-
                 </div>
               </div>
             </div>
@@ -239,7 +258,6 @@ export default function AboutPage() {
                 <div className="TestimonialFeedback_dataUser">
                   <div className="TestimonialFeedback_stars">
                     <Img src={Reviews}></Img>
-
                   </div>
                   <h3 className="TestimonialFeedback_userName">
                     James Williams
@@ -250,7 +268,6 @@ export default function AboutPage() {
                 </div>
                 <div className="TestimonialFeedback_userElement">
                   <Img src={Icons3}></Img>
-
                 </div>
               </div>
             </div>
@@ -268,7 +285,10 @@ export default function AboutPage() {
                   Follow us on Instagram
                 </h2>
                 <p className="ShareUsContentBlock1_text">
-                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, buying to injected humour, or randomised words  many desktop publishing packages.
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, buying to injected humour, or randomised words many
+                  desktop publishing packages.
                 </p>
               </div>
               <Img className="ShareUsContentBlock1_img" src={Image14}></Img>
@@ -277,19 +297,14 @@ export default function AboutPage() {
             <div className="ShareUsContentBlock2">
               <Img className="ShareUsContentBlock2_img" src={Image15}></Img>
               <Img className="ShareUsContentBlock2_img2" src={Image16}></Img>
-
             </div>
-
           </div>
         </div>
       </section>
 
       <section className="aboutPageFlatDiscount">
-        <div className="">
-          
-        </div>
-        </section> 
-
+        <div className=""></div>
+      </section>
     </div>
   );
 }

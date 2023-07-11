@@ -1,31 +1,22 @@
-import React, { useContext, useState } from "react";
-import { Context } from "..";
-
 import "../styles/pageStyles/teamPage.css";
 import { Img } from "react-image";
 
 //@ts-ignore
-import Image11 from "../img/aboutPage/Image11.jpg";
-
+import Image11 from "../img/teamPage/Image11.jpg";
 //@ts-ignore
-import Image12 from "../img/aboutPage/Image12.png";
-
+import Image12 from "../img/teamPage/Image12.jpg";
 //@ts-ignore
-import Image13 from "../img/aboutPage/Image13.png";
-import { Link } from "react-router-dom";
+import Image13 from "../img/teamPage/Image13.jpg";
+//@ts-ignore
+import Image5 from "../img/teamPage/Image5.jpg";
+//@ts-ignore
+import Image6 from "../img/teamPage/Image6.jpg";
+//@ts-ignore
+import Image7 from "../img/teamPage/Image7.jpg";
+
 import { NavLink } from "react-router-dom";
 
 export default function TeamPage() {
-  const [info, setInfo] = useState([]);
-  const { TeamSingleContext } = useContext(Context);
-
-  const getInfo = async (info: any) => {
-    try {
-      const res = await TeamSingleContext.getInfoAboutUniqueUserById(info);
-    } catch (e) {
-      console.log(e);
-    }
-  };
   return (
     <div className="TeamPage">
       <div className="HomePageContainer">
@@ -88,10 +79,10 @@ export default function TeamPage() {
 
               <div className="Block_3">
                 <NavLink to={`/team/single/:4`}>
-                  <Img id="4" className="BlockImg" src={Image13}></Img>
+                  <Img id="4" className="BlockImg" src={Image5}></Img>
                 </NavLink>
                 <div className="Block_3_Text OurExpertsBlockText">
-                  <h3 className="BlockText_title">Angeline Jenifer</h3>
+                  <h3 className="BlockText_title">Bonham Carter</h3>
                   <h4 className="BlockText_title_2">Beautyness Expert</h4>
                   <p className="BlockText_subtittle">
                     I must explain to you how all this mistaken idea of
@@ -102,10 +93,10 @@ export default function TeamPage() {
 
               <div className="Block_3">
                 <NavLink to={`/team/single/:5`}>
-                  <Img id="5" className="BlockImg" src={Image13}></Img>{" "}
+                  <Img id="5" className="BlockImg" src={Image6}></Img>{" "}
                 </NavLink>
                 <div className="Block_3_Text OurExpertsBlockText">
-                  <h3 className="BlockText_title">Angeline Jenifer</h3>
+                  <h3 className="BlockText_title">Evanna Lynch</h3>
                   <h4 className="BlockText_title_2">Beautyness Expert</h4>
                   <p className="BlockText_subtittle">
                     I must explain to you how all this mistaken idea of
@@ -116,10 +107,10 @@ export default function TeamPage() {
 
               <div className="Block_3">
                 <NavLink to={`/team/single/:6`}>
-                  <Img id="6" className="BlockImg" src={Image13}></Img>{" "}
+                  <Img id="6" className="BlockImg" src={Image7}></Img>{" "}
                 </NavLink>
                 <div className="Block_3_Text OurExpertsBlockText">
-                  <h3 className="BlockText_title">Angeline Jenifer</h3>
+                  <h3 className="BlockText_title">Natalia Tena</h3>
                   <h4 className="BlockText_title_2">Beautyness Expert</h4>
                   <p className="BlockText_subtittle">
                     I must explain to you how all this mistaken idea of

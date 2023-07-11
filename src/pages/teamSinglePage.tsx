@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-
+import { Img } from "react-image";
 import "../styles/pageStyles/teamSinglePage.css";
 import { Context } from "..";
 import { useParams } from "react-router-dom";
@@ -23,8 +23,6 @@ export default function TeamSinglePage() {
       const userObject = infoAboutUser?.find((user) => {
         return user.id === userId;
       });
-      console.log(userObject);
-      console.log(id);
 
       setInfo(userObject);
     } catch (e) {
@@ -35,13 +33,11 @@ export default function TeamSinglePage() {
   return (
     <div className="TeamSinglePage">
       <h3>TeamSinglePage</h3>
-      <div>{infoAboutUser.id}</div>
       <div>{infoAboutUser.userName}</div>
-      {/* <div>
-        {infoAboutUser.map((item: any) => (
-          <div key={item.id}>{item.userName}</div>
-        ))}
-      </div> */}
+      <Img src={infoAboutUser.img}></Img>
+      <div>{infoAboutUser.email}</div>
+      <div>{infoAboutUser.phone}</div>
+      <div>{infoAboutUser.text}</div>
     </div>
   );
 }
