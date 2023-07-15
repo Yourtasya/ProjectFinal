@@ -13,22 +13,24 @@ export default function ServicesPage() {
   return (
     <div className="ServicesPage">
       <section className="ServicesPageBlocks">
-        <div className="HomePageContainer">
-          <div className="FirstBlock">
+        <div className="FirstBlock">
+          <div className="HomePageContainer">
             <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
             <p className="FirstBlockTittle">
               The big story behind, our <br></br>beautyness center
             </p>
             <button className="FirstBlockButton">Make a reservation</button>
           </div>
+        </div>
 
-          <div className="ourServicesBlock_text">
-            <h4 className="ourServicesBlock_tittle">Our Services</h4>
-            <h2 className="ourServicesBlock_subtittle">
-              We are Experienced in making you <br></br> very Beautiful
-            </h2>
-          </div>
+        <div className="ourServicesBlock_text">
+          <h4 className="ourServicesBlock_tittle">Our Services</h4>
+          <h2 className="ourServicesBlock_subtittle">
+            We are Experienced in making you <br></br> very Beautiful
+          </h2>
+        </div>
 
+        <div className="HomePageContainer">
           <div className="ServicesPrices">
             <div className="ourServicesBlockContent ourContent">
               <Img className="ourServicesFoto_1" src={Photo5}></Img>

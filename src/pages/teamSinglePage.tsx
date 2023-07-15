@@ -4,6 +4,11 @@ import "../styles/pageStyles/teamSinglePage.css";
 import { Context } from "..";
 import { useParams } from "react-router-dom";
 
+//@ts-ignore
+import VectorPhone from "../icons/taemSingle/VectorPhone.svg";
+//@ts-ignore
+import VectorMail from "../icons/taemSingle/VectorMail.svg";
+
 export default function TeamSinglePage() {
   const [infoAboutUser, setInfo] = useState<any>([]);
 
@@ -32,12 +37,46 @@ export default function TeamSinglePage() {
 
   return (
     <div className="TeamSinglePage">
-      <h3>TeamSinglePage</h3>
-      <div>{infoAboutUser.userName}</div>
-      <Img src={infoAboutUser.img}></Img>
-      <div>{infoAboutUser.email}</div>
-      <div>{infoAboutUser.phone}</div>
-      <div>{infoAboutUser.text}</div>
+      <div className="FirstBlock">
+        <div className="HomePageContainer">
+          <p className="FirstBlockSubtittle">THE EXPERT</p>
+          <p className="FirstBlockTittle">
+            Creative Beauty Team
+          </p>
+        </div>
+      </div>
+      <section className="TeamSinglePageContent">
+        <div className="HomePageContainer">
+          <div className="TeamSinglePageBlock">
+            <Img className="TeamSingleImg" src={infoAboutUser.img}></Img>
+            <div className="TeamSinglePageTexts">
+              <p className="TeamSinglePageTittle">Beautyness Expert Manager</p>
+              <div className="TeamSinglePageUserName">{infoAboutUser.userName}</div>
+              <div className="TeamSinglePageText">{infoAboutUser.text}</div>
+
+              <div className="TeamSingleLittleBlocks">
+                <div className="TeamSingleLittleBlock">
+                  <div className="TeamSingleLittleBlockBorder">
+                    <Img className="getInTouchBlock_img" src={VectorPhone}></Img>
+                  </div>
+                  <div className="TeamSinglePagePhone">{infoAboutUser.phone}</div>
+                </div>
+
+                <div className="TeamSingleLittleBlock">
+                  <div className="TeamSingleLittleBlockBorder">
+                    <Img className="getInTouchBlock_img" src={VectorMail}></Img>
+                  </div>
+                  <div className="TeamSinglePageEmail">{infoAboutUser.email}</div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
     </div>
   );
 }

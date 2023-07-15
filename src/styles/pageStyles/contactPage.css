@@ -1,41 +1,109 @@
-.ChangelogPage {
+.scheduleYourPresenceContainer {
+  width: 1010px;
+  margin: 0 auto;
   background-color: #ffffff;
+  padding: 98px 0px;
 }
 
-.getInTouch{
-  padding: 167px 0 141px;
+.getInTouch {
+  padding: 144px 0 159px;
+  background-color: #ffffff;
+
 }
 
-.getInTouchBlock{
+.getInTouchBlock {
   display: flex;
   margin-right: 120px;
+  gap: 120px;
 }
 
-.getInTouchBlock_texts{
+.getInTouchBlock_texts {
   width: 534px;
 }
 
-.getInTouchBlock_subtittle{
+.getInTouchBlock_subtittle {
   margin-top: 9px;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  width: 435px;
 }
 
-.getInTouchBlock_text{
+.getInTouchBlock_text {
   margin: 23px 0 43px;
 }
 
-.FirstBlock{
-  text-align: center;
+.scheduleYourPresenceForm {
+  margin-bottom: 120px;
 }
 
-.flatLeft_formsYourPresence{
+.FirstBlockSubtittleYourPresence {
+  color: #7A9CA5;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.FirstBlockTittleYourPresence {
+  font-family: Playfair Display;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.FirstBlockYourPresence {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 0 120px;
+}
+
+
+.getInToucDrop,
+.getInToucVisit,
+.getInToucVisitCall {
+  display: flex;
+  gap: 27px;
+}
+
+.getInToucDrop,
+.getInToucVisit {
+  padding-bottom: 30px;
+}
+
+.getInToucDropTittle {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.getInToucDropSubtittle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.flatLeft_formsYourPresence {
   display: grid;
   justify-content: center;
 }
 
-.scheduleYourInput{
+.scheduleYourInput {
   width: 810px;
   height: 65px;
   box-sizing: border-box;
   padding-left: 54px;
 }
 
+.note {
+  height: 123px;
+  width: 810px;
+}
+
+.scheduleformButton {
+  width: 810px;
+}

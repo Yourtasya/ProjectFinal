@@ -47,8 +47,10 @@ import Icons3 from "../icons/Icons3.svg";
 export default function AboutPage() {
   return (
     <div className="AboutPage">
-      <div className="HomePageContainer">
-        <div className="FirstBlock">
+      <div className="FirstBlock">
+        <div className="HomePageContainer">
+
+          <div className="FirstBlockImg"></div>
           <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
           <p className="FirstBlockTittle">
             The big story behind, our <br></br>beautyness center

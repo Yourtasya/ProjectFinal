@@ -502,7 +502,7 @@ export default function HomePage() {
 
             <div className="flatDiscountTextForm">
               <div className="flatLeft_forms form">
-                <form onSubmit={handleSubmite} className="flatLeft_form">
+                <form onSubmit={handleSubmite} className="flatLeft_form formTextForm">
                   <div className="wrapper">
                     <div className="iconName"></div>
                     <input

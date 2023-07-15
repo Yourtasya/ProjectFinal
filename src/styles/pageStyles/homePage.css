@@ -486,7 +486,11 @@ gap: 10px; */
 
 .flatLeft_form {
   display: table-caption;
+}
+
+.formTextForm{
   padding: 66px 75px 0;
+
 }
 
 .input {

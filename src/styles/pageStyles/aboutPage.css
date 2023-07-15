@@ -8,8 +8,10 @@
   justify-content: center;
   align-items: center;
   padding: 130px 0;
-
+  background: #1E2C30;
+  color: #ffffff;
 }
+
 
 .FirstBlockSubtittle {
   font-weight: 600;
@@ -49,7 +51,7 @@
 
 /* ----ourValues---- */
 
-.ourValues{
+.ourValues {
   padding: 130px 0 129px;
 }
 
@@ -119,7 +121,7 @@
   padding: 195.5px 0 192.5px;
 }
 
-.ourValuesAboutUsContent{
+.ourValuesAboutUsContent {
   display: flex;
 }
 
@@ -132,22 +134,22 @@
   height: 499px;
 }
 
-.UsTexts{
+.UsTexts {
   color: #ffffff;
   padding: 72px 72px 74px;
   width: 507px;
 }
 
-.UsTexts_subliltle{
+.UsTexts_subliltle {
   color: #ffffff;
 }
 
-.UsTexts_tittle{
+.UsTexts_tittle {
   padding: 9px 0 14px;
   font-style: normal;
-font-weight: 700;
-font-size: 45px;
-line-height: 130%;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 130%;
 }
 
 
