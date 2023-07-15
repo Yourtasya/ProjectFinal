@@ -27,9 +27,15 @@
   text-align: center;
 }
 
+.flatLeft_formsYourPresence{
+  display: grid;
+  justify-content: center;
+}
+
 .scheduleYourInput{
   width: 810px;
   height: 65px;
   box-sizing: border-box;
   padding-left: 54px;
 }
+

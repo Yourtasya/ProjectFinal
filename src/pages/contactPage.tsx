@@ -66,7 +66,7 @@ export default function ContactPage() {
           </div>
 
           <div className="scheduleYourPresence_form">
-            <div className="flatLeft_forms form">
+            <div className="flatLeft_formsYourPresence form">
               <form action="" className="flatLeft_form">
                 <div className="wrapper">
                   <div className="iconName"></div>
