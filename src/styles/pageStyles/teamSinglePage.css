@@ -20,12 +20,12 @@
   width: 533px;
 }
 
-.TeamSinglePageTittle{
+.TeamSinglePageTittle {
   color: #7A9CA5;
-font-size: 15px;
-font-weight: 600;
-letter-spacing: 1.5px;
-text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 .TeamSinglePageUserName {
@@ -36,40 +36,41 @@ text-transform: uppercase;
   line-height: 130%;
 }
 
-.TeamSinglePageText{
+.TeamSinglePageText {
   color: #555;
-font-family: Manrope;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-padding: 16px 0 30px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 16px 0 30px;
 }
 
-.TeamSingleLittleBlock{
+.TeamSingleLittleBlock {
   display: flex;
   align-items: center;
 }
 
-.TeamSingleLittleBlockBorder{
+.TeamSingleLittleBlockBorder {
   justify-content: center;
   display: flex;
   width: 65px;
   height: 65px;
-align-items: center;
-border: solid #7A9CA5;
-margin-right: 34px;
+  align-items: center;
+  border: solid #7A9CA5;
+  margin-right: 34px;
 }
 
-.TeamSingleLittleBlocks{
+.TeamSingleLittleBlocks {
   display: flex;
   flex-wrap: wrap;
   gap: 15px 34px;
 }
 
 
-.TeamSinglePagePhone, .TeamSinglePageEmail{
-  color: #141414;
-font-size: 22px;
-font-weight: 700;
-line-height: 130%;
+.TeamSinglePagePhone,
+.TeamSinglePageEmail {
+  color: #0000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 130%;
 }

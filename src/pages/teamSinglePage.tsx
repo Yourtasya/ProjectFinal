@@ -58,8 +58,9 @@ export default function TeamSinglePage() {
                 <div className="TeamSingleLittleBlock">
                   <div className="TeamSingleLittleBlockBorder">
                     <Img className="getInTouchBlock_img" src={VectorPhone}></Img>
-                  </div>
                   <div className="TeamSinglePagePhone">{infoAboutUser.phone}</div>
+
+                  </div>
                 </div>
 
                 <div className="TeamSingleLittleBlock">
