@@ -57,9 +57,11 @@ import Vector2 from "../icons/Vector2.svg";
 // import  from "../icons/Edit.svg";
 
 import "../styles/pageStyles/homePage.css";
+import "../styles/adaptive/homePageAdaptive.css";
 import { LOGIN_ROUTE } from "../links/consts";
 import Model from "../components/Model";
 import "../styles/Model.css";
+import { render } from "@testing-library/react";
 
 export default function HomePage() {
   const [email, setEmail] = useState("");
@@ -113,7 +115,9 @@ export default function HomePage() {
                   to be sure hidden in the middle of text.
                 </p>
               </div>
-              <button className="BlockText_button">READ MORE</button>
+              <NavLink to={LOGIN_ROUTE} className="BlockText_button">
+                READ MORE
+              </NavLink>
             </div>
 
             <div className="Block_2">
@@ -127,7 +131,9 @@ export default function HomePage() {
                   to be sure hidden in the middle of text.
                 </p>
               </div>
-              <button className="BlockText_button">READ MORE</button>
+              <NavLink to={LOGIN_ROUTE} className="BlockText_button">
+                READ MORE
+              </NavLink>
             </div>
 
             <div className="Block_3">
@@ -141,7 +147,9 @@ export default function HomePage() {
                   to be sure hidden in the middle of text.
                 </p>
               </div>
-              <button className="BlockText_button">READ MORE</button>
+              <NavLink to={LOGIN_ROUTE} className="BlockText_button">
+                READ MORE
+              </NavLink>
             </div>
           </div>
         </div>
@@ -192,7 +200,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <section className="ourServicesBlock">
         <div className="HomePageContainer   ">
           <div className="ourServicesBlock_text">
@@ -239,7 +246,9 @@ export default function HomePage() {
                   The versions have evolved over the sometimes by accident.
                 </p>
               </div>
-              <button className="ourContentButton">GET AN APPOINTMENT</button>
+              <NavLink to={LOGIN_ROUTE} className="ourContentButton">
+                GET AN APPOINTMENT
+              </NavLink>
             </div>
           </div>
           <div className="ourServicesBlockContent ourContent">
@@ -279,15 +288,17 @@ export default function HomePage() {
                   The versions have evolved over the sometimes by accident.
                 </p>
               </div>
-              <button className="ourContentButton ourContentButton2">
+              <NavLink
+                to={LOGIN_ROUTE}
+                className="ourContentButton ourContentButton2"
+              >
                 GET AN APPOINTMENT
-              </button>
+              </NavLink>
             </div>
             <Img className=".ourServicesFoto_2" src={Photo6}></Img>
           </div>
         </div>
       </section>
-
       <section className="TestimonialsBlock">
         <div className="ourServicesBlockContainer">
           <div className="TestimonialsBlock_text">
@@ -454,7 +465,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <section className="flatDiscount">
         <div className="HomePageContainer">
           <div className="flatDiscountContent">
@@ -502,7 +512,10 @@ export default function HomePage() {
 
             <div className="flatDiscountTextForm">
               <div className="flatLeft_forms form">
-                <form onSubmit={handleSubmite} className="flatLeft_form formTextForm">
+                <form
+                  onSubmit={handleSubmite}
+                  className="flatLeft_form formTextForm"
+                >
                   <div className="wrapper">
                     <div className="iconName"></div>
                     <input
@@ -551,7 +564,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <section className="ourBlog">
         <div className="HomePageContainer">
           <div className="ourBlog_text">
@@ -616,7 +628,9 @@ export default function HomePage() {
             </div>
           </div>
           <div className="ourBlockText_button">
-            <button className="BlockText_button ourButton">READ MORE</button>
+            <NavLink to={LOGIN_ROUTE} className="BlockText_button ourButton">
+              READ MORE
+            </NavLink>
           </div>
         </div>
       </section>

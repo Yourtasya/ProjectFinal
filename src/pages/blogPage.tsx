@@ -8,19 +8,25 @@ import Photo7 from "../img/homePage/Photo7.jpg";
 //@ts-ignore
 import Photo8 from "../img/homePage/Photo8.jpg";
 //@ts-ignore
+import Photo from "../img/blogPage/Photo.jpg";
+//@ts-ignore
+import Photo1 from "../img/blogPage/Photo1.jpg";
+//@ts-ignore
+import Photo2 from "../img/blogPage/Photo2.jpg";
+//@ts-ignore
 import Photo9 from "../img/homePage/Photo9.jpg";
+import { NavLink } from "react-router-dom";
+import { LOGIN_ROUTE } from "../links/consts";
 
 export default function BlogPage() {
   return (
     <div className="BlogPage">
-
       <div className="FirstBlock">
         <div className="HomePageContainer">
           <p className="FirstBlockSubtittle">GET IN TOUCH WITH US</p>
           <p className="FirstBlockTittle">Articles & News</p>
         </div>
       </div>
-
 
       <div className="HomePageContainer">
         <section className="GetInTouchBlock">
@@ -41,15 +47,15 @@ export default function BlogPage() {
                   The energy efficiency of the hydrotherapy or swim
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it
-                  look like others readable will get end.
+                  The point of using Lorem Ipsum hiter that using making it look
+                  like others readable will get end.
                 </p>
               </div>
             </div>
 
             <div className="ourBlock_2">
               <div className="BlockImg">
-                <Img src={Photo8}></Img>
+                <Img src={Photo9}></Img>
               </div>
               <div className="Block_2_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
@@ -60,15 +66,15 @@ export default function BlogPage() {
                   Tips to improve your body via cleansing
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it
-                  look like others readable will get end.
+                  The point of using Lorem Ipsum hiter that using making it look
+                  like others readable will get end.
                 </p>
               </div>
             </div>
 
             <div className="ourBlock_3">
               <div className="BlockImg">
-                <Img src={Photo9}></Img>
+                <Img src={Photo8}></Img>
               </div>
               <div className="Block_3_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
@@ -79,15 +85,15 @@ export default function BlogPage() {
                   The best and perfect skincare strategy
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it
-                  look like others readable will get end.
+                  The point of using Lorem Ipsum hiter that using making it look
+                  like others readable will get end.
                 </p>
               </div>
             </div>
 
             <div className="ourBlock_1">
               <div className="ourBlockImg">
-                <Img src={Photo7}></Img>
+                <Img src={Photo}></Img>
               </div>
               <div className="Block_1_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
@@ -97,15 +103,15 @@ export default function BlogPage() {
                   Fell the natural reverse aging process
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it
-                  look like others readable will get end.
+                  The point of using Lorem Ipsum hiter that using making it look
+                  like others readable will get end.
                 </p>
               </div>
             </div>
 
             <div className="ourBlock_1">
               <div className="ourBlockImg">
-                <Img src={Photo7}></Img>
+                <Img src={Photo1}></Img>
               </div>
               <div className="Block_1_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
@@ -115,15 +121,15 @@ export default function BlogPage() {
                   How to make the make-up stay last
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it
-                  look like others readable will get end.
+                  The point of using Lorem Ipsum hiter that using making it look
+                  like others readable will get end.
                 </p>
               </div>
             </div>
 
             <div className="ourBlock_1">
               <div className="ourBlockImg">
-                <Img src={Photo7}></Img>
+                <Img src={Photo2}></Img>
               </div>
               <div className="Block_1_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
@@ -133,14 +139,16 @@ export default function BlogPage() {
                   The energy efficiency of the hydrotherapy or swim
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it
-                  look like others readable will get end.
+                  The point of using Lorem Ipsum hiter that using making it look
+                  like others readable will get end.
                 </p>
               </div>
             </div>
           </div>
           <div className="ourBlockText_button">
-            <button className="BlockText_button ourButton">READ MORE</button>
+            <NavLink to={LOGIN_ROUTE} className="BlockText_button ourButton">
+              READ MORE
+            </NavLink>
           </div>
         </section>
       </div>

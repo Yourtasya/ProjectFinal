@@ -4,7 +4,7 @@ import "../styles/Model.css";
 const Model = ({ active, setActive, children }) => {
   return (
     <div
-      className={active ? "model active" : "active"}
+      className={active ? "model active" : "model"}
       onClick={() => setActive(false)}
     >
       <div

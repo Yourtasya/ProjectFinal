@@ -16,6 +16,8 @@ import LocationPhoto2 from "../img/locationPage/LocationPhoto2.jpg";
 import LocationPhoto3 from "../img/locationPage/LocationPhoto3.jpg";
 
 import "../styles/pageStyles/locationPage.css";
+import { NavLink } from "react-router-dom";
+import { LOGIN_ROUTE } from "../links/consts";
 
 export default function LocationPage() {
   return (
@@ -26,7 +28,9 @@ export default function LocationPage() {
           <p className="FirstBlockTittle">
             The big story behind, our <br></br>beautyness center
           </p>
-          <button className="FirstBlockButton">Make a reservation</button>
+          <NavLink to={LOGIN_ROUTE} className="FirstBlockButton">
+            Make a reservation
+          </NavLink>
         </div>
       </div>
 
@@ -37,16 +41,19 @@ export default function LocationPage() {
               <Img className="getInTouchBlock_img" src={LocationPhoto1}></Img>
               <div className="getInTouchBlock_texts localionTexts">
                 <h4 className="getInTouchBlock_tittle">Columbia</h4>
-                <h2 className="getInTouchBlock_subtittle">
-                  Washington D.C
-                </h2>
+                <h2 className="getInTouchBlock_subtittle">Washington D.C</h2>
 
                 <div className="getInToucflatRight localionRight">
                   <div className="getInToucVisit">
-                    <Img className="getInTouchBlock_img" src={IconContact1}></Img>
+                    <Img
+                      className="getInTouchBlock_img"
+                      src={IconContact1}
+                    ></Img>
 
                     <div className="flatRight_mail">
-                      <p className="flatRight_mailTittle getInToucDropTittle">Visit Us :</p>
+                      <p className="flatRight_mailTittle getInToucDropTittle">
+                        Visit Us :
+                      </p>
                       <p className="flatRight_mailSubittle getInToucDropSubtittle">
                         NO.09a, Downtown, SAN DIEAGO, USA
                       </p>
@@ -54,10 +61,15 @@ export default function LocationPage() {
                   </div>
 
                   <div className="getInToucDrop">
-                    <Img className="getInTouchBlock_img" src={IconContact2}></Img>
+                    <Img
+                      className="getInTouchBlock_img"
+                      src={IconContact2}
+                    ></Img>
 
                     <div className="flatRight_call">
-                      <p className="flatRight_callTittle getInToucDropTittle">Call Us :</p>
+                      <p className="flatRight_callTittle getInToucDropTittle">
+                        Call Us :
+                      </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
                         support@beautyness.com
                       </p>
@@ -65,35 +77,43 @@ export default function LocationPage() {
                   </div>
 
                   <div className="getInToucVisitCall">
-                    <Img className="getInTouchBlock_img" src={IconContact3}></Img>
+                    <Img
+                      className="getInTouchBlock_img"
+                      src={IconContact3}
+                    ></Img>
 
                     <div className="flatRight_call">
-                      <p className="flatRight_callTittle getInToucDropTittle">CALL US :</p>
+                      <p className="flatRight_callTittle getInToucDropTittle">
+                        CALL US :
+                      </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
                         Call: 1-800-123-9999
                       </p>
                     </div>
                   </div>
-
                 </div>
-                <button className="localionBlockButton">GET AN APPOINTMENT</button>
-
+                <button className="localionBlockButton">
+                  GET AN APPOINTMENT
+                </button>
               </div>
             </div>
 
             <div className="localionBlock">
               <div className="getInTouchBlock_texts localionTexts">
                 <h4 className="getInTouchBlock_tittle">san francisco</h4>
-                <h2 className="getInTouchBlock_subtittle">
-                New York
-                </h2>
+                <h2 className="getInTouchBlock_subtittle">New York</h2>
 
                 <div className="getInToucflatRight localionRight">
                   <div className="getInToucVisit">
-                    <Img className="getInTouchBlock_img" src={IconContact1}></Img>
+                    <Img
+                      className="getInTouchBlock_img"
+                      src={IconContact1}
+                    ></Img>
 
                     <div className="flatRight_mail">
-                      <p className="flatRight_mailTittle getInToucDropTittle">Visit Us :</p>
+                      <p className="flatRight_mailTittle getInToucDropTittle">
+                        Visit Us :
+                      </p>
                       <p className="flatRight_mailSubittle getInToucDropSubtittle">
                         NO.09a, Downtown, SAN DIEAGO, USA
                       </p>
@@ -101,10 +121,15 @@ export default function LocationPage() {
                   </div>
 
                   <div className="getInToucDrop">
-                    <Img className="getInTouchBlock_img" src={IconContact2}></Img>
+                    <Img
+                      className="getInTouchBlock_img"
+                      src={IconContact2}
+                    ></Img>
 
                     <div className="flatRight_call">
-                      <p className="flatRight_callTittle getInToucDropTittle">Call Us :</p>
+                      <p className="flatRight_callTittle getInToucDropTittle">
+                        Call Us :
+                      </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
                         support@beautyness.com
                       </p>
@@ -112,37 +137,45 @@ export default function LocationPage() {
                   </div>
 
                   <div className="getInToucVisitCall">
-                    <Img className="getInTouchBlock_img" src={IconContact3}></Img>
+                    <Img
+                      className="getInTouchBlock_img"
+                      src={IconContact3}
+                    ></Img>
 
                     <div className="flatRight_call">
-                      <p className="flatRight_callTittle getInToucDropTittle">CALL US :</p>
+                      <p className="flatRight_callTittle getInToucDropTittle">
+                        CALL US :
+                      </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
                         Call: 1-800-123-9999
                       </p>
                     </div>
                   </div>
-
                 </div>
-                <button className="localionBlockButton">GET AN APPOINTMENT</button>
+                <NavLink to={LOGIN_ROUTE} className="localionBlockButton">
+                  GET AN APPOINTMENT
+                </NavLink>
               </div>
               <Img className="getInTouchBlock_img" src={LocationPhoto2}></Img>
-
             </div>
 
             <div className="localionBlock localionBlockLast">
               <Img className="getInTouchBlock_img" src={LocationPhoto3}></Img>
               <div className="getInTouchBlock_texts localionTexts">
                 <h4 className="getInTouchBlock_tittle">FRANCE</h4>
-                <h2 className="getInTouchBlock_subtittle">
-                Paris
-                </h2>
+                <h2 className="getInTouchBlock_subtittle">Paris</h2>
 
                 <div className="getInToucflatRight localionRight">
                   <div className="getInToucVisit">
-                    <Img className="getInTouchBlock_img" src={IconContact1}></Img>
+                    <Img
+                      className="getInTouchBlock_img"
+                      src={IconContact1}
+                    ></Img>
 
                     <div className="flatRight_mail">
-                      <p className="flatRight_mailTittle getInToucDropTittle">Visit Us :</p>
+                      <p className="flatRight_mailTittle getInToucDropTittle">
+                        Visit Us :
+                      </p>
                       <p className="flatRight_mailSubittle getInToucDropSubtittle">
                         NO.09a, Downtown, SAN DIEAGO, USA
                       </p>
@@ -150,10 +183,15 @@ export default function LocationPage() {
                   </div>
 
                   <div className="getInToucDrop">
-                    <Img className="getInTouchBlock_img" src={IconContact2}></Img>
+                    <Img
+                      className="getInTouchBlock_img"
+                      src={IconContact2}
+                    ></Img>
 
                     <div className="flatRight_call">
-                      <p className="flatRight_callTittle getInToucDropTittle">Call Us :</p>
+                      <p className="flatRight_callTittle getInToucDropTittle">
+                        Call Us :
+                      </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
                         support@beautyness.com
                       </p>
@@ -161,22 +199,26 @@ export default function LocationPage() {
                   </div>
 
                   <div className="getInToucVisitCall">
-                    <Img className="getInTouchBlock_img" src={IconContact3}></Img>
+                    <Img
+                      className="getInTouchBlock_img"
+                      src={IconContact3}
+                    ></Img>
 
                     <div className="flatRight_call">
-                      <p className="flatRight_callTittle getInToucDropTittle">CALL US :</p>
+                      <p className="flatRight_callTittle getInToucDropTittle">
+                        CALL US :
+                      </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
                         Call: 1-800-123-9999
                       </p>
                     </div>
                   </div>
-
                 </div>
-                <button className="localionBlockButton">GET AN APPOINTMENT</button>
-
+                <NavLink to={LOGIN_ROUTE} className="localionBlockButton">
+                  GET AN APPOINTMENT
+                </NavLink>
               </div>
             </div>
-
           </div>
         </div>
       </section>

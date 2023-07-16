@@ -1,7 +1,7 @@
 import RemoveCookie from "../cookies/removeCookie";
 import SetCookie from "../cookies/setCookie";
 
-const mockEmailResponseServer = "Nastya";
+const mockEmailResponseServer = "Nastya.Shestakova@gmail.com";
 const mockPasswordResponseServer = "1111";
 
 export default class AuthService {
@@ -13,7 +13,7 @@ export default class AuthService {
       const response = mockEmailResponseServer;
       RemoveCookie("loginCookie");
       SetCookie("loginCookie", JSON.stringify(response));
-      alert("Вы залогинены!");
+      alert(`Вы вошли как ${response}!`);
       return response;
     } else {
       alert("Неверно введен логин или пароль!");

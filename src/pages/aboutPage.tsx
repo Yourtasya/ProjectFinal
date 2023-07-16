@@ -42,6 +42,8 @@ import Reviews from "../icons/Reviews.svg";
 //@ts-ignore
 import Icons3 from "../icons/Icons3.svg";
 
+import { LOGIN_ROUTE } from "../links/consts";
+
 //@ts-igno";
 
 export default function AboutPage() {
@@ -49,13 +51,14 @@ export default function AboutPage() {
     <div className="AboutPage">
       <div className="FirstBlock">
         <div className="HomePageContainer">
-
           <div className="FirstBlockImg"></div>
           <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
           <p className="FirstBlockTittle">
             The big story behind, our <br></br>beautyness center
           </p>
-          <button className="FirstBlockButton">Make a reservation</button>
+          <NavLink to={LOGIN_ROUTE} className="FirstBlockButton">
+            Make a reservation
+          </NavLink>
         </div>
       </div>
 

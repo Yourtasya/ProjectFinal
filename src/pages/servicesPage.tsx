@@ -12,6 +12,8 @@ import Photo6 from "../img/homePage/Photo6.jpg";
 import ImageServices1 from "../img/servicesPage/ImageServices1.jpg";
 //@ts-ignore
 import ImageServices2 from "../img/servicesPage/ImageServices2.jpg";
+import { NavLink } from "react-router-dom";
+import { LOGIN_ROUTE } from "../links/consts";
 
 export default function ServicesPage() {
   return (
@@ -23,7 +25,9 @@ export default function ServicesPage() {
             <p className="FirstBlockTittle">
               The big story behind, our <br></br>beautyness center
             </p>
-            <button className="FirstBlockButton">Make a reservation</button>
+            <NavLink to={LOGIN_ROUTE} className="FirstBlockButton">
+              Make a reservation
+            </NavLink>
           </div>
         </div>
 
@@ -74,7 +78,9 @@ export default function ServicesPage() {
                     The versions have evolved over the sometimes by accident.
                   </p>
                 </div>
-                <button className="ourContentButton">GET AN APPOINTMENT</button>
+                <NavLink to={LOGIN_ROUTE} className="ourContentButton">
+                  GET AN APPOINTMENT
+                </NavLink>
               </div>
             </div>
 
@@ -115,9 +121,12 @@ export default function ServicesPage() {
                     The versions have evolved over the sometimes by accident.
                   </p>
                 </div>
-                <button className="ourContentButton ourContentButton2">
+                <NavLink
+                  to={LOGIN_ROUTE}
+                  className="ourContentButton ourContentButton2"
+                >
                   GET AN APPOINTMENT
-                </button>
+                </NavLink>
               </div>
               <Img className=".ourServicesFoto_2" src={Photo6}></Img>
             </div>
@@ -160,7 +169,9 @@ export default function ServicesPage() {
                     The versions have evolved over the sometimes by accident.
                   </p>
                 </div>
-                <button className="ourContentButton">GET AN APPOINTMENT</button>
+                <NavLink to={LOGIN_ROUTE} className="ourContentButton">
+                  GET AN APPOINTMENT
+                </NavLink>
               </div>
             </div>
 
@@ -201,16 +212,18 @@ export default function ServicesPage() {
                     The versions have evolved over the sometimes by accident.
                   </p>
                 </div>
-                <button className="ourContentButton ourContentButton2">
+                <NavLink
+                  to={LOGIN_ROUTE}
+                  className="ourContentButton ourContentButton2"
+                >
                   GET AN APPOINTMENT
-                </button>
+                </NavLink>
               </div>
               <Img className=".ourServicesFoto_2" src={ImageServices2}></Img>
             </div>
           </div>
         </div>
       </section>
-
 
       <section className="aboutPageFlatDiscount">
         <div className="aboutPageFlatDiscountContainer">
@@ -227,7 +240,6 @@ export default function ServicesPage() {
               </p>
             </div>
 
-
             <div className="flatDiscountText_flat flatGet">
               <div className="flatRight">
                 <div className="flatRight_mailUs">
@@ -242,9 +254,7 @@ export default function ServicesPage() {
                 <div className="flatRight_callUs">
                   <div className="flatRight_call">
                     <p className="flatRight_callTittle">CALL US :</p>
-                    <p className="flatRight_callSubittle">
-                      (+22) 123 4568 009
-                    </p>
+                    <p className="flatRight_callSubittle">(+22) 123 4568 009</p>
                   </div>
                 </div>
               </div>
@@ -255,13 +265,11 @@ export default function ServicesPage() {
                   <p className="flatLeft_text50">50%</p>
                   <p className="flatLeft_text2">Discount</p>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
-
   );
 }
