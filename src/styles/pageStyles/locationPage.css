@@ -1,3 +1,41 @@
 .LocationPage {
   background-color: #ffffff;
 }
+
+/* .localionBlocks{
+} */
+
+.localionBlock {
+  display: flex;
+  margin-right: 120px;
+  gap: 120px;
+  margin-top: 120px;
+}
+
+.localionTexts{
+  padding-top: 70px;
+}
+
+.localionRight{
+  padding: 50px 0;
+}
+
+.localionBlockLast{
+  padding-bottom: 120px;
+}
+
+.localionBlockButton{
+  border: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-transform: uppercase;
+  gap: 10px;
+  width: 250px;
+  height: 65px;
+  color: #fff;
+  background: #5C8692;
+}

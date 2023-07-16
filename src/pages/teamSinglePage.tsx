@@ -58,9 +58,8 @@ export default function TeamSinglePage() {
                 <div className="TeamSingleLittleBlock">
                   <div className="TeamSingleLittleBlockBorder">
                     <Img className="getInTouchBlock_img" src={VectorPhone}></Img>
-                  <div className="TeamSinglePagePhone">{infoAboutUser.phone}</div>
-
                   </div>
+                  <div className="TeamSinglePagePhone">{infoAboutUser.phone}</div>
                 </div>
 
                 <div className="TeamSingleLittleBlock">
@@ -68,10 +67,10 @@ export default function TeamSinglePage() {
                     <Img className="getInTouchBlock_img" src={VectorMail}></Img>
                   </div>
                   <div className="TeamSinglePageEmail">{infoAboutUser.email}</div>
-
                 </div>
-
               </div>
+              <button className="TeamSinglePageEmailButton">GET AN APPOINTMENT</button>
+
             </div>
           </div>
         </div>

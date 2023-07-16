@@ -8,6 +8,10 @@ import "../styles/pageStyles/aboutPage.css";
 import Photo5 from "../img/homePage/Photo5.jpg";
 //@ts-ignore
 import Photo6 from "../img/homePage/Photo6.jpg";
+//@ts-ignore
+import ImageServices1 from "../img/servicesPage/ImageServices1.jpg";
+//@ts-ignore
+import ImageServices2 from "../img/servicesPage/ImageServices2.jpg";
 
 export default function ServicesPage() {
   return (
@@ -23,7 +27,7 @@ export default function ServicesPage() {
           </div>
         </div>
 
-        <div className="ourServicesBlock_text">
+        <div className="ourServicesBlock_text ServicesBlock_text">
           <h4 className="ourServicesBlock_tittle">Our Services</h4>
           <h2 className="ourServicesBlock_subtittle">
             We are Experienced in making you <br></br> very Beautiful
@@ -119,7 +123,7 @@ export default function ServicesPage() {
             </div>
 
             <div className="ourServicesBlockContent ourContent">
-              <Img className="ourServicesFoto_1" src={Photo5}></Img>
+              <Img className="ourServicesFoto_1" src={ImageServices1}></Img>
               <div className="ourContentText">
                 <div className="ourContentTextBlock">
                   <h2 className="ourContentText_1">
@@ -201,7 +205,7 @@ export default function ServicesPage() {
                   GET AN APPOINTMENT
                 </button>
               </div>
-              <Img className=".ourServicesFoto_2" src={Photo6}></Img>
+              <Img className=".ourServicesFoto_2" src={ImageServices2}></Img>
             </div>
           </div>
         </div>
