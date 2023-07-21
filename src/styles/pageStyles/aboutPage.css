@@ -32,9 +32,9 @@
 }
 
 .FirstBlockButton {
+  padding: 23px;
   border: none;
   width: 250px;
-  height: 65px;
   color: #ffffff;
   background: #5C8692;
   font-family: "Manrope";
@@ -46,6 +46,7 @@
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 

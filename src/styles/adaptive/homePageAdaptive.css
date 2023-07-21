@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) {
+
+}
+
+@media (max-width: 2560px) {
+    #menu__toggle {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1360px) {
+    .container {
+      max-width: 1300px;
+    }
+  }
+  
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1220px;
+    }
+  }
+  
+  @media (max-width: 1152px) {
+    .container {
+      max-width: 1092px;
+    }
+  }  

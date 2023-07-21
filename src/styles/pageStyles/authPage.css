@@ -1,3 +1,23 @@
-.AuthPage {
-  background-color: #ffffff;
+.AuthPageContent {
+  padding: 160px 0;
+  background: #EBF3F5;
+  display: flex;
+  justify-content: center;
+}
+
+.AuthPageForm {
+  background: #fff;
+
+  display: flex;
+  max-width: 769px;
+  padding: 85px 75px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.AuthPageForm{
+  justify-content: center;
+  text-align: center;
 }

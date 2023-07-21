@@ -16,7 +16,7 @@ import Photo2 from "../img/blogPage/Photo2.jpg";
 //@ts-ignore
 import Photo9 from "../img/homePage/Photo9.jpg";
 import { NavLink } from "react-router-dom";
-import { LOGIN_ROUTE } from "../links/consts";
+import { SERVICES_ROUTE } from "../links/consts";
 
 export default function BlogPage() {
   return (
@@ -146,7 +146,7 @@ export default function BlogPage() {
             </div>
           </div>
           <div className="ourBlockText_button">
-            <NavLink to={LOGIN_ROUTE} className="BlockText_button ourButton">
+            <NavLink to={SERVICES_ROUTE} className="BlockText_button ourButton">
               READ MORE
             </NavLink>
           </div>

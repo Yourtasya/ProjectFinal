@@ -5,12 +5,10 @@ import { NavLink } from "react-router-dom";
 import {
   ABOUT_ROUTE,
   BLOG_ROUTE,
-  CHANGELOG_ROUTE,
   CONTACT_ROUTE,
   HOME_ROUTE,
   LOCATION_ROUTE,
   SERVICES_ROUTE,
-  STYLE_GUIDE_ROUTE,
   TEAM_ROUTE,
   LOGIN_ROUTE,
 } from "../links/consts";
@@ -69,20 +67,8 @@ export default class NavBar extends Component {
                   <NavLink to={BLOG_ROUTE} className="ButtonInDropdawnMenu">
                     Blog
                   </NavLink>,
-                  <NavLink
-                    to={CHANGELOG_ROUTE}
-                    className="ButtonInDropdawnMenu"
-                  >
-                    Change
-                  </NavLink>,
                   <NavLink to={TEAM_ROUTE} className="ButtonInDropdawnMenu">
                     Team
-                  </NavLink>,
-                  <NavLink
-                    to={STYLE_GUIDE_ROUTE}
-                    className="ButtonInDropdawnMenu"
-                  >
-                    Style Guide
                   </NavLink>,
                 ]}
               />
