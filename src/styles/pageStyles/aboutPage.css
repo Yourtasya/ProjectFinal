@@ -49,6 +49,10 @@
   text-decoration: none;
 }
 
+.FirstBlockButton:hover {
+  background-color: #525959;
+  color: white;
+}
 
 /* ----ourValues---- */
 

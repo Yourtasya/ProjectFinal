@@ -1,13 +1,12 @@
 import React, { useContext, useState } from "react";
-import { NavLink } from "react-router-dom";
 
 
 import "../styles/pageStyles/authPage.css";
+import "../styles/adaptive/authPageAdaptive.css"
 // import Model from "../components/Model";
 // import "../styles/Model.css";
 
 import { Context } from "..";
-import { LOGIN_ROUTE } from "../links/consts";
 
 
 export default function AuthPage() {

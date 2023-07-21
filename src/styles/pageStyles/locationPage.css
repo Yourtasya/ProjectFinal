@@ -40,3 +40,8 @@
   color: #fff;
   background: #5C8692;
 }
+
+.localionBlockButton:hover {
+  background-color: #525959;
+  color: white;
+}

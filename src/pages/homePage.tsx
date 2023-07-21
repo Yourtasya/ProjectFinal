@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Img } from "react-image";
 
@@ -27,10 +27,6 @@ import Photo9 from "../img/homePage/Photo9.jpg";
 import userPhoto from "../img/homePage/userPhoto.jpg";
 //@ts-ignore
 import userPhoto1 from "../img/homePage/userPhoto1.jpg";
-//@ts-ignore
-import Background4 from "../img/homePage/Background4.jpg";
-//@ts-ignore
-import Background2 from "../img/homePage/Background2.jpg";
 
 //svg
 //@ts-ignore
@@ -43,8 +39,6 @@ import Icons3 from "../icons/Icons3.svg";
 import Reviews from "../icons/Reviews.svg";
 //@ts-ignore
 import Vector1 from "../icons/Vector1.svg";
-//@ts-ignore
-import Vector2 from "../icons/Vector2.svg";
 // //@ts-ignore
 // import User from "../icons/User.svg";
 // //@ts-ignore
@@ -61,7 +55,6 @@ import "../styles/adaptive/homePageAdaptive.css";
 import { LOGIN_ROUTE } from "../links/consts";
 import Model from "../components/Model";
 import "../styles/Model.css";
-import { render } from "@testing-library/react";
 
 export default function HomePage() {
   const [email, setEmail] = useState("");
@@ -71,10 +64,17 @@ export default function HomePage() {
   const [anyNote, setAnyNote] = useState("");
 
   const [modelActive, setModelActive] = useState(false);
+  const [modelErrorActive, setModelErrorActive] = useState(false)
 
   const handleSubmite = (e: any) => {
     e.preventDefault();
-    setModelActive(true);
+    if(!name || !email || !phone || !service || !anyNote) {
+
+      setModelErrorActive(true)
+    }
+    else {
+      setModelActive(true);
+    }
   };
 
   return (
@@ -644,7 +644,20 @@ export default function HomePage() {
         {service}
         <br />
         {anyNote}
-        <p>Ваше сообщение успешно отрпавлено!</p>
+        <p className="TextOnModelFormTrue">Ваше сообщение успешно отрпавлено!</p>
+      </Model>
+
+      <Model active={modelErrorActive} setActive={setModelErrorActive}>
+      {name ? !name : `Поле "Name" не заполнено!`}
+        <br />
+        {email ? !email : `Поле "Email" не заполнено!`}
+        <br />
+        {phone ? !phone : `Поле "Phone" не заполнено!`}
+        <br />
+        {service ? !service : `Поле "Service" не заполнено!`}
+        <br />
+        {anyNote  ? !anyNote : `Поле "Any Note For Us" не заполнено!`}
+        <p className="TextOnModelFormError">Вы заполнили не все поля!</p>
       </Model>
     </div>
   );

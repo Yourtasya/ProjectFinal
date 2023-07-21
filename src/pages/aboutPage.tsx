@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../styles/pageStyles/aboutPage.css";
+import "../styles/adaptive/aboutPageAdaptive.css"
 
 import { NavLink } from "react-router-dom";
 import { Img } from "react-image";

@@ -1,4 +1,6 @@
 import "../styles/pageStyles/teamPage.css";
+import "../styles/adaptive/teamPageAdaptive.css"
+
 import { Img } from "react-image";
 
 //@ts-ignore

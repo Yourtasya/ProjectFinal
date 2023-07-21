@@ -2,6 +2,7 @@ import React from "react";
 import { Img } from "react-image";
 
 import "../styles/pageStyles/blogPage.css";
+import "../styles/adaptive/blogPageAdaptive.css"
 
 //@ts-ignore
 import Photo7 from "../img/homePage/Photo7.jpg";

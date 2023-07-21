@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Img } from "react-image";
 import "../styles/pageStyles/teamSinglePage.css";
+import "../styles/adaptive/teamSinglePageAdaptive.css"
 import { Context } from "..";
 import { NavLink, useParams } from "react-router-dom";
 
@@ -17,7 +18,7 @@ export default function TeamSinglePage() {
   const { id } = useParams();
   useEffect(() => {
     getInfo(id);
-  }, []);
+  });
 
   const getInfo = async (userArr: any) => {
     try {

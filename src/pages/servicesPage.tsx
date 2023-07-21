@@ -3,6 +3,7 @@ import { Img } from "react-image";
 
 import "../styles/pageStyles/servicesPage.css";
 import "../styles/pageStyles/aboutPage.css";
+import "../styles/adaptive/servicesPageAdaptive.css"
 
 //@ts-ignore
 import Photo5 from "../img/homePage/Photo5.jpg";

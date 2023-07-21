@@ -16,6 +16,7 @@ import IconContact3 from "../icons/contactPageSvg/Icon3.svg";
 
 import Model from "../components/Model";
 import "../styles/pageStyles/contactPage.css";
+import "../styles/adaptive/contactPageAdaptive.css"
 
 export default function ContactPage() {
   const [email, setEmail] = useState("");
@@ -25,10 +26,17 @@ export default function ContactPage() {
   const [anyNote, setAnyNote] = useState("");
 
   const [modelActive, setModelActive] = useState(false);
+  const [modelErrorActive, setModelErrorActive] = useState(false)
 
   const handleSubmite = (e: any) => {
     e.preventDefault();
-    setModelActive(true);
+    if(!name || !email || !phone || !service || !anyNote) {
+
+      setModelErrorActive(true)
+    }
+    else {
+      setModelActive(true);
+    }
   };
 
   return (
@@ -182,7 +190,20 @@ export default function ContactPage() {
         {service}
         <br />
         {anyNote}
-        <p>Ваше сообщение успешно отрпавлено!</p>
+        <p className="TextOnModelFormTrue">Ваше сообщение успешно отрпавлено!</p>
+      </Model>
+
+      <Model active={modelErrorActive} setActive={setModelErrorActive}>
+      {name ? !name : `Поле "Name" не заполнено!`}
+        <br />
+        {email ? !email : `Поле "Email" не заполнено!`}
+        <br />
+        {phone ? !phone : `Поле "Phone" не заполнено!`}
+        <br />
+        {service ? !service : `Поле "Service" не заполнено!`}
+        <br />
+        {anyNote  ? !anyNote : `Поле "Any Note For Us" не заполнено!`}
+        <p className="TextOnModelFormError">Вы заполнили не все поля!</p>
       </Model>
     </div>
   );

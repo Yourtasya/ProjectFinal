@@ -31,3 +31,11 @@
 .model__content.active {
   transform: scale(1);
 }
+
+.TextOnModelFormError {
+  color: red;
+}
+
+.TextOnModelFormTrue {
+  color: green;
+}

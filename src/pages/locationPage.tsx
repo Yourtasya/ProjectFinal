@@ -92,9 +92,9 @@ export default function LocationPage() {
                     </div>
                   </div>
                 </div>
-                <button className="localionBlockButton">
+                <NavLink to={LOGIN_ROUTE} className="localionBlockButton">
                   GET AN APPOINTMENT
-                </button>
+                </NavLink>
               </div>
             </div>
 
