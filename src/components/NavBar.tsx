@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import  { useState } from "react";
 import { Img } from "react-image";
 import { NavLink } from "react-router-dom";
 
@@ -19,9 +19,13 @@ import Logo from "../icons/Logo.svg";
 import Vector from "../icons/Vector.svg";
 //@ts-ignore
 import Chevrone from "../icons/Chevrone.svg";
+//@ts-ignore
+import humburger from "../icons/Humburger.svg"
 
-export default class NavBar extends Component {
-  render(): React.ReactNode {
+import "../styles/adaptive/homePageAdaptive.css";
+export default function NavBar() {
+  
+    const [isOpen, setOpen] = useState<boolean>();
     return (
       <div className="NavBar">
         <div className="NavBarContainer">
@@ -39,7 +43,11 @@ export default class NavBar extends Component {
               </label>
             </div>
 
-            <div className="ButtonListInNavBar">
+            <div className={`ButtonListInNavBar${isOpen ? "_active" : ""}`}>
+              {/* <input id="menu__toggle" type="checkbox" />
+              <label className="menu__btn">
+                <span></span>
+              </label> */}
               <NavLink to={HOME_ROUTE} className="ButtonInNavBar">
                 Home
               </NavLink>
@@ -85,9 +93,16 @@ export default class NavBar extends Component {
                 Reservation
               </NavLink>
             </div>
+            <Img
+          src={humburger}
+          className="headerMenuButton"
+          onClick={() => setOpen(!isOpen)}
+        ></Img>
           </div>
+
         </div>
+
       </div>
     );
   }
-}
+

@@ -50,8 +50,8 @@ import Vector1 from "../icons/Vector1.svg";
 // //@ts-ignore
 // import  from "../icons/Edit.svg";
 
-import "../styles/pageStyles/homePage.css";
 import "../styles/adaptive/homePageAdaptive.css";
+import "../styles/pageStyles/homePage.css";
 import { LOGIN_ROUTE } from "../links/consts";
 import Model from "../components/Model";
 import "../styles/Model.css";
@@ -96,11 +96,12 @@ export default function HomePage() {
               </NavLink>
             </div>
             <div className="HomeImg">
-              <Img src={Image}></Img>
+              <Img className="HomeImg2" src={Image}></Img>
             </div>
           </div>
         </div>
       </section>
+      
       <section className="HomePageProcedures">
         <div className="HomePageContainer">
           <div className="HomePageBlocks">

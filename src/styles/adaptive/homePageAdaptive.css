@@ -1,27 +1,104 @@
-@media screen and (max-width: 1200px) {
-
-}
+@media screen and (max-width: 1200px) {}
 
 @media (max-width: 2560px) {
-    #menu__toggle {
-      display: none;
-    }
+  #menu__toggle {
+    display: none;
   }
-  
-  @media (max-width: 1360px) {
-    .container {
-      max-width: 1300px;
-    }
+}
+
+@media (max-width: 1360px) {
+  .HomePageContainer {
+    max-width: 1300px;
   }
-  
-  @media (max-width: 1280px) {
-    .container {
-      max-width: 1220px;
-    }
+}
+
+@media (max-width: 1280px) {
+  .HomePageContainer {
+    max-width: 1220px;
   }
-  
-  @media (max-width: 1152px) {
-    .container {
-      max-width: 1092px;
+}
+
+@media (max-width: 1152px) {
+  .HomePageContainer {
+    max-width: 1092px;
+  }
+}
+
+/* @media (max-width: 1200px) {
+    .NavBarContainer {
+      max-width: 860px;
     }
-  }  
+  
+    .NavBarHeader {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  }   */
+
+
+
+
+
+@media (max-width: 1220px) {
+  .HomePageContainer {
+    max-width: 1220px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1155px) {
+  .HomeText_tittle {
+    font-size: 60px;
+  }
+}
+
+
+
+
+@media (max-width: 1230px) {
+  .HomePageBlocks {
+    gap: 20px;
+  }
+
+  .BlockText_subtittle {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 1230px) {
+  .leftBlock_top {
+    padding-right: 15px;
+  }
+}
+
+
+
+
+/* ---?????--- */
+
+/* @media (max-width: 1250px) {
+  .HomePageBlocks {
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */

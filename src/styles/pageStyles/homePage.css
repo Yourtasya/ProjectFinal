@@ -23,13 +23,55 @@
   max-width: 510px;
 }
 
+@media (max-width: 1155px) {
+  .HomeText_tittle {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .HomeText_tittle {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 860px) {
+  .HomeImg2 {
+    display: none;
+  }
+
+  .HomeText {
+    padding-left: none;
+    padding-right: 0;
+  }
+
+  .Homehhh {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .HomeText_tittle {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .HomeText_tittle {
+    font-size: 35px;
+  }
+
+  .HomeText_subtittle {
+    font-size: 15px;
+
+  }
+}
+
 .HomeText_subtittle {
   font-family: Manrope;
   font-size: 19px;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0em;
-  text-align: left;
   max-width: 508px;
   margin: 24px auto 34px;
 }
@@ -40,6 +82,12 @@
   height: 545px;
   margin-top: 190px;
   padding-bottom: 235px;
+}
+
+@media (max-width: 1070px) {
+  .HomeImg2 {
+    height: 450px;
+  }
 }
 
 .HomeText_ButtonReservation {
@@ -57,6 +105,7 @@
   transition-duration: 0.4s;
   text-transform: uppercase;
 }
+
 .HomeText_ButtonReservation:hover {
   background-color: #525959;
   color: white;
@@ -69,9 +118,17 @@
 
 .HomePageBlocks {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 105px;
   padding: 120px 0;
+}
+
+@media (max-width: 1250px) {
+  .HomePageBlocks {
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .BlockImg,
@@ -79,6 +136,14 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 350px) {
+
+  .BlockImg,
+  img {
+    height: 150px;
+  }
 }
 
 .BlockText {
@@ -107,6 +172,7 @@ img {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .BlockText_button:hover {
   background-color: #525959;
   color: white;
@@ -212,9 +278,11 @@ img {
   margin: 30px 0px 0px 80px;
 }
 
-.ourServicesFoto_1, .ourServicesFoto_2{
+.ourServicesFoto_1,
+.ourServicesFoto_2 {
   width: 510px;
 }
+
 .ourContentText_1 {
   font-family: "Playfair Display";
   font-style: normal;
@@ -245,7 +313,7 @@ img {
   margin-bottom: 18px;
 }
 
-.ourServicesFoto_2{
+.ourServicesFoto_2 {
   width: 510px;
 }
 
@@ -268,11 +336,13 @@ img {
   text-transform: uppercase;
   text-decoration: none;
 }
-.ourContentButton:hover{
+
+.ourContentButton:hover {
   background-color: #525959;
   color: white;
   border-color: #525959;
 }
+
 .ourContentButton .ourServicesFoto_1,
 .ourServicesFoto_2 {
   width: 600px;
@@ -420,7 +490,7 @@ img {
   font-size: 18px;
   line-height: 175%;
   margin: 14px 0 37px;
-  
+
 }
 
 .flat {
@@ -485,7 +555,7 @@ gap: 10px; */
   letter-spacing: 0.02em;
 }
 
-.flatLeft_text50{
+.flatLeft_text50 {
   font-weight: 800;
   font-size: 30px;
 }
@@ -502,7 +572,7 @@ gap: 10px; */
   display: table-caption;
 }
 
-.formTextForm{
+.formTextForm {
   padding: 66px 75px 0;
 
 }
@@ -646,6 +716,23 @@ gap: 10px; */
   padding: 40px 0 60px;
   justify-content: center;
 }
+
+@media (max-width: 1360px) {
+  .ourBlogBlocks {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .ourBlogBlocks {
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: none;
+  }
+}
+
+
+
 
 .BlockText_ourBlog_text {
   font-size: 13px;
