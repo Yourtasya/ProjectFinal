@@ -138,8 +138,8 @@ line-height: 130%;
     display: none;
   }
   .ButtonListInNavBar_active {
+    z-index: 1000;
     position: fixed;
-    margin-top: 120px;
     top: 0;
     left: -225px;
     display: flex;
@@ -148,8 +148,6 @@ line-height: 130%;
     height: 100%;
     background-color: #ffffff;
     padding-left: 200px;
-    transition-property: transform;
-    transition-duration: 0.5s;
   }
 
   .headerMenuButton:hover {
@@ -158,6 +156,8 @@ line-height: 130%;
     width: 50px;
     height: 50px;
     background-color: #525959;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
   }
 
   .headerMenuButton {
@@ -165,5 +165,42 @@ line-height: 130%;
     margin-left: auto;
     width: 50px;
     height: 50px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+}
+
+/* @media (max-width: 365px) {
+.NavBarHeader{
+  grid-template-columns: 195px 260px 1fr;
+  }
+  
+} */
+
+@media (max-width: 544px) {
+
+  .headerMenuButton{
+    width: 30px;
+  }
+
+  .NameProjectInNavBar{
+    font-size: 18px;
+  }
+
+  .PhoneNumberNavBar{
+    font-size: 12px;
+  }
+  
+}
+
+@media (max-width: 430px) {
+
+  .NameProjectInNavBar{
+    display: none;
+  }
+
+  .NavBarHeader{
+    grid-template-columns: 50px 7.5fr 1fr;
+
   }
 }

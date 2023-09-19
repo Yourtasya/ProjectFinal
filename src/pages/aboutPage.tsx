@@ -155,7 +155,7 @@ export default function AboutPage() {
             <div className="Block_1">
               <div className="BlockImg">
                 <NavLink to={`/team/single/:1`}>
-                  <Img src={Image11}></Img>
+                  <Img src={Image11} className="BlockIm3"></Img>
                 </NavLink>
               </div>
               <div className="Block_1_Text OurExpertsBlockText">
@@ -171,7 +171,7 @@ export default function AboutPage() {
             <div className="Block_2">
               <div className="BlockImg">
                 <NavLink to={`/team/single/:2`}>
-                  <Img src={Image12}></Img>
+                  <Img src={Image12} className="BlockIm3"></Img>
                 </NavLink>
               </div>
               <div className="Block_2_Text OurExpertsBlockText">
@@ -187,7 +187,7 @@ export default function AboutPage() {
             <div className="Block_3">
               <div className="BlockImg">
                 <NavLink to={`/team/single/:3`}>
-                  <Img src={Image13}></Img>
+                  <Img src={Image13} className="BlockIm3"></Img>
                 </NavLink>
               </div>
               <div className="Block_3_Text OurExpertsBlockText">
@@ -204,7 +204,7 @@ export default function AboutPage() {
       </section>
 
       <section className="ourValuesTestimonialsBlock1">
-        <div className="ourServicesBlockContainer">
+        <div className="HomePageContainer ourServicesBlockContainer">
           <div className="TestimonialsBlock_text">
             <h4 className="TestimonialsBlock_tittle">Testimonials</h4>
             <h2 className="TestimonialsBlock_subtittle">

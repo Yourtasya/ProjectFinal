@@ -21,3 +21,46 @@
   justify-content: center;
   text-align: center;
 }
+
+@media (max-width: 746px) {
+  .AuthPageForm{
+    max-width: 469px;
+    padding: 25px 45px;
+  }
+}
+
+@media (max-width: 614px) {
+  .AuthPageForm{
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 470px) {
+  .AuthPageForm{
+    max-width: 300px;
+  }
+
+  .formButtonAuthPage{
+    width: 350px;
+  }
+}
+
+@media (max-width: 432px) {
+  .AuthPageForm{
+    max-width: 190px;
+  }
+
+  .formButtonAuthPage{
+    width: 250px;
+  }
+
+  .getInTouchBlock_text{
+    margin: 23px 15px 43px;
+  }
+}
+
+@media (max-width: 408px) {
+  .FirstBlockTittleAuthPage{
+    font-size: 45px;
+  }
+}

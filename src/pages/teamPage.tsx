@@ -41,7 +41,7 @@ export default function TeamPage() {
           <div className="OurExpertsBlocks">
             <div className="Block_1">
               <NavLink to={`/team/single/:1`}>
-                <Img id="1" className="BlockImg" src={Image11}></Img>
+                <Img id="1" className="BlockIm2" src={Image11}></Img>
               </NavLink>
               <div className="Block_1_Text OurExpertsBlockText">
                 <h3 className="BlockText_title">Sherlin D’Cruz</h3>
@@ -55,7 +55,7 @@ export default function TeamPage() {
 
             <div className="Block_2">
               <NavLink to={`/team/single/:2`}>
-                <Img id="2" className="BlockImg" src={Image12}></Img>
+                <Img id="2" className="BlockIm2" src={Image12}></Img>
               </NavLink>
               <div className="Block_2_Text OurExpertsBlockText">
                 <h3 className="BlockText_title">Maria Sharapova</h3>
@@ -69,7 +69,7 @@ export default function TeamPage() {
 
             <div className="Block_3">
               <NavLink to={`/team/single/:3`}>
-                <Img id="3" className="BlockImg" src={Image13}></Img>
+                <Img id="3" className="BlockIm2" src={Image13}></Img>
               </NavLink>
               <div className="Block_3_Text OurExpertsBlockText">
                 <h3 className="BlockText_title">Angeline Jenifer</h3>
@@ -83,7 +83,7 @@ export default function TeamPage() {
 
             <div className="Block_3">
               <NavLink to={`/team/single/:4`}>
-                <Img id="4" className="BlockImg" src={Image5}></Img>
+                <Img id="4" className="BlockIm2" src={Image5}></Img>
               </NavLink>
               <div className="Block_3_Text OurExpertsBlockText">
                 <h3 className="BlockText_title">Bonham Carter</h3>
@@ -97,7 +97,7 @@ export default function TeamPage() {
 
             <div className="Block_3">
               <NavLink to={`/team/single/:5`}>
-                <Img id="5" className="BlockImg" src={Image6}></Img>{" "}
+                <Img id="5" className="BlockIm2" src={Image6}></Img>{" "}
               </NavLink>
               <div className="Block_3_Text OurExpertsBlockText">
                 <h3 className="BlockText_title">Evanna Lynch</h3>
@@ -111,7 +111,7 @@ export default function TeamPage() {
 
             <div className="Block_3">
               <NavLink to={`/team/single/:6`}>
-                <Img id="6" className="BlockImg" src={Image7}></Img>{" "}
+                <Img id="6" className="BlockIm2" src={Image7}></Img>{" "}
               </NavLink>
               <div className="Block_3_Text OurExpertsBlockText">
                 <h3 className="BlockText_title">Natalia Tena</h3>

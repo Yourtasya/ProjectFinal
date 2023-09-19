@@ -27,11 +27,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
-  width: 435px;
+  /* width: 435px; */
 }
 
 .getInTouchBlock_text {
-  margin: 23px 0 43px;
+  margin: 23px 20px 43px;
 }
 
 .scheduleYourPresenceForm {
@@ -107,3 +107,89 @@
 .scheduleformButton {
   width: 810px;
 }
+
+
+@media (max-width: 1080px) {
+  .getInTouchBlock_img1{
+    width: 400px;
+  }
+
+  .getInTouchBlock{
+    gap: 60px;
+  }
+}
+
+@media (max-width: 1058px) {
+  .scheduleYourPresenceContainer{
+    width: 550px;
+  }
+
+  .wrapper{
+    text-align: center;
+  } 
+
+  .note, .scheduleYourInput{
+    width: 410px;
+  }
+
+  .scheduleformButton{
+    width: 410px;
+  }
+}
+
+@media (max-width: 919px) {
+  .getInTouchBlock{
+    gap: 30px;
+  }
+}
+
+@media (max-width: 881px) {
+  .getInTouchBlock_img1{
+    width: 350px;
+  }
+}
+
+@media (max-width: 830px) {
+  .getInTouchBlock_img1{
+    display: none;
+  }
+}
+
+
+@media (max-width: 467px) {
+  .getInTouchBlock_subtittle{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 493px) {
+  .scheduleYourPresenceContainer{
+    width: 350px;
+  }
+
+  .note, .scheduleYourInput{
+    width: 310px;
+  }
+
+  .scheduleformButton{
+    width: 310px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 355px) {
+  .scheduleYourPresenceContainer{
+    width: 300px;
+    padding: 38px 0;
+  }
+
+  .note, .scheduleYourInput{
+    width: 250px;
+  }
+
+  .scheduleformButton{
+    width: 250px;
+  }
+}
+
+

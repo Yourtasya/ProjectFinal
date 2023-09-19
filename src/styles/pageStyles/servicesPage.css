@@ -53,3 +53,15 @@ font-size: 18px;
 line-height: 175%;
 margin-bottom: 32px;
 }
+
+@media (max-width: 633px) {
+  .ShareUsContentBlock2_img,  .ShareUsContentBlock2_img2, .ShareUsContentBlock1_img {
+display: none;  }
+
+.aboutPageFlatDiscount{
+  padding: 0;
+}
+}
+
+
+

@@ -126,7 +126,6 @@
 @media (max-width: 1250px) {
   .HomePageBlocks {
     text-align: center;
-    justify-content: center;
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -138,13 +137,13 @@ img {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 350px) {
+/* @media (max-width: 350px) {
 
   .BlockImg,
   img {
     height: 150px;
   }
-}
+} */
 
 .BlockText {
   margin: 26px auto 30px;
@@ -188,6 +187,12 @@ img {
   display: flex;
 }
 
+@media (max-width: 983px) {
+  .AboutUsBlock {
+    justify-content: center;
+  }
+}
+
 .AboutUs_leftBlock {
   text-align: left;
 }
@@ -224,6 +229,26 @@ img {
   gap: 10px;
 }
 
+@media (max-width: 450px) {
+  .leftBlock_cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+  }
+}
+
+@media (max-width: 350px) {
+  .leftBlock_cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+}
+
 .leftBlock_card {
   max-width: 165px;
   height: 180px;
@@ -231,6 +256,12 @@ img {
   border: 1px solid #1e2c30;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 350px) {
+  .leftBlock_card {
+    max-width: none;
+  }
 }
 
 .leftBlock_cardText {
@@ -241,6 +272,21 @@ img {
 .leftBlock_cardTittle {
   margin-top: 15px;
 }
+
+@media (max-width: 1090px) {
+  .leftBlock_top {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 983px) {
+  .AboutUsImg>img {
+    display: none;
+  }
+}
+
+
+
 
 .ourServicesBlockContainer {
   max-width: 1198px;
@@ -270,12 +316,49 @@ img {
   display: flex;
 }
 
+@media (max-width: 1106px) {
+  .ourContentText, .ourContentText2{
+    justify-content: center;
+  }
+
+  .ourContent{
+    justify-content: center;
+  }
+
+  .ourContentText2, .ourContentText{
+    margin: 0;
+  }
+}
+
+@media (max-width: 940px) {
+
+  .ourServicesFoto_1 {
+    display: none;
+  }
+
+  .ourServicesFoto_2 {
+    display: none;
+  }
+
+  .ourContent {
+    justify-content: center;
+  }
+}
+
 .ourContentText2 {
   margin: 128px 80px 0px 0px;
 }
 
 .ourContentText {
   margin: 30px 0px 0px 80px;
+}
+
+@media (max-width: 1106px) {
+
+  .ourContentText,
+  .ourContentText2 {
+    margin: 0;
+  }
 }
 
 .ourServicesFoto_1,
@@ -411,11 +494,79 @@ img {
   margin-left: 178px;
 }
 
-/* -----не  ровно, почему???---- */
 .TestimonialReviews {
   padding-top: 40px;
   display: flex;
   gap: 36px;
+}
+
+@media (max-width: 1220px) {
+  .TestimonialReviews {
+    display: grid;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 668px) {
+  .TestimonialReviews {
+    gap: 236px;
+  }
+
+  .TestimonialFeedback_userElement {
+    margin-left: 100px;
+  }
+
+  .TestimonialFeedback_text {
+    padding: 30px 44px;
+  }
+
+  .TestimonialFeedback {
+    width: 482px;
+    height: 259px;
+  }
+}
+
+@media (max-width: 540px) {
+  .TestimonialFeedback_text {
+    width: auto;
+    /* height: auto; */
+  }
+
+  .TestimonialFeedback {
+    width: 370px;
+  }
+
+  .TestimonialFeedback_userElement {
+    margin-left: 60px;
+  }
+
+  .TestimonialFeedback_text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 370px) {
+  .TestimonialFeedback {
+    width: 282px;
+  }
+
+  .TestimonialFeedback_text {
+    font-size: 14px;
+  }
+
+  .TestimonialFeedback_text {
+    width: 240px;
+  }
+
+  .TestimonialFeedback_text {
+    padding: 20px 20px;
+  }
+
+  .TestimonialFeedback_userElement {
+    display: none;
+  }
+
+
 }
 
 /* .TestimonialFeedback_dataUser{
@@ -448,6 +599,20 @@ img {
   gap: 35px 105px;
 }
 
+
+@media (max-width: 1024px) {
+  .ourAwesome_catalog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .ourAwesome_catalog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
 .product_textTittle {
   font-size: 26px;
   line-height: 120%;
@@ -475,9 +640,27 @@ img {
   display: flex;
 }
 
+
+@media (max-width: 1119px) {
+  .flatDiscountContent {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .flatDiscountText_flat {
+    padding-bottom: 37px;
+    justify-content: center;
+  }
+
+  .flatDiscountTextForm {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .flatDiscountText_subtittle {
-  width: 435px;
-  height: 174px;
+  width: auto;
   font-size: 45px;
   line-height: 130%;
   letter-spacing: -0.01em;
@@ -485,8 +668,7 @@ img {
 }
 
 .flatDiscountText_text {
-  width: 534px;
-  height: 92px;
+  width: auto;
   font-size: 18px;
   line-height: 175%;
   margin: 14px 0 37px;
@@ -560,22 +742,52 @@ gap: 10px; */
   font-size: 30px;
 }
 
+@media (max-width: 443px) {
+  .flatRight_mailUs {
+    display: flex;
+    padding: 18px 0px 12px 35px;
+  }
+
+  .flatRight_callUs{
+    padding: 18px 0px 12px 35px;
+  }
+
+  .flatRight {
+    width: 700px;
+    height: 145px;
+    background: #ffffff;
+    border: 1px solid #95bfcb;}
+
+    .flatLeft{
+      padding: 0;
+    }
+}
+
+
 /* ----form----- */
 
 .flatDiscountTextForm {
-  background: #fff;
-  width: 550px;
-  height: 667px;
+  display: flex;
 }
 
 .flatLeft_form {
   display: table-caption;
 }
 
+.flatLeft_forms {
+  height: auto;
+  width: 550px;
+  background: white;
+  text-align: center;
+}
+
 .formTextForm {
-  padding: 66px 75px 0;
+  padding: 66px 75px 66px;
 
 }
+
+
+
 
 .input {
   width: 400px;
@@ -691,6 +903,54 @@ gap: 10px; */
   border-color: #525959;
 }
 
+@media (max-width: 881px) {
+  .flatLeft_forms {
+    width: 450px;
+  }
+
+  .formTextForm {
+    padding: 66px 15px;
+  }
+
+  .textarea,
+  .input {
+    width: 350px;
+  }
+
+  .iconName,
+  .iconEmail,
+  .iconPhone,
+  .iconService,
+  .iconAnyNote {
+    left: 30px;
+  }
+
+}
+
+@media (max-width: 436px) {
+  .flatLeft_forms {
+    width: 350px;
+  }
+
+  .textarea,
+  .input {
+    width: 250px;
+  }
+
+  .formButton{
+width: 299px;
+padding: 0;
+  }
+
+  .iconName,
+  .iconEmail,
+  .iconPhone,
+  .iconService,
+  .iconAnyNote {
+    left: 30px;
+  }
+}
+
 /* -------ourBlog------- */
 
 .ourBlog {
@@ -752,13 +1012,20 @@ gap: 10px; */
   background: #edf5f7;
 }
 
-.ourBlockImg {
+.ourBlockIm {
   width: 370px;
   height: 325px;
 }
 
+@media (max-width: 437px) {
+  .BlockImg>img {
+    width: 200px;
+    /* height: 325px; */
+  }
+}
+
 .ourBlockText {
-  width: 317px;
+  /* width: 317px; */
   padding: 30px 26px 39px 26px;
 }
 
@@ -770,3 +1037,16 @@ gap: 10px; */
   justify-content: center;
   text-align: center;
 }
+
+@media (max-width: 365px) {
+
+.ourButton {
+    width: 200px;
+}
+
+.ourBlockText{
+  width: auto;
+}
+}
+
+

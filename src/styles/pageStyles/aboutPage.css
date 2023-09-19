@@ -166,11 +166,14 @@
 
 .OurExpertsBlocks {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 45px;
   padding: 33px 0 171px;
   justify-content: center;
+  text-align: center;
 }
+
+
 
 .OurExpertsBlockText {
   margin-top: 22px;
@@ -186,4 +189,72 @@
 .ourValuesTestimonialsBlock1 {
   background: #EDF5F7;
   padding: 147px 0;
+}
+
+
+@media (max-width: 1231px) {
+  .OurExpertsBlocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .OurExpertsBlockText{
+    width: auto;
+  }
+}
+
+@media (max-width: 1216px) {
+  .ShareUsContentBlock2_img, .ShareUsContentBlock2_img2, .ShareUsContentBlock1_img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1113px) {
+  .ourValuesAboutUs {
+    background: #1E2C30;
+  }
+
+  .ourValuesAboutUs_img{
+    display: none;
+  }
+}
+
+
+@media (max-width: 836px) {
+  .ShareUsContentBlock2_img, .ShareUsContentBlock2_img2, .ShareUsContentBlock1_img {
+    width: 300px;
+  }
+
+  .OurExpertsBlocks {
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+@media (max-width: 633px) {
+  .ShareUsContentBlock2_img,  .ShareUsContentBlock2_img2, .ShareUsContentBlock1_img {
+display: none;  }
+
+.aboutPageFlatDiscount{
+  padding: 0;
+}
+}
+
+
+@media (max-width: 557px) {
+  .UsTexts {
+    padding: 0; 
+  }
+}
+
+@media (max-width: 348px) {
+  .BlockIm3 {
+    width: 170px;
+  }
+}
+
+@media (max-width: 328px) {
+  .FirstBlockButton {
+    width: 200px;
+  }
 }

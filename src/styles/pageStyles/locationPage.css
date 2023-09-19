@@ -12,19 +12,20 @@
   margin-top: 120px;
 }
 
-.localionTexts{
+.localionTexts {
   padding-top: 70px;
 }
 
-.localionRight{
+.localionRight {
   padding: 50px 0;
 }
 
-.localionBlockLast{
+.localionBlockLast {
   padding-bottom: 120px;
 }
 
-.localionBlockButton{
+.localionBlockButton {
+  text-decoration: none;
   padding: 23px;
   border: none;
   font-family: "Manrope";
@@ -44,4 +45,59 @@
 .localionBlockButton:hover {
   background-color: #525959;
   color: white;
+}
+
+@media (max-width: 1132px) {
+  .getInTouchBlock_img2 {
+    width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .localionBlock {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 926px) {
+  .localionBlock {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 895px) {
+  .getInTouchBlock_img2 {
+    width: 350px;
+  }
+}
+
+@media (max-width: 847px) {
+  .getInTouchBlock_img2 {
+    display: none;
+  }
+}
+
+@media (max-width: 453px) {
+  .getInTouchBlock_subtittle {
+    width: 300px;
+  }
+
+  .localionRight{
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 355px) {
+  .getInToucDropSubtittle {
+    font-size: 12px;
+  }
+
+  .getInTouchBlock_subtittle {
+    font-size: 40px;
+  }
+
+  .FirstBlockTittle {
+    font-size: 35px;
+  }
 }

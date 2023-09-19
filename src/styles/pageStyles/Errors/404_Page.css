@@ -1,3 +1,39 @@
 .Not_Found {
   background-color: #ffffff;
 }
+
+.notFound{
+  background: #EBF3F5;
+}
+
+.notFoundBlockTexts{
+  text-align: center;
+}
+
+.notFoundBlock{
+  padding: 200px 0;
+}
+
+.notFoundBlockTittle{
+  color: #7A9CA5;
+  font-size: 330px;
+}
+
+.notFoundBlockSubtittle{
+  font-size: 40px;
+  padding-bottom: 16px;
+}
+
+
+@media (max-width: 546px) {
+  .notFoundBlockTittle{
+    font-size: 130px;
+  }
+}
+
+@media (max-width: 349px) {
+  .notFoundBlockSubtittle {
+    font-size: 30px;
+}
+}
+

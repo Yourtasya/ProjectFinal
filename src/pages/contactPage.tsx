@@ -54,7 +54,7 @@ export default function ContactPage() {
       <section className="getInTouch">
         <div className="HomePageContainer">
           <div className="getInTouchBlock">
-            <Img className="getInTouchBlock_img" src={Contact}></Img>
+            <Img className="getInTouchBlock_img1" src={Contact}></Img>
             <div className="getInTouchBlock_texts">
               <h4 className="getInTouchBlock_tittle">Get in Touch!</h4>
               <h2 className="getInTouchBlock_subtittle">

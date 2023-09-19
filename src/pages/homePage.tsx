@@ -68,7 +68,7 @@ export default function HomePage() {
 
   const handleSubmite = (e: any) => {
     e.preventDefault();
-    if(!name || !email || !phone || !service || !anyNote) {
+    if (!name || !email || !phone || !service || !anyNote) {
 
       setModelErrorActive(true)
     }
@@ -101,7 +101,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      
+
       <section className="HomePageProcedures">
         <div className="HomePageContainer">
           <div className="HomePageBlocks">
@@ -296,7 +296,7 @@ export default function HomePage() {
                 GET AN APPOINTMENT
               </NavLink>
             </div>
-            <Img className=".ourServicesFoto_2" src={Photo6}></Img>
+            <Img className="ourServicesFoto_2" src={Photo6}></Img>
           </div>
         </div>
       </section>
@@ -573,7 +573,7 @@ export default function HomePage() {
           </div>
           <div className="ourBlogBlocks">
             <div className="ourBlock_1">
-              <div className="ourBlockImg">
+              <div className="BlockImg">
                 <Img src={Photo7}></Img>
               </div>
               <div className="Block_1_Text ourBlockText">
@@ -649,7 +649,7 @@ export default function HomePage() {
       </Model>
 
       <Model active={modelErrorActive} setActive={setModelErrorActive}>
-      {name ? !name : `Поле "Name" не заполнено!`}
+        {name ? !name : `Поле "Name" не заполнено!`}
         <br />
         {email ? !email : `Поле "Email" не заполнено!`}
         <br />
@@ -657,7 +657,7 @@ export default function HomePage() {
         <br />
         {service ? !service : `Поле "Service" не заполнено!`}
         <br />
-        {anyNote  ? !anyNote : `Поле "Any Note For Us" не заполнено!`}
+        {anyNote ? !anyNote : `Поле "Any Note For Us" не заполнено!`}
         <p className="TextOnModelFormError">Вы заполнили не все поля!</p>
       </Model>
     </div>

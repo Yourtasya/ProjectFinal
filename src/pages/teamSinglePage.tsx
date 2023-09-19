@@ -78,7 +78,7 @@ export default function TeamSinglePage() {
                   </div>
                 </div>
               </div>
-              <NavLink to={LOGIN_ROUTE} className="TeamSinglePageEmailButton">
+              <NavLink to={LOGIN_ROUTE} className="HomeText_ButtonReservation">
                 GET AN APPOINTMENT
               </NavLink>
             </div>

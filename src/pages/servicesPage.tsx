@@ -129,7 +129,7 @@ export default function ServicesPage() {
                   GET AN APPOINTMENT
                 </NavLink>
               </div>
-              <Img className=".ourServicesFoto_2" src={Photo6}></Img>
+              <Img className="ourServicesFoto_2" src={Photo6}></Img>
             </div>
 
             <div className="ourServicesBlockContent ourContent">
@@ -220,7 +220,7 @@ export default function ServicesPage() {
                   GET AN APPOINTMENT
                 </NavLink>
               </div>
-              <Img className=".ourServicesFoto_2" src={ImageServices2}></Img>
+              <Img className="ourServicesFoto_2" src={ImageServices2}></Img>
             </div>
           </div>
         </div>

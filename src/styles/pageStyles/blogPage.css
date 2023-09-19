@@ -1,11 +1,35 @@
+.GetInTouchBlock{
+  padding: 60px 0 60px;
+}
+
 .BlogPage {
   background-color: #ffffff;
 }
 
 .GetInTouchBlocks {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   padding: 40px 0 60px;
   justify-content: center;
   gap: 60px 44px;
+}
+
+
+@media (max-width: 1230px) {
+  .GetInTouchBlocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ourBlock_1, .ourBlock_2, .ourBlock_3{
+text-align: center;  }
+}
+
+@media (max-width: 810px) {
+  .GetInTouchBlocks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* .ourBlock_1, .ourBlock_2, .ourBlock_3{
+    width: 370px;
+  } */
 }

@@ -35,7 +35,7 @@ export default function AuthPage() {
         <div className="HomePageContainer">
           <div className="FirstBlockImg"></div>
           <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
-          <p className="FirstBlockTittle">
+          <p className="FirstBlockTittle FirstBlockTittleAuthPage">
             RESERVATION
           </p>
         </div>
@@ -73,7 +73,7 @@ export default function AuthPage() {
                 />
               </div>
 
-              <button className="formButton" type="submit">Войти</button>
+              <button className="formButton formButtonAuthPage" type="submit">Войти</button>
             </form>
           </div>
 

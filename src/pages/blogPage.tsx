@@ -37,7 +37,7 @@ export default function BlogPage() {
           </div>
           <div className="GetInTouchBlocks">
             <div className="ourBlock_1">
-              <div className="ourBlockImg">
+              <div className="BlockImg">
                 <Img src={Photo7}></Img>
               </div>
               <div className="Block_1_Text ourBlockText">
@@ -93,7 +93,7 @@ export default function BlogPage() {
             </div>
 
             <div className="ourBlock_1">
-              <div className="ourBlockImg">
+              <div className="BlockImg">
                 <Img src={Photo}></Img>
               </div>
               <div className="Block_1_Text ourBlockText">
@@ -111,7 +111,7 @@ export default function BlogPage() {
             </div>
 
             <div className="ourBlock_1">
-              <div className="ourBlockImg">
+              <div className="BlockImg">
                 <Img src={Photo1}></Img>
               </div>
               <div className="Block_1_Text ourBlockText">
@@ -129,7 +129,7 @@ export default function BlogPage() {
             </div>
 
             <div className="ourBlock_1">
-              <div className="ourBlockImg">
+              <div className="BlockImg">
                 <Img src={Photo2}></Img>
               </div>
               <div className="Block_1_Text ourBlockText">

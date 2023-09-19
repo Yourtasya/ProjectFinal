@@ -1,3 +1,11 @@
 .ServiceSinglePage {
   background-color: #ffffff;
 }
+
+
+@media (max-width: 1106px) {
+  .ourServicesFoto_1, .ourServicesFoto_2 {
+    display: none;
+  }
+}
+

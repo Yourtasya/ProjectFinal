@@ -38,7 +38,7 @@ export default function LocationPage() {
         <div className="HomePageContainer">
           <div className="localionBlocks">
             <div className="localionBlock">
-              <Img className="getInTouchBlock_img" src={LocationPhoto1}></Img>
+              <Img className="getInTouchBlock_img2" src={LocationPhoto1}></Img>
               <div className="getInTouchBlock_texts localionTexts">
                 <h4 className="getInTouchBlock_tittle">Columbia</h4>
                 <h2 className="getInTouchBlock_subtittle">Washington D.C</h2>
@@ -156,11 +156,11 @@ export default function LocationPage() {
                   GET AN APPOINTMENT
                 </NavLink>
               </div>
-              <Img className="getInTouchBlock_img" src={LocationPhoto2}></Img>
+              <Img className="getInTouchBlock_img2" src={LocationPhoto2}></Img>
             </div>
 
             <div className="localionBlock localionBlockLast">
-              <Img className="getInTouchBlock_img" src={LocationPhoto3}></Img>
+              <Img className="getInTouchBlock_img2" src={LocationPhoto3}></Img>
               <div className="getInTouchBlock_texts localionTexts">
                 <h4 className="getInTouchBlock_tittle">FRANCE</h4>
                 <h2 className="getInTouchBlock_subtittle">Paris</h2>
