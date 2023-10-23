@@ -1,13 +1,13 @@
 import React, { useContext, useState } from "react";
 
-
 import "../styles/pageStyles/authPage.css";
-import "../styles/adaptive/authPageAdaptive.css"
+import "../styles/adaptive/authPageAdaptive.css";
 // import Model from "../components/Model";
 // import "../styles/Model.css";
 
 import { Context } from "..";
-
+import { NavLink } from "react-router-dom";
+import { REGISTER_ROUTE } from "../links/consts";
 
 export default function AuthPage() {
   const [email, setEmail] = useState("");
@@ -44,14 +44,14 @@ export default function AuthPage() {
         <div className="HomePageContainer">
           <div className="AuthPageForm">
             <form className="AuthPageForm" onSubmit={handleLogin}>
-
               <div className="AuthPageText">
                 <h4 className="getInTouchBlock_tittle">Enter Password</h4>
                 <h2 className="getInTouchBlock_subtittle">
                   Password Protected
                 </h2>
                 <p className="getInTouchBlock_text">
-                  This page is password protected. If you are the website admin, or have access to this page, please type your password below.
+                  This page is password protected. If you are the website admin,
+                  or have access to this page, please type your password below.
                 </p>
               </div>
               <div className="wrapper wrapperAuthPage">
@@ -73,18 +73,16 @@ export default function AuthPage() {
                 />
               </div>
 
-              <button className="formButton formButtonAuthPage" type="submit">Войти</button>
+              <button className="formButton formButtonAuthPage" type="submit">
+                Войти
+              </button>
             </form>
+            <div>
+              <NavLink to={REGISTER_ROUTE}>Sing Up</NavLink>
+            </div>
           </div>
-
         </div>
       </section>
-
-
-
-
-
-
 
       {/* <Model active={modelActive} setActive={setModelActive}>
         <p>Вы зарегистрированы!</p>

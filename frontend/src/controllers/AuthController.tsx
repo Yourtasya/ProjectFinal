@@ -1,9 +1,13 @@
 import AuthService from "../services/AuthService";
-
+import { makeAutoObservable } from "mobx";
 export class AuthController {
   isAuth = false;
   isLoading = false;
   email: any;
+
+  constructor() {
+    makeAutoObservable(this);
+  }
 
   setLoading(bool: boolean) {
     this.isLoading = bool;
@@ -28,5 +32,11 @@ export class AuthController {
     } finally {
       this.setLoading(false);
     }
+  }
+
+  async registration(email: string, password: string, name: string) {
+    try {
+      const res = AuthService.registration(email, password, name);
+    } catch {}
   }
 }

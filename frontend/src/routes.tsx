@@ -32,10 +32,12 @@ import {
   STYLE_GUIDE_ROUTE,
   LICENSE_ROUTE,
   CHANGELOG_ROUTE,
+  REGISTER_ROUTE,
 } from "./links/consts";
 
 //ErrorRoute
 import { NOT_FOUND_ROUTE } from "./links/ExceptionRoute/consts";
+import RegisterPage from "./pages/registerPage";
 
 export const publicRoutes = [
   {
@@ -97,5 +99,9 @@ export const publicRoutes = [
   {
     path: NOT_FOUND_ROUTE,
     Component: Not_Found,
+  },
+  {
+    path: REGISTER_ROUTE,
+    Component: RegisterPage,
   },
 ];

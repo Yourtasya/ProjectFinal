@@ -12,3 +12,4 @@ export const LOGIN_ROUTE = "/login"; //Password
 export const STYLE_GUIDE_ROUTE = "/style";
 export const LICENSE_ROUTE = "/license";
 export const CHANGELOG_ROUTE = "/changelog";
+export const REGISTER_ROUTE = "/registration";

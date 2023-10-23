@@ -1,5 +1,6 @@
 import RemoveCookie from "../cookies/removeCookie";
 import SetCookie from "../cookies/setCookie";
+import $api from "../Interceptors/baseURL";
 
 const mockEmailResponseServer = "Nastya.Shestakova@gmail.com";
 const mockPasswordResponseServer = "1111";
@@ -18,5 +19,9 @@ export default class AuthService {
     } else {
       alert("Неверно введен логин или пароль!");
     }
+  }
+
+  static async registration(email: string, password: string, name: string) {
+    return $api.post("authentication/registration", { email, password, name });
   }
 }
