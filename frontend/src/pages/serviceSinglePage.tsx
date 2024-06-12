@@ -7,11 +7,11 @@ export default function ServiceSinglePage() {
     <div className="ServiceSinglePage">
       <div className="HomePageContainer">
         <div className="FirstBlock">
-          <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
+          {/* <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p> */}
           <p className="FirstBlockTittle">
             The big story behind, our <br></br>beautyness center
           </p>
-          <button className="FirstBlockButton">Make a reservation</button>
+          <button className="FirstBlockButton">Записаться</button>
         </div>
       </div>
     </div>

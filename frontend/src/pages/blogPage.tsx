@@ -24,16 +24,16 @@ export default function BlogPage() {
     <div className="BlogPage">
       <div className="FirstBlock">
         <div className="HomePageContainer">
-          <p className="FirstBlockSubtittle">GET IN TOUCH WITH US</p>
-          <p className="FirstBlockTittle">Articles & News</p>
+          {/* <p className="FirstBlockSubtittle">GET IN TOUCH WITH US</p> */}
+          <p className="FirstBlockTittle">Советы по уходу</p>
         </div>
       </div>
 
       <div className="HomePageContainer">
         <section className="GetInTouchBlock">
           <div className="ourBlog_text">
-            <h4 className="ourBlog_tittle">Our Blog</h4>
-            <h2 className="ourBlog_subtittle">Latest Updates</h2>
+            <h4 className="ourBlog_tittle">Наш блог</h4>
+            <h2 className="ourBlog_subtittle">Секреты красоты и релаксации!</h2>
           </div>
           <div className="GetInTouchBlocks">
             <div className="ourBlock_1">
@@ -42,14 +42,13 @@ export default function BlogPage() {
               </div>
               <div className="Block_1_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
-                  11TH AUGUST 2021 - BY PETER BERGSON
+                20 июня 2024
                 </h4>
                 <h3 className="BlockText_ourBlog_tittle ">
-                  The energy efficiency of the hydrotherapy or swim
+                Стоунтерапия
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it look
-                  like others readable will get end.
+                Стоунтерапия или массаж камнями с различной температурой укрепляет иммунитет, положительно влияет на организм, включая сердечно-сосудистую и эндокринную систему ...
                 </p>
               </div>
             </div>
@@ -60,15 +59,14 @@ export default function BlogPage() {
               </div>
               <div className="Block_2_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
-                  11TH AUGUST 2021 - BY PETER BERGSON
+                05 июня 2024
                 </h4>
 
                 <h3 className="BlockText_ourBlog_tittle">
-                  Tips to improve your body via cleansing
+                Ароматический массаж
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it look
-                  like others readable will get end.
+                Ароматический массаж эффективен вдвойне, так как сочетает в себе и лечебное действие самого массажа, и целебные свойства эфирных масел.
                 </p>
               </div>
             </div>
@@ -79,15 +77,14 @@ export default function BlogPage() {
               </div>
               <div className="Block_3_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
-                  11TH AUGUST 2021 - BY PETER BERGSON
+                  19 мая 2024
                 </h4>
 
                 <h3 className="BlockText_ourBlog_tittle">
-                  The best and perfect skincare strategy
+                Виды массажа лица
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it look
-                  like others readable will get end.
+                Существует множество разнообразных видов массажа лица. Каждый из них имеет свои уникальные особенности, показания и эффект...
                 </p>
               </div>
             </div>
@@ -98,14 +95,13 @@ export default function BlogPage() {
               </div>
               <div className="Block_1_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
-                  11TH AUGUST 2021 - BY PETER BERGSON
+                3 апреля 2024
                 </h4>
                 <h3 className="BlockText_ourBlog_tittle ">
-                  Fell the natural reverse aging process
+                Тайский массаж при остеохондрозе
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it look
-                  like others readable will get end.
+                Остеохондроз — одна из основных причин неприятных ощущений и болей в спине. Если вы хотите избавиться от дискомфорта, приходите на тайский массаж к нам ....
                 </p>
               </div>
             </div>
@@ -116,14 +112,13 @@ export default function BlogPage() {
               </div>
               <div className="Block_1_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
-                  11TH AUGUST 2021 - BY PETER BERGSON
+                  25 апреля 2024
                 </h4>
                 <h3 className="BlockText_ourBlog_tittle ">
-                  How to make the make-up stay last
+                Косметический массаж лица
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it look
-                  like others readable will get end.
+                Косметический массаж лица стимулирует кровообращение, улучшает цвет лица и способствует естественной регенерации кожи ...
                 </p>
               </div>
             </div>
@@ -134,21 +129,20 @@ export default function BlogPage() {
               </div>
               <div className="Block_1_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
-                  11TH AUGUST 2021 - BY PETER BERGSON
+                  28 март 2024
                 </h4>
                 <h3 className="BlockText_ourBlog_tittle ">
-                  The energy efficiency of the hydrotherapy or swim
+                Расслабляющий релакс массаж
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it look
-                  like others readable will get end.
+                В нашей жизни часто случаются моменты стресса, вызывающие напряжение мышц, что влияет на общее психоэмоциональное состояние ...
                 </p>
               </div>
             </div>
           </div>
           <div className="ourBlockText_button">
             <NavLink to={SERVICES_ROUTE} className="BlockText_button ourButton">
-              READ MORE
+              Подробнее
             </NavLink>
           </div>
         </section>

@@ -39,7 +39,7 @@ export default function NavBar() {
             <div className="PhoneNumberNavBar">
               <Img className="SvgImgInNavBar" src={Vector}></Img>
               <label className="PhoneNumberInNavBar">
-                Call Us - (+22) 123 456 7890
+                +375 (29) 598-06-69
               </label>
             </div>
 
@@ -49,14 +49,14 @@ export default function NavBar() {
                 <span></span>
               </label> */}
               <NavLink to={HOME_ROUTE} className="ButtonInNavBar">
-                Home
+                Главная
               </NavLink>
               <Dropdown
                 trigger={
                   <button className="DropdawnInNavBar">
                     <div className="ButtonPagesInDropdawnMenu">
                       <label className="ButtonPagesNameInDropdawnMenu">
-                        Pages
+                        Интересное
                       </label>
                       <Img
                         className="SVGPagesInDropdawnMenu"
@@ -67,30 +67,30 @@ export default function NavBar() {
                 }
                 menu={[
                   <NavLink to={ABOUT_ROUTE} className="ButtonInDropdawnMenu">
-                    About
+                    О нас
                   </NavLink>,
-                  <NavLink to={LOCATION_ROUTE} className="ButtonInDropdawnMenu">
-                    Location
+                  <NavLink to={CONTACT_ROUTE} className="ButtonInDropdawnMenu">
+                    Поддержка
                   </NavLink>,
                   <NavLink to={BLOG_ROUTE} className="ButtonInDropdawnMenu">
-                    Blog
+                    Блог
                   </NavLink>,
-                  <NavLink to={TEAM_ROUTE} className="ButtonInDropdawnMenu">
-                    Team
-                  </NavLink>,
+                  // <NavLink to={TEAM_ROUTE} className="ButtonInDropdawnMenu">
+                  //   Специалисты
+                  // </NavLink>,
                 ]}
               />
-              <NavLink to={ABOUT_ROUTE} className="ButtonInNavBar">
-                About
+              <NavLink to={TEAM_ROUTE} className="ButtonInNavBar">
+              Специалисты
               </NavLink>
               <NavLink to={SERVICES_ROUTE} className="ButtonInNavBar">
-                Services
+                Услуги
               </NavLink>
-              <NavLink to={CONTACT_ROUTE} className="ButtonInNavBar">
-                Contact
+              <NavLink to={LOCATION_ROUTE} className="ButtonInNavBar">
+                Контакты
               </NavLink>
               <NavLink to={LOGIN_ROUTE} className="ButtonInNavBarReservation">
-                Reservation
+                Записаться
               </NavLink>
             </div>
             <Img

@@ -52,6 +52,7 @@ import Vector1 from "../icons/Vector1.svg";
 
 import "../styles/adaptive/homePageAdaptive.css";
 import "../styles/pageStyles/homePage.css";
+import { SERVICES_ROUTE } from "../links/consts";
 import { LOGIN_ROUTE } from "../links/consts";
 import Model from "../components/Model";
 import "../styles/Model.css";
@@ -83,16 +84,15 @@ export default function HomePage() {
         <div className="HomePageContainer">
           <div className="Homehhh">
             <div className="HomeText">
-              <h4 className="HomeText_stock">Welcome to Beautyness!!!</h4>
+              <h4 className="HomeText_stock">Добро пожаловать в Beautyness!!!</h4>
               <h1 className="HomeText_tittle">
-                Beauty is power a smile is its sword.
+              Красота. Релакс. Beautyness.
               </h1>
               <p className="HomeText_subtittle">
-                There are many variation of passages are Ipsum available,
-                majority have suffered alteration in some form.
+                Уникальные техники массажа, расслабляющая музыка и ароматические свечи - то, что подарит вам отдых и наслаждение
               </p>
               <NavLink to={LOGIN_ROUTE} className="HomeText_ButtonReservation">
-                Make a reservation
+                Записаться
               </NavLink>
             </div>
             <div className="HomeImg">
@@ -110,14 +110,13 @@ export default function HomePage() {
                 <Img src={Photo1}></Img>
               </div>
               <div className="Block_1_Text BlockText">
-                <h3 className="BlockText_title">Spa & Massage</h3>
+                <h3 className="BlockText_title">Массаж</h3>
                 <p className="BlockText_subtittle">
-                  If you are going to use a passage offer Lorem Ipsum, you need
-                  to be sure hidden in the middle of text.
+                Погрузитесь в мир расслабления и оздоровления с нашим широким выбором массажных техник, предоставляемых опытными специалистами.
                 </p>
               </div>
-              <NavLink to={LOGIN_ROUTE} className="BlockText_button">
-                READ MORE
+              <NavLink to={SERVICES_ROUTE} className="BlockText_button">
+                Подробнее
               </NavLink>
             </div>
 
@@ -126,14 +125,13 @@ export default function HomePage() {
                 <Img src={Photo2}></Img>
               </div>
               <div className="Block_2_Text BlockText">
-                <h3 className="BlockText_title">Hair & Beauty</h3>
+                <h3 className="BlockText_title">Забота о коже</h3>
                 <p className="BlockText_subtittle">
-                  If you are going to use a passage offer Lorem Ipsum, you need
-                  to be sure hidden in the middle of text.
+                Освежите и оздоровите вашу кожу с нашими профессиональными процедурами ухода, подобранными индивидуально для вашей кожи
                 </p>
               </div>
-              <NavLink to={LOGIN_ROUTE} className="BlockText_button">
-                READ MORE
+              <NavLink to={SERVICES_ROUTE} className="BlockText_button">
+                Подробнее
               </NavLink>
             </div>
 
@@ -142,14 +140,14 @@ export default function HomePage() {
                 <Img src={Photo3}></Img>
               </div>
               <div className="Block_3_Text BlockText">
-                <h3 className="BlockText_title">Body Treatments</h3>
+                <h3 className="BlockText_title">Спа</h3>
                 <p className="BlockText_subtittle">
-                  If you are going to use a passage offer Lorem Ipsum, you need
-                  to be sure hidden in the middle of text.
+                  
+Погрузитесь в релаксации с нашими уникальными спа-процедурами, которые восстанавливают баланс тела и души, подарив вам идеальное чувство гармони
                 </p>
               </div>
-              <NavLink to={LOGIN_ROUTE} className="BlockText_button">
-                READ MORE
+              <NavLink to={SERVICES_ROUTE} className="BlockText_button">
+                Подробнее
               </NavLink>
             </div>
           </div>
@@ -160,36 +158,33 @@ export default function HomePage() {
           <div className="AboutUsBlock">
             <div className="AboutUs_leftBlock leftBlock">
               <div className="leftBlock_top">
-                <h4 className="leftBlock_text">About Us</h4>
+                <h4 className="leftBlock_text">О нас</h4>
                 <h2 className="leftBlock_tittle">
-                  The Beauty is about being Comfortable in your own skin!
+                  Beautyness -
                 </h2>
                 <p className="leftBlock_subtittle">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, buying to injected humour, or randomised words which
-                  don't look even many desktop publishing packages.
+                это оазис красоты и релаксации, где каждый посетитель находит уникальный уход и внимание к своей красоте и благополучию. Наша команда опытных специалистов стремится создать неповторимый опыт для каждого клиента, помогая им достичь желаемых результатов и насладиться моментами истинного удовольствия и расслабления.
                 </p>
 
                 <div className="leftBlock_cards">
                   <div className="leftBlock_card">
                     <div className="leftBlock_cardText">
                       <Img src={Icon}></Img>
-                      <h3 className="leftBlock_cardTittle">Beauty Experts</h3>
+                      <h3 className="leftBlock_cardTittle">Опытные мастера</h3>
                     </div>
                   </div>
 
                   <div className="leftBlock_card">
                     <div className="leftBlock_cardText">
                       <Img src={Icon1}></Img>
-                      <h3 className="leftBlock_cardTittle">Great Services</h3>
+                      <h3 className="leftBlock_cardTittle">Разработанная программа</h3>
                     </div>
                   </div>
 
                   <div className="leftBlock_card">
                     <div className="leftBlock_cardText">
                       <Img src={Vector1}></Img>
-                      <h3 className="leftBlock_cardTittle">100% Genuine</h3>
+                      <h3 className="leftBlock_cardTittle">100% Косметика</h3>
                     </div>
                   </div>
                 </div>
@@ -204,9 +199,9 @@ export default function HomePage() {
       <section className="ourServicesBlock">
         <div className="HomePageContainer   ">
           <div className="ourServicesBlock_text">
-            <h4 className="ourServicesBlock_tittle">Our Services</h4>
+            <h4 className="ourServicesBlock_tittle">Услуги</h4>
             <h2 className="ourServicesBlock_subtittle">
-              We are Experienced in making you very Beautiful
+            Уникальные процедуры для идеального ухода!
             </h2>
           </div>
           <div className="ourServicesBlockContent ourContent">
@@ -214,41 +209,41 @@ export default function HomePage() {
             <div className="ourContentText">
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
-                  Face masks ....................................... $48.00
+                Классический массаж ....................................... 48.00р.
                 </h2>
                 <p className="ourContentText_2">
-                  The versions have evolved over the sometimes by accident.
+                Расслабляющая техника для снятия стресса и достижения гармонии тела и души.
                 </p>
               </div>
 
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
-                  Full body massage ............................. $54.00
+                Шведский массаж ............................. 54.00р.
                 </h2>
                 <p className="ourContentText_2">
-                  The versions have evolved over the sometimes by accident.
+                Глубокие движения и растяжки для улучшения циркуляции крови и снятия напряжения в мышцах.
                 </p>
               </div>
 
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
-                  Geothermal spa ................................. $54.00
+                Тайский массаж ................................. 54.00р.
                 </h2>
                 <p className="ourContentText_2">
-                  The versions have evolved over the sometimes by accident.
+                Уникальная техника, сочетающая растяжки и точечное давление для восстановления энергии и улучшения гибкости.
                 </p>
               </div>
 
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
-                  Sauna relax ....................................... $73.00
+                Лимфодренажный массаж: ....................................... 73.00р.
                 </h2>
                 <p className="ourContentText_2">
-                  The versions have evolved over the sometimes by accident.
+                Деликатные движения, стимулирующие лимфатическую систему, для избавления от отечности и токсинов, а также для улучшения цвета лица.
                 </p>
               </div>
               <NavLink to={LOGIN_ROUTE} className="ourContentButton">
-                GET AN APPOINTMENT
+                Записаться
               </NavLink>
             </div>
           </div>
@@ -256,44 +251,44 @@ export default function HomePage() {
             <div className="ourContentText2">
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
-                  Face masks ....................................... $48.00
+                Глубокое очищение кожи ....................................... 48.00р.
                 </h2>
                 <p className="ourContentText_2">
-                  The versions have evolved over the sometimes by accident.
+                Удаление загрязнений и сужение пор для свежего и здорового вида.
                 </p>
               </div>
 
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
-                  Full body massage ............................. $54.00
+                Увлажняющий уход ............................. 54.00р.
                 </h2>
                 <p className="ourContentText_2">
-                  The versions have evolved over the sometimes by accident.
+                Питательные процедуры для улучшения увлажнения, эластичности и сияния кожи.
                 </p>
               </div>
 
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
-                  Geothermal spa ................................. $54.00
+                Антивозрастные процедуры ................................. 54.00р.
                 </h2>
                 <p className="ourContentText_2">
-                  The versions have evolved over the sometimes by accident.
+                Инновационные методики для сокращения морщин и улучшения тонуса кожи.
                 </p>
               </div>
 
               <div className="ourContentTextBlock">
                 <h2 className="ourContentText_1">
-                  Sauna relax ....................................... $73.00
+                Озонотерапия для лица ....................................... 73.00р.
                 </h2>
                 <p className="ourContentText_2">
-                  The versions have evolved over the sometimes by accident.
+                Процедуры с озоном для стимуляции кровообращения и борьбы с воспалениями.
                 </p>
               </div>
               <NavLink
                 to={LOGIN_ROUTE}
                 className="ourContentButton ourContentButton2"
               >
-                GET AN APPOINTMENT
+                Записаться
               </NavLink>
             </div>
             <Img className="ourServicesFoto_2" src={Photo6}></Img>
@@ -303,19 +298,16 @@ export default function HomePage() {
       <section className="TestimonialsBlock">
         <div className="ourServicesBlockContainer">
           <div className="TestimonialsBlock_text">
-            <h4 className="TestimonialsBlock_tittle">Testimonials</h4>
+            <h4 className="TestimonialsBlock_tittle">Отзывы</h4>
             <h2 className="TestimonialsBlock_subtittle">
-              What our Customers says...
+              Что говорят о нас...
             </h2>
           </div>
           <div className="TestimonialReviews">
             <div className="TestimonialFeedback">
               <div className="TestimonialFeedback_texts">
                 <p className="TestimonialFeedback_text">
-                  “ It is a long established fact that a reader will be tracked
-                  distracted by the readable content of a page is when looking
-                  at its layout. The point of using Lorem of distribution it
-                  look like readable English “
+                  “ Я был в восторге от визита в спа-салон Beautyness! Процедуры были превосходными, а атмосфера и обслуживание - безупречными. Очень рекомендую этот салон для всех, кто ищет идеальное сочетание расслабления и ухода. “
                 </p>
               </div>
               <div className="TestimonialFeedback_user">
@@ -345,10 +337,7 @@ export default function HomePage() {
             <div className="TestimonialFeedback">
               <div className="TestimonialFeedback_texts">
                 <p className="TestimonialFeedback_text">
-                  “ It is a long established fact that a reader will be tracked
-                  distracted by the readable content of a page is when looking
-                  at its layout. The point of using Lorem of distribution it
-                  look like readable English “
+                  “ Впервые посетила спа-салон Beautyness и была впечатлена! После визита моя кожа стала более увлажненной и сияющей, а настроение поднялось на высоту. Обязательно вернусь снова! “
                 </p>
               </div>
               <div className="TestimonialFeedback_user">
@@ -380,9 +369,9 @@ export default function HomePage() {
       <section className="ourAwesome">
         <div className="HomePageContainer">
           <div className="ourAwesome_text">
-            <h4 className="ourAwesome_tittle">Our Awesome Benefits</h4>
+            <h4 className="ourAwesome_tittle">Наши преимущества</h4>
             <h2 className="ourAwesome_subtittle">
-              Actually what you’ll get from
+            Вот что вы получите на самом деле
             </h2>
           </div>
           <div className="ourAwesome_catalog">
@@ -390,11 +379,10 @@ export default function HomePage() {
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
                 <h3 className="product_textTittle product_textTittle_1">
-                  Optimised Energy Efficiency
+                Уютная атмосфера
                 </h3>
                 <p className="product_textSubTittle">
-                  The point of using Lorem Ipsum is that using making it look
-                  like readable.
+                Создайте идеальное место для отдыха и расслабления.
                 </p>
               </div>
             </div>
@@ -403,11 +391,10 @@ export default function HomePage() {
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
                 <h3 className="product_textTittle">
-                  Multi-faceted Water Filtration
+                Профессиональный уход
                 </h3>
                 <p className="product_textSubTittle">
-                  The point of using Lorem Ipsum is that using making it look
-                  like readable.
+                Предоставьте широкий выбор качественных процедур, проводимых опытными специалистами.
                 </p>
               </div>
             </div>
@@ -416,11 +403,10 @@ export default function HomePage() {
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
                 <h3 className="product_textTittle">
-                  Uncompromising Quality and Durability
+                Индивидуальный подход: 
                 </h3>
                 <p className="product_textSubTittle">
-                  The point of using Lorem Ipsum is that using making it look
-                  like readable.
+                Персонализируйте услуги, учитывая потребности и предпочтения каждого клиента.
                 </p>
               </div>
             </div>
@@ -429,11 +415,10 @@ export default function HomePage() {
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
                 <h3 className="product_textTittle">
-                  An Ultra-Pampering Spa Experience
+                Высококачественные продукты: 
                 </h3>
                 <p className="product_textSubTittle">
-                  The point of using Lorem Ipsum is that using making it look
-                  like readable.
+                Используйте только проверенные косметические средства для достижения отличных результатов.
                 </p>
               </div>
             </div>
@@ -442,11 +427,10 @@ export default function HomePage() {
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
                 <h3 className="product_textTittle">
-                  Easy Care for Unparalleled Enjoyment
+                Удобное расположение:
                 </h3>
                 <p className="product_textSubTittle">
-                  The point of using Lorem Ipsum is that using making it look
-                  like readable.
+                Расположите салон в удобном месте для доступа клиентов.
                 </p>
               </div>
             </div>
@@ -455,11 +439,10 @@ export default function HomePage() {
               {/* <Img className="products_img" src={ }></Img> */}
               <div className="product_text">
                 <h3 className="product_textTittle product_textTittle_1">
-                  Optimised Energy Efficiency
+                Дополнительные услуги: 
                 </h3>
                 <p className="product_textSubTittle">
-                  The point of using Lorem Ipsum is that using making it look
-                  like readable.
+                Предложите дополнительные услуги для полного расслабления и ухода за собой.
                 </p>
               </div>
             </div>
@@ -470,21 +453,19 @@ export default function HomePage() {
         <div className="HomePageContainer">
           <div className="flatDiscountContent">
             <div className="flatDiscountText">
-              <h4 className="flatDiscountText_title">Flat Discount </h4>
+              <h4 className="flatDiscountText_title">Специальное предложение</h4>
               <h3 className="flatDiscountText_subtittle">
-                Claim upto 50% off er on ‍the most popular services...
+              Скидки до 20% на самые популярные услуги!
               </h3>
               <p className="flatDiscountText_text">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, buying
-                to injected humour, or randomised words.
+              Скидка 20% в «Счастливые часы» на все спа-ритуалы и спа-программы при посещении с 10:00 до 15:00 в будние дни.
               </p>
 
               <div className="flatDiscountText_flat flat">
                 <div className="flatRight">
                   <div className="flatRight_mailUs">
                     <div className="flatRight_mail">
-                      <p className="flatRight_mailTittle">MAIL US :</p>
+                      <p className="flatRight_mailTittle">Почта:</p>
                       <p className="flatRight_mailSubittle">
                         info@beautyness.com
                       </p>
@@ -493,7 +474,7 @@ export default function HomePage() {
 
                   <div className="flatRight_callUs">
                     <div className="flatRight_call">
-                      <p className="flatRight_callTittle">CALL US :</p>
+                      <p className="flatRight_callTittle">Телефон:</p>
                       <p className="flatRight_callSubittle">
                         (+22) 123 4568 009
                       </p>
@@ -521,7 +502,7 @@ export default function HomePage() {
                     <div className="iconName"></div>
                     <input
                       onChange={(e) => setName(e.target.value)}
-                      placeholder="Name"
+                      placeholder="Ваше имя"
                       className="input"
                     ></input>
                   </div>
@@ -529,7 +510,7 @@ export default function HomePage() {
                     <div className="iconEmail"></div>
                     <input
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="Email"
+                      placeholder="Почта"
                       className="input"
                     ></input>
                   </div>
@@ -537,7 +518,7 @@ export default function HomePage() {
                     <div className="iconPhone"></div>
                     <input
                       onChange={(e) => setPhone(e.target.value)}
-                      placeholder="Phone"
+                      placeholder="Телефон"
                       className="input"
                     ></input>
                   </div>
@@ -545,7 +526,7 @@ export default function HomePage() {
                     <div className="iconService"></div>
                     <input
                       onChange={(e) => setService(e.target.value)}
-                      placeholder="Service You Need"
+                      placeholder="Услуга"
                       className="input"
                     ></input>
                   </div>
@@ -553,7 +534,7 @@ export default function HomePage() {
                     <div className="iconAnyNote"></div>
                     <textarea
                       onChange={(e) => setAnyNote(e.target.value)}
-                      placeholder="Any Note For Us"
+                      placeholder="Дополнительно"
                       className="textarea"
                     ></textarea>
                   </div>
@@ -568,8 +549,8 @@ export default function HomePage() {
       <section className="ourBlog">
         <div className="HomePageContainer">
           <div className="ourBlog_text">
-            <h4 className="ourBlog_tittle">Our Blog</h4>
-            <h2 className="ourBlog_subtittle">Latest Updates</h2>
+            <h4 className="ourBlog_tittle">Наш блог</h4>
+            <h2 className="ourBlog_subtittle">Секреты красоты и релаксации!</h2>
           </div>
           <div className="ourBlogBlocks">
             <div className="ourBlock_1">
@@ -578,14 +559,13 @@ export default function HomePage() {
               </div>
               <div className="Block_1_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
-                  11TH AUGUST 2021 - BY PETER BERGSON
+                  20 июня 2024
                 </h4>
                 <h3 className="BlockText_ourBlog_tittle ">
-                  The energy efficiency of the hydrotherapy or swim
+                Стоунтерапия
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it look
-                  like others readable will get end.
+                Стоунтерапия или массаж камнями с различной температурой укрепляет иммунитет, положительно влияет на организм, включая сердечно-сосудистую и эндокринную систему ...
                 </p>
               </div>
             </div>
@@ -596,15 +576,14 @@ export default function HomePage() {
               </div>
               <div className="Block_2_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
-                  11TH AUGUST 2021 - BY PETER BERGSON
+                19 мая 2024
                 </h4>
 
                 <h3 className="BlockText_ourBlog_tittle">
-                  Tips to improve your body via cleansing
+                Виды массажа лица
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it look
-                  like others readable will get end.
+                Существует множество разнообразных видов массажа лица. Каждый из них имеет свои уникальные особенности, показания и эффект...
                 </p>
               </div>
             </div>
@@ -615,22 +594,21 @@ export default function HomePage() {
               </div>
               <div className="Block_3_Text ourBlockText">
                 <h4 className="BlockText_ourBlog_text">
-                  11TH AUGUST 2021 - BY PETER BERGSON
+                  05 июня 2024
                 </h4>
 
                 <h3 className="BlockText_ourBlog_tittle">
-                  Experience the beauty at our beauty spa
+                Ароматический массаж
                 </h3>
                 <p className="BlockText_ourBlog_subtittle">
-                  The point of using Lorem Ipsum hiter that using making it look
-                  like others readable will get end.
+                Ароматический массаж эффективен вдвойне, так как сочетает в себе и лечебное действие самого массажа, и целебные свойства эфирных масел ...
                 </p>
               </div>
             </div>
           </div>
           <div className="ourBlockText_button">
             <NavLink to={LOGIN_ROUTE} className="BlockText_button ourButton">
-              READ MORE
+              Читать
             </NavLink>
           </div>
         </div>

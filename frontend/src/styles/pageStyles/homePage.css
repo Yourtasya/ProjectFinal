@@ -18,9 +18,10 @@
 
 .HomeText_tittle {
   font-family: Playfair Display;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
   max-width: 510px;
+  padding-top: 15px;
 }
 
 @media (max-width: 1155px) {
@@ -153,6 +154,11 @@ img {
   font-size: 26px;
 }
 
+.BlockText_subtittle{
+  padding-top: 10px;
+  font-size: 17px;
+}
+
 .BlockText_button {
   padding: 24px;
   border: none;
@@ -266,7 +272,7 @@ img {
 
 .leftBlock_cardText {
   text-align: center;
-  padding: 21px 33px;
+  padding: 21px 13px;
 }
 
 .leftBlock_cardTittle {
@@ -620,7 +626,6 @@ img {
 
 .product_textTittle_1 {
   max-width: 226px;
-  height: 62px;
 }
 
 .product_textSubTittle {

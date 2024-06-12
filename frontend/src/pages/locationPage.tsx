@@ -24,12 +24,12 @@ export default function LocationPage() {
     <div className="LocationPage">
       <div className="FirstBlock">
         <div className="HomePageContainer">
-          <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
+          {/* <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p> */}
           <p className="FirstBlockTittle">
-            The big story behind, our <br></br>beautyness center
+            Наши филиалы
           </p>
           <NavLink to={LOGIN_ROUTE} className="FirstBlockButton">
-            Make a reservation
+            Записаться
           </NavLink>
         </div>
       </div>
@@ -40,8 +40,8 @@ export default function LocationPage() {
             <div className="localionBlock">
               <Img className="getInTouchBlock_img2" src={LocationPhoto1}></Img>
               <div className="getInTouchBlock_texts localionTexts">
-                <h4 className="getInTouchBlock_tittle">Columbia</h4>
-                <h2 className="getInTouchBlock_subtittle">Washington D.C</h2>
+                <h4 className="getInTouchBlock_tittle">07:00 - 22:00</h4>
+                <h2 className="getInTouchBlock_subtittle">г. Минск</h2>
 
                 <div className="getInToucflatRight localionRight">
                   <div className="getInToucVisit">
@@ -52,10 +52,10 @@ export default function LocationPage() {
 
                     <div className="flatRight_mail">
                       <p className="flatRight_mailTittle getInToucDropTittle">
-                        Visit Us :
+                        Адрес:
                       </p>
                       <p className="flatRight_mailSubittle getInToucDropSubtittle">
-                        NO.09a, Downtown, SAN DIEAGO, USA
+                        ул.Сурганова, 37
                       </p>
                     </div>
                   </div>
@@ -68,7 +68,7 @@ export default function LocationPage() {
 
                     <div className="flatRight_call">
                       <p className="flatRight_callTittle getInToucDropTittle">
-                        Call Us :
+                        Почта:
                       </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
                         support@beautyness.com
@@ -84,24 +84,24 @@ export default function LocationPage() {
 
                     <div className="flatRight_call">
                       <p className="flatRight_callTittle getInToucDropTittle">
-                        CALL US :
+                        Телефон:
                       </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
-                        Call: 1-800-123-9999
+                        +375 (29) 800-12-999
                       </p>
                     </div>
                   </div>
                 </div>
                 <NavLink to={LOGIN_ROUTE} className="localionBlockButton">
-                  GET AN APPOINTMENT
+                  Записаться
                 </NavLink>
               </div>
             </div>
 
             <div className="localionBlock">
               <div className="getInTouchBlock_texts localionTexts">
-                <h4 className="getInTouchBlock_tittle">san francisco</h4>
-                <h2 className="getInTouchBlock_subtittle">New York</h2>
+                <h4 className="getInTouchBlock_tittle">07:00 - 23:00</h4>
+                <h2 className="getInTouchBlock_subtittle">г. Минск</h2>
 
                 <div className="getInToucflatRight localionRight">
                   <div className="getInToucVisit">
@@ -112,7 +112,7 @@ export default function LocationPage() {
 
                     <div className="flatRight_mail">
                       <p className="flatRight_mailTittle getInToucDropTittle">
-                        Visit Us :
+                        Адрес:
                       </p>
                       <p className="flatRight_mailSubittle getInToucDropSubtittle">
                         NO.09a, Downtown, SAN DIEAGO, USA
@@ -128,7 +128,7 @@ export default function LocationPage() {
 
                     <div className="flatRight_call">
                       <p className="flatRight_callTittle getInToucDropTittle">
-                        Call Us :
+                        Почта:
                       </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
                         support@beautyness.com
@@ -144,10 +144,10 @@ export default function LocationPage() {
 
                     <div className="flatRight_call">
                       <p className="flatRight_callTittle getInToucDropTittle">
-                        CALL US :
+                        Телефон:
                       </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
-                        Call: 1-800-123-9999
+                      +375 (29) 800-12-98
                       </p>
                     </div>
                   </div>
@@ -162,8 +162,8 @@ export default function LocationPage() {
             <div className="localionBlock localionBlockLast">
               <Img className="getInTouchBlock_img2" src={LocationPhoto3}></Img>
               <div className="getInTouchBlock_texts localionTexts">
-                <h4 className="getInTouchBlock_tittle">FRANCE</h4>
-                <h2 className="getInTouchBlock_subtittle">Paris</h2>
+                <h4 className="getInTouchBlock_tittle">10:00 - 22:00</h4>
+                <h2 className="getInTouchBlock_subtittle">г. Орша</h2>
 
                 <div className="getInToucflatRight localionRight">
                   <div className="getInToucVisit">
@@ -174,7 +174,7 @@ export default function LocationPage() {
 
                     <div className="flatRight_mail">
                       <p className="flatRight_mailTittle getInToucDropTittle">
-                        Visit Us :
+                        Адрес:
                       </p>
                       <p className="flatRight_mailSubittle getInToucDropSubtittle">
                         NO.09a, Downtown, SAN DIEAGO, USA
@@ -190,7 +190,7 @@ export default function LocationPage() {
 
                     <div className="flatRight_call">
                       <p className="flatRight_callTittle getInToucDropTittle">
-                        Call Us :
+                        Почта:
                       </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
                         support@beautyness.com
@@ -206,16 +206,16 @@ export default function LocationPage() {
 
                     <div className="flatRight_call">
                       <p className="flatRight_callTittle getInToucDropTittle">
-                        CALL US :
+                        Телефон:
                       </p>
                       <p className="flatRight_callSubittle getInToucDropSubtittle">
-                        Call: 1-800-123-9999
+                      +375 (29) 800-12-97
                       </p>
                     </div>
                   </div>
                 </div>
                 <NavLink to={LOGIN_ROUTE} className="localionBlockButton">
-                  GET AN APPOINTMENT
+                  Записаться
                 </NavLink>
               </div>
             </div>

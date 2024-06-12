@@ -6,7 +6,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  /* font-size: 16px; */
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
@@ -38,7 +38,7 @@
 }
 
 .DropdawnMenu > li {
-  margin: 0;
+  padding: 15px 32px;
   background-color: white;
 }
 
@@ -63,4 +63,9 @@
 
 .ButtonPagesInDropdawnMenu {
   display: flex;
+  gap: 5px;
 }
+
+/* .SVGPagesInDropdawnMenu{
+
+} */

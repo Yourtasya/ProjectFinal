@@ -31,12 +31,12 @@ export default class NavBar extends Component {
             <div className="footer_block_1">
               <h3 className="footer_h3">Explore</h3>
               <div className="footerNavLink">
+                <NavLink to={HOME_ROUTE}> Главная</NavLink>
+                <NavLink to={ABOUT_ROUTE}> О нас</NavLink>
+                <NavLink to={SERVICES_ROUTE}> Услуги</NavLink>
+                <NavLink to={BLOG_ROUTE}> Блог</NavLink>
                 <NavLink to={HOME_ROUTE}> Home</NavLink>
-                <NavLink to={ABOUT_ROUTE}> About Us</NavLink>
-                <NavLink to={SERVICES_ROUTE}> Services</NavLink>
-                <NavLink to={BLOG_ROUTE}> Blog</NavLink>
-                <NavLink to={HOME_ROUTE}> Home</NavLink>
-                <NavLink to={CONTACT_ROUTE}> Contact Us</NavLink>
+                <NavLink to={CONTACT_ROUTE}> Контакты</NavLink>
               </div>
             </div>
 
@@ -48,36 +48,36 @@ export default class NavBar extends Component {
             </div>
 
             <div className="footer_block_3">
-              <h3 className="footer_h3">Utility Pages</h3>
+              <h3 className="footer_h3">Служба поддержки</h3>
               <div className="footer_block_3_ul">
                 <div className="footer_block_3Adress">
-                  <p className="footer_block_3_ulTittle">Address :</p>
+                  <p className="footer_block_3_ulTittle">Адрес :</p>
                   <p className="footer_block_3_ulTextAdress">
-                    24A Kingston St, Los Vegas NC 28202, USA.
+                    г. Минск, ул. Сурганова, 30
                   </p>
                 </div>
 
                 <div className="footer_block_3Mail">
-                  <p className="footer_block_3_ulTittle">Mail :</p>
+                  <p className="footer_block_3_ulTittle">Почта :</p>
                   <p className="footer_block_3_ulTextMail">
-                    support@doctors.com
+                  beautyness@mail.com
                   </p>
                 </div>
 
                 <div className="footer_block_3Phone">
-                  <p className="footer_block_3_ulTittle">Phone :</p>
+                  <p className="footer_block_3_ulTittle">Телефон :</p>
                   <p className="footer_block_3_ulTextPhone">
-                    (+22) 123 - 4567 - 900
+                    +375 (29) 598-06-60
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="footer_block_4">
-              <h3 className="footer_h3">Working Hours</h3>
-              <p className="workingHours">Mon to Fri: 7am - 6pm</p>
-              <p className="workingHours">Sat: 9am - 7pm</p>
-              <p className="workingHours">Sun: 9am - 6pm</p>
+              <h3 className="footer_h3">Часы работы</h3>
+              <p className="workingHours">Пн-Пт: 7:00 - 23:00</p>
+              <p className="workingHours">Сб: 9:00 - 23:00</p>
+              <p className="workingHours">Вс: 9:00 - 23:00</p>
             </div>
           </div>
         </div>

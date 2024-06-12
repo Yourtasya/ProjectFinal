@@ -43,10 +43,10 @@ export default function ContactPage() {
     <div className="ContactPage">
       <div className="FirstBlock">
         <div className="HomePageContainer">
-          <p className="FirstBlockSubtittle">GET IN TOUCH WITH US</p>
+          {/* <p className="FirstBlockSubtittle">GET IN TOUCH WITH US</p> */}
           <p className="FirstBlockTittle">
-            We Are Ready To Assist
-            <br></br> You In 24x7
+          Мы готовы помочь вам
+            <br></br>в режиме 24x7
           </p>
         </div>
       </div>
@@ -56,15 +56,13 @@ export default function ContactPage() {
           <div className="getInTouchBlock">
             <Img className="getInTouchBlock_img1" src={Contact}></Img>
             <div className="getInTouchBlock_texts">
-              <h4 className="getInTouchBlock_tittle">Get in Touch!</h4>
+              <h4 className="getInTouchBlock_tittle">Связаться с нами</h4>
               <h2 className="getInTouchBlock_subtittle">
-                We are here to help you always...
+              Ваше удовольствие - наша забота
               </h2>
-              <p className="getInTouchBlock_text">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, buying
-                to injected humour, or randomised words many desktop publishing
-                packages.
+              <p className="getInTouchBlock_text .getInTouchBlock_text1">
+              Наша команда стремится быть вашими надежными помощниками в достижении благополучия и релаксации. Мы всегда
+рады быть рядом, готовы помочь вам почувствовать себя лучше и насладиться моментом заботы о себе.
               </p>
 
               <div className="getInToucflatRight">

@@ -22,20 +22,20 @@ export default function ServicesPage() {
       <section className="ServicesPageBlocks">
         <div className="FirstBlock">
           <div className="HomePageContainer">
-            <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
+            {/* <p className="FirstBlockSubtittle">Наши услуги</p> */}
             <p className="FirstBlockTittle">
-              The big story behind, our <br></br>beautyness center
+            Ухаживайте за собой вместе с нами!
             </p>
             <NavLink to={LOGIN_ROUTE} className="FirstBlockButton">
-              Make a reservation
+              Записаться
             </NavLink>
           </div>
         </div>
 
         <div className="ourServicesBlock_text ServicesBlock_text">
-          <h4 className="ourServicesBlock_tittle">Our Services</h4>
+          <h4 className="ourServicesBlock_tittle">Наши услуги</h4>
           <h2 className="ourServicesBlock_subtittle">
-            We are Experienced in making you <br></br> very Beautiful
+          Уникальные процедуры для идеального ухода!
           </h2>
         </div>
 
@@ -44,89 +44,89 @@ export default function ServicesPage() {
             <div className="ourServicesBlockContent ourContent">
               <Img className="ourServicesFoto_1" src={Photo5}></Img>
               <div className="ourContentText">
-                <div className="ourContentTextBlock">
-                  <h2 className="ourContentText_1">
-                    Face masks ....................................... $48.00
-                  </h2>
-                  <p className="ourContentText_2">
-                    The versions have evolved over the sometimes by accident.
-                  </p>
-                </div>
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">
+                Классический массаж ....................................... 48.00р.
+                </h2>
+                <p className="ourContentText_2">
+                Расслабляющая техника для снятия стресса и достижения гармонии тела и души.
+                </p>
+              </div>
 
-                <div className="ourContentTextBlock">
-                  <h2 className="ourContentText_1">
-                    Full body massage ............................. $54.00
-                  </h2>
-                  <p className="ourContentText_2">
-                    The versions have evolved over the sometimes by accident.
-                  </p>
-                </div>
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">
+                Шведский массаж ............................. 54.00р.
+                </h2>
+                <p className="ourContentText_2">
+                Глубокие движения и растяжки для улучшения циркуляции крови и снятия напряжения в мышцах.
+                </p>
+              </div>
 
-                <div className="ourContentTextBlock">
-                  <h2 className="ourContentText_1">
-                    Geothermal spa ................................. $54.00
-                  </h2>
-                  <p className="ourContentText_2">
-                    The versions have evolved over the sometimes by accident.
-                  </p>
-                </div>
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">
+                Тайский массаж ................................. 54.00р.
+                </h2>
+                <p className="ourContentText_2">
+                Уникальная техника, сочетающая растяжки и точечное давление для восстановления энергии и улучшения гибкости.
+                </p>
+              </div>
 
-                <div className="ourContentTextBlock">
-                  <h2 className="ourContentText_1">
-                    Sauna relax ....................................... $73.00
-                  </h2>
-                  <p className="ourContentText_2">
-                    The versions have evolved over the sometimes by accident.
-                  </p>
-                </div>
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">
+                Лимфодренажный массаж: ....................................... 73.00р.
+                </h2>
+                <p className="ourContentText_2">
+                Деликатные движения, стимулирующие лимфатическую систему, для избавления от отечности и токсинов, а также для улучшения цвета лица.
+                </p>
+              </div>
                 <NavLink to={LOGIN_ROUTE} className="ourContentButton">
-                  GET AN APPOINTMENT
+                Записаться
                 </NavLink>
               </div>
             </div>
 
             <div className="ourServicesBlockContent ourContent">
               <div className="ourContentText2">
-                <div className="ourContentTextBlock">
-                  <h2 className="ourContentText_1">
-                    Face masks ....................................... $48.00
-                  </h2>
-                  <p className="ourContentText_2">
-                    The versions have evolved over the sometimes by accident.
-                  </p>
-                </div>
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">
+                Глубокое очищение кожи ....................................... 48.00р.
+                </h2>
+                <p className="ourContentText_2">
+                Удаление загрязнений и сужение пор для свежего и здорового вида.
+                </p>
+              </div>
 
-                <div className="ourContentTextBlock">
-                  <h2 className="ourContentText_1">
-                    Full body massage ............................. $54.00
-                  </h2>
-                  <p className="ourContentText_2">
-                    The versions have evolved over the sometimes by accident.
-                  </p>
-                </div>
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">
+                Увлажняющий уход ............................. 54.00р.
+                </h2>
+                <p className="ourContentText_2">
+                Питательные процедуры для улучшения увлажнения, эластичности и сияния кожи.
+                </p>
+              </div>
 
-                <div className="ourContentTextBlock">
-                  <h2 className="ourContentText_1">
-                    Geothermal spa ................................. $54.00
-                  </h2>
-                  <p className="ourContentText_2">
-                    The versions have evolved over the sometimes by accident.
-                  </p>
-                </div>
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">
+                Антивозрастные процедуры ................................. 54.00р.
+                </h2>
+                <p className="ourContentText_2">
+                Инновационные методики для сокращения морщин и улучшения тонуса кожи.
+                </p>
+              </div>
 
-                <div className="ourContentTextBlock">
-                  <h2 className="ourContentText_1">
-                    Sauna relax ....................................... $73.00
-                  </h2>
-                  <p className="ourContentText_2">
-                    The versions have evolved over the sometimes by accident.
-                  </p>
-                </div>
+              <div className="ourContentTextBlock">
+                <h2 className="ourContentText_1">
+                Озонотерапия для лица ....................................... 73.00р.
+                </h2>
+                <p className="ourContentText_2">
+                Процедуры с озоном для стимуляции кровообращения и борьбы с воспалениями.
+                </p>
+              </div>
                 <NavLink
                   to={LOGIN_ROUTE}
                   className="ourContentButton ourContentButton2"
                 >
-                  GET AN APPOINTMENT
+                  Записаться
                 </NavLink>
               </div>
               <Img className="ourServicesFoto_2" src={Photo6}></Img>
@@ -171,7 +171,7 @@ export default function ServicesPage() {
                   </p>
                 </div>
                 <NavLink to={LOGIN_ROUTE} className="ourContentButton">
-                  GET AN APPOINTMENT
+                Записаться
                 </NavLink>
               </div>
             </div>
@@ -217,7 +217,7 @@ export default function ServicesPage() {
                   to={LOGIN_ROUTE}
                   className="ourContentButton ourContentButton2"
                 >
-                  GET AN APPOINTMENT
+                  Записаться
                 </NavLink>
               </div>
               <Img className="ourServicesFoto_2" src={ImageServices2}></Img>

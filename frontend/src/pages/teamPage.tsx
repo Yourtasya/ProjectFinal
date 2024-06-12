@@ -23,17 +23,17 @@ export default function TeamPage() {
     <div className="TeamPage">
       <div className="FirstBlock">
         <div className="HomePageContainer">
-          <p className="FirstBlockSubtittle">THE BEAUTY TEAM</p>
-          <p className="FirstBlockTittle">Beautyness Experts</p>
+          {/* <p className="FirstBlockSubtittle">специалисты</p> */}
+          <p className="FirstBlockTittle">Наши эксперты красоты и релаксации</p>
         </div>
       </div>
 
       <section className="ourValuesMeetOurExperts">
         <div className="HomePageContainer">
           <div className="ourValuesTexts">
-            <h4 className="ourValuesSubliltle">Meet our Experts</h4>
+            <h4 className="ourValuesSubliltle">Специалисты</h4>
             <h2 className="ourValuesTittle">
-              The amazing women behind Beautyness
+            Только дипломированные профессионалы
             </h2>
           </div>
 
@@ -44,7 +44,7 @@ export default function TeamPage() {
                 <Img id="1" className="BlockIm2" src={Image11}></Img>
               </NavLink>
               <div className="Block_1_Text OurExpertsBlockText">
-                <h3 className="BlockText_title">Sherlin D’Cruz</h3>
+                <h3 className="BlockText_title">Сорока Екатерина</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
                   I must explain to you how all this mistaken idea of
@@ -58,7 +58,7 @@ export default function TeamPage() {
                 <Img id="2" className="BlockIm2" src={Image12}></Img>
               </NavLink>
               <div className="Block_2_Text OurExpertsBlockText">
-                <h3 className="BlockText_title">Maria Sharapova</h3>
+                <h3 className="BlockText_title">Шарапова Мария</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
                   I must explain to you how all this mistaken idea of
@@ -72,7 +72,7 @@ export default function TeamPage() {
                 <Img id="3" className="BlockIm2" src={Image13}></Img>
               </NavLink>
               <div className="Block_3_Text OurExpertsBlockText">
-                <h3 className="BlockText_title">Angeline Jenifer</h3>
+                <h3 className="BlockText_title">Самойлова Ангелина</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
                   I must explain to you how all this mistaken idea of
@@ -86,7 +86,7 @@ export default function TeamPage() {
                 <Img id="4" className="BlockIm2" src={Image5}></Img>
               </NavLink>
               <div className="Block_3_Text OurExpertsBlockText">
-                <h3 className="BlockText_title">Bonham Carter</h3>
+                <h3 className="BlockText_title">Глазкова Яна</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
                   I must explain to you how all this mistaken idea of
@@ -100,7 +100,7 @@ export default function TeamPage() {
                 <Img id="5" className="BlockIm2" src={Image6}></Img>{" "}
               </NavLink>
               <div className="Block_3_Text OurExpertsBlockText">
-                <h3 className="BlockText_title">Evanna Lynch</h3>
+                <h3 className="BlockText_title">Селезнева Алеся</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
                   I must explain to you how all this mistaken idea of
@@ -114,7 +114,7 @@ export default function TeamPage() {
                 <Img id="6" className="BlockIm2" src={Image7}></Img>{" "}
               </NavLink>
               <div className="Block_3_Text OurExpertsBlockText">
-                <h3 className="BlockText_title">Natalia Tena</h3>
+                <h3 className="BlockText_title">Иванова Наталья</h3>
                 <h4 className="BlockText_title_2">Beautyness Expert</h4>
                 <p className="BlockText_subtittle">
                   I must explain to you how all this mistaken idea of
