@@ -115,7 +115,7 @@ export default function LocationPage() {
                         Адрес:
                       </p>
                       <p className="flatRight_mailSubittle getInToucDropSubtittle">
-                        NO.09a, Downtown, SAN DIEAGO, USA
+                        ул. толстого, 3
                       </p>
                     </div>
                   </div>
@@ -177,7 +177,7 @@ export default function LocationPage() {
                         Адрес:
                       </p>
                       <p className="flatRight_mailSubittle getInToucDropSubtittle">
-                        NO.09a, Downtown, SAN DIEAGO, USA
+                        ул, 1-го мая, д. 5
                       </p>
                     </div>
                   </div>

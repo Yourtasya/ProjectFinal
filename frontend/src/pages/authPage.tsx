@@ -34,9 +34,8 @@ export default function AuthPage() {
       <div className="FirstBlock">
         <div className="HomePageContainer">
           <div className="FirstBlockImg"></div>
-          <p className="FirstBlockSubtittle">SHORT STORY ABOUT US</p>
           <p className="FirstBlockTittle FirstBlockTittleAuthPage">
-            RESERVATION
+          Вход в личный кабинет
           </p>
         </div>
       </div>
@@ -45,21 +44,18 @@ export default function AuthPage() {
           <div className="AuthPageForm">
             <form className="AuthPageForm" onSubmit={handleLogin}>
               <div className="AuthPageText">
-                <h4 className="getInTouchBlock_tittle">Enter Password</h4>
+                <h4 className="getInTouchBlock_tittle"></h4>
                 <h2 className="getInTouchBlock_subtittle">
-                  Password Protected
+                Вход
                 </h2>
-                <p className="getInTouchBlock_text">
-                  This page is password protected. If you are the website admin,
-                  or have access to this page, please type your password below.
-                </p>
+            
               </div>
               <div className="wrapper wrapperAuthPage">
                 <input
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
                   type={email}
-                  placeholder="Email"
+                  placeholder="Почта"
                   className="input"
                 />
               </div>
@@ -68,7 +64,7 @@ export default function AuthPage() {
                   onChange={(e) => setPassword(e.target.value)}
                   value={password}
                   type={password}
-                  placeholder="Password"
+                  placeholder="Пароль"
                   className="input"
                 />
               </div>
@@ -78,7 +74,7 @@ export default function AuthPage() {
               </button>
             </form>
             <div>
-              <NavLink to={REGISTER_ROUTE}>Sing Up</NavLink>
+              <NavLink to={REGISTER_ROUTE}>ЗАРЕГИСТРИРОВАТЬСЯ</NavLink>
             </div>
           </div>
         </div>
